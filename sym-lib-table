@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name zc_symbols)(type Legacy)(uri ${KIPRJMOD}/zc_symbols.lib)(options "")(descr ""))
+)
