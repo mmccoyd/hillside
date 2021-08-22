@@ -1,0 +1,60 @@
+# Also documentation for me of what we actually want.
+
+# What we want:
+
+# myboard.pro   project
+# myboard.sch   schematic
+# myboard.kicad_pcb  board
+
+# myboard-cache.lib  cache of symbols used schematic
+# fp-lib-table for footprints, sym-lib-table for symbols
+
+# library/
+#    foo.lib   schematic parts lib
+#    foo.dcm   descriptions for matching file
+#    bar.lib
+#    bar.dcm
+# myfootprint.pretty/
+#    bas_part.kicad_mod  footprints
+#    bap_part.kicad_mod  
+
+# gerber/
+
+
+
+# References
+# https://en.wikibooks.org/wiki/Kicad/file_formats
+# https://docs.kicad.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.html#note-about-portability-of-kicad-project-files
+# https://github.com/github/gitignore/blob/master/KiCad.gitignore
+
+  
+# Every library must be explicitly added to so called library tables. (fp-lib-table for footprints, sym-lib-table for symbols) These library tables are managed using library managers.
+
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
