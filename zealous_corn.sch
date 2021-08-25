@@ -50,33 +50,6 @@ F 3 "" H 6150 2250 60  0000 C CNN
 $EndComp
 Text GLabel 5350 2800 0    50   BiDi ~ 0
 reset
-$Comp
-L pwr:GND #PWR04
-U 1 1 61647C8F
-P 8350 4400
-F 0 "#PWR04" H 8350 4150 50  0001 C CNN
-F 1 "GND" H 8355 4227 50  0000 C CNN
-F 2 "" H 8350 4400 50  0001 C CNN
-F 3 "" H 8350 4400 50  0001 C CNN
-	1    8350 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:AudioJack4 J1
-U 1 1 61648E7C
-P 7800 4500
-F 0 "J1" H 7757 4825 50  0000 C CNN
-F 1 "AudioJack4" H 7757 4734 50  0000 C CNN
-F 2 "kbd:MJ-4PP-9" H 7800 4500 50  0001 C CNN
-F 3 "~" H 7800 4500 50  0001 C CNN
-	1    7800 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 4400 8250 4400
-Connection ~ 8250 4400
-Wire Wire Line
-	8250 4400 8000 4400
 NoConn ~ 6750 3700
 NoConn ~ 6750 3600
 NoConn ~ 5350 2600
@@ -127,13 +100,9 @@ F 3 "~" H 4550 2700 50  0001 C CNN
 $EndComp
 Text GLabel 6750 2600 2    50   BiDi ~ 0
 data
-Text GLabel 8000 4700 2    50   BiDi ~ 0
-data
 Text GLabel 5350 2900 0    50   Output ~ 0
 VCC
 Text GLabel 4550 2700 3    50   Input ~ 0
-VCC
-Text GLabel 8000 4600 2    50   BiDi ~ 0
 VCC
 $Comp
 L zc_symbols:diode-choc K7
@@ -589,19 +558,33 @@ Wire Wire Line
 Connection ~ 6750 2800
 Wire Wire Line
 	6750 2800 6900 2800
-Wire Wire Line
-	8250 4500 8250 4400
-Wire Wire Line
-	8000 4500 8250 4500
 $Comp
-L kbd:OLED OL1
-U 1 1 61AB8023
-P 6050 4550
-F 0 "OL1" H 6700 4650 51  0000 L CNN
-F 1 "OLED" H 6700 4550 47  0000 L CNN
-F 2 "kbd:OLED" H 6050 4650 60  0001 C CNN
-F 3 "" H 6050 4650 60  0001 C CNN
-	1    6050 4550
+L MMLid:MJ-4PP-9-kbd-corne-light-rescue J1
+U 1 1 61B46BB2
+P 7850 2750
+F 0 "J1" H 7900 3050 50  0000 C CNN
+F 1 "MJ-4PP-9-kbd-corne-light-rescue" H 7900 2950 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9" H 8125 2925 50  0001 C CNN
+F 3 "" H 8125 2925 50  0001 C CNN
+	1    7850 2750
 	1    0    0    -1  
 $EndComp
+Text GLabel 8050 2725 2    50   BiDi ~ 0
+VCC
+Wire Wire Line
+	8050 2775 8375 2775
+$Comp
+L pwr:GND #PWR0101
+U 1 1 61B4CF0F
+P 8375 2775
+F 0 "#PWR0101" H 8375 2525 50  0001 C CNN
+F 1 "GND" H 8400 2550 50  0000 C CNN
+F 2 "" H 8375 2775 50  0001 C CNN
+F 3 "" H 8375 2775 50  0001 C CNN
+	1    8375 2775
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 2825 2    50   BiDi ~ 0
+data
+NoConn ~ 8050 2675
 $EndSCHEMATC
