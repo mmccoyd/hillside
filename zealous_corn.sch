@@ -19,7 +19,7 @@ U 1 1 6120A557
 P 8500 4450
 F 0 "SW1" H 8500 4705 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 4614 50  0000 C CNN
-F 2 "kbd:ResetSW" H 8500 4450 50  0001 C CNN
+F 2 "keebio:SW_Tactile_SPST_Angled_MJTP1117" H 8500 4450 50  0001 C CNN
 F 3 "" H 8500 4450 50  0000 C CNN
 	1    8500 4450
 	1    0    0    -1  
@@ -74,7 +74,6 @@ Text GLabel 7300 4000 2    50   Input ~ 0
 row2
 Text GLabel 7300 4100 2    50   Input ~ 0
 row3
-NoConn ~ 7300 3300
 $Comp
 L pwr:GND #PWR02
 U 1 1 61711229
@@ -97,7 +96,7 @@ F 3 "~" H 5600 7450 50  0001 C CNN
 	1    5600 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 7300 3200 2    50   BiDi ~ 0
+Text GLabel 7300 3300 2    50   BiDi ~ 0
 data
 Text GLabel 5900 3500 0    50   Output ~ 0
 VCC
@@ -544,7 +543,7 @@ L MMLid:MJ-4PP-9-kbd-corne-light-rescue J1
 U 1 1 61B46BB2
 P 8300 3525
 F 0 "J1" H 8350 3825 50  0000 C CNN
-F 1 "MJ-4PP-9-kbd-corne-light-rescue" H 8350 3725 50  0000 C CNN
+F 1 "MJ-4PP-9" H 8350 3725 50  0000 C CNN
 F 2 "kbd:MJ-4PP-9" H 8575 3700 50  0001 C CNN
 F 3 "" H 8575 3700 50  0001 C CNN
 	1    8300 3525
@@ -620,7 +619,7 @@ F 3 "" H 6000 7450 50  0001 C CNN
 	1    6000 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 3200 0    50   Output ~ 0
+Text GLabel 7300 3200 2    50   Output ~ 0
 LED
 Text GLabel 3350 5500 0    50   Input ~ 0
 LED
@@ -726,4 +725,5 @@ Wire Wire Line
 	7050 5500 7300 5500
 Wire Wire Line
 	7900 5500 8200 5500
+NoConn ~ 5900 3200
 $EndSCHEMATC
