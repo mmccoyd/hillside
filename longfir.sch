@@ -4,7 +4,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Zealous Corn"
+Title "LongFir Keyboard"
 Date ""
 Rev ""
 Comp ""
