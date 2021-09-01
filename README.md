@@ -1,5 +1,5 @@
 # Intro
-I wanted a key or so more than the Ferris, so designed a PCB, which expanded a bit. The LongFir board has choc spacing and underglow, is reversible, and 100 x 141 mm. A future OLED option is likely. KiCad and QMK files are at xxxx.
+I wanted a key or so more than the Ferris, so designed a PCB, which expanded a bit. The LongFir board has choc spacing, underglow and a breakoff outer column; is reversible; and 100 x 141 mm. This build has gChoc switches and MBK caps. A future OLED option is likely. KiCad and QMK files are at xxxx.
 
 # BOM
 ## Board Hardware
@@ -53,7 +53,12 @@ A small display and light underglow provide status, and the outer column can bre
 
 At just under 100mm high and reversible, it is like a Choc Ferris on steroids, which is very close to a Choc Kyria.
 
+# Tradeoffs 
+- The row and column matrix scan could be reduced by one column, but at the cost of more complex traces. I opted for simplicity.
+- The board edeg is not as tight as possible to the outer thumb arc. Adjustment of the thumb arc seemed likely on a personal basis, so leaving the board profile at the outer limit of the arc would provide a consistent shape for creating a case. And a smaller arc would fit in a slightly larger case.
 
+# Experiments
+- An LED between the rows may fit, we'll see.
 
 
 
