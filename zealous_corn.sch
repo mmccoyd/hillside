@@ -103,7 +103,7 @@ VCC
 Text GLabel 5600 7450 3    50   Input ~ 0
 VCC
 $Comp
-L zc_symbols:diode-choc K7
+L longfir:diode-choc K7
 U 1 1 6191EF95
 P 1550 3700
 F 0 "K7" H 1700 3700 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "" H 1450 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K13
+L longfir:diode-choc K13
 U 1 1 61922E9C
 P 1550 4050
 F 0 "K13" H 1700 4050 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "" H 1400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K14
+L longfir:diode-choc K14
 U 1 1 6192375A
 P 1950 4050
 F 0 "K14" H 2100 4050 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 1800 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K8
+L longfir:diode-choc K8
 U 1 1 6193BABC
 P 1950 3700
 F 0 "K8" H 2100 3700 50  0000 L CNN
@@ -156,7 +156,7 @@ Text GLabel 1350 3150 1    50   Input ~ 0
 col0
 Connection ~ 1350 3850
 $Comp
-L zc_symbols:diode-choc K1
+L longfir:diode-choc K1
 U 1 1 6196A1A7
 P 1550 3350
 F 0 "K1" H 1700 3350 50  0000 L CNN
@@ -170,7 +170,7 @@ Connection ~ 1350 3500
 Wire Wire Line
 	1350 3500 1350 3850
 $Comp
-L zc_symbols:diode-choc K2
+L longfir:diode-choc K2
 U 1 1 6196B340
 P 1950 3350
 F 0 "K2" H 2100 3350 50  0000 L CNN
@@ -199,7 +199,7 @@ Wire Wire Line
 	2050 3900 2450 3900
 Connection ~ 2050 3900
 $Comp
-L zc_symbols:diode-choc K15
+L longfir:diode-choc K15
 U 1 1 6199A06B
 P 2350 4050
 F 0 "K15" H 2500 4050 50  0000 L CNN
@@ -213,7 +213,7 @@ Connection ~ 2450 3900
 Wire Wire Line
 	2450 3900 2850 3900
 $Comp
-L zc_symbols:diode-choc K16
+L longfir:diode-choc K16
 U 1 1 6199AC10
 P 2750 4050
 F 0 "K16" H 2900 4050 50  0000 L CNN
@@ -227,7 +227,7 @@ Connection ~ 2850 3900
 Wire Wire Line
 	2850 3900 3250 3900
 $Comp
-L zc_symbols:diode-choc K17
+L longfir:diode-choc K17
 U 1 1 6199B692
 P 3150 4050
 F 0 "K17" H 3300 4050 50  0000 L CNN
@@ -239,7 +239,7 @@ F 3 "" H 3000 4050 50  0001 C CNN
 $EndComp
 Connection ~ 3250 3900
 $Comp
-L zc_symbols:diode-choc K18
+L longfir:diode-choc K18
 U 1 1 6199C35E
 P 3550 4050
 F 0 "K18" H 3700 4050 50  0000 L CNN
@@ -250,7 +250,7 @@ F 3 "" H 3400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K9
+L longfir:diode-choc K9
 U 1 1 6199CCE0
 P 2350 3700
 F 0 "K9" H 2500 3700 50  0000 L CNN
@@ -264,7 +264,7 @@ Connection ~ 2450 3550
 Wire Wire Line
 	2450 3550 2850 3550
 $Comp
-L zc_symbols:diode-choc K10
+L longfir:diode-choc K10
 U 1 1 6199D871
 P 2750 3700
 F 0 "K10" H 2900 3700 50  0000 L CNN
@@ -278,7 +278,7 @@ Connection ~ 2850 3550
 Wire Wire Line
 	2850 3550 3250 3550
 $Comp
-L zc_symbols:diode-choc K11
+L longfir:diode-choc K11
 U 1 1 6199E287
 P 3150 3700
 F 0 "K11" H 3300 3700 50  0000 L CNN
@@ -290,7 +290,7 @@ F 3 "" H 3000 3700 50  0001 C CNN
 $EndComp
 Connection ~ 3250 3550
 $Comp
-L zc_symbols:diode-choc K12
+L longfir:diode-choc K12
 U 1 1 6199EE93
 P 3550 3700
 F 0 "K12" H 3700 3700 50  0000 L CNN
@@ -307,7 +307,7 @@ Wire Wire Line
 	3250 3900 3650 3900
 Connection ~ 3650 3900
 $Comp
-L zc_symbols:diode-choc K20
+L longfir:diode-choc K20
 U 1 1 619AC99A
 P 2350 4400
 F 0 "K20" H 2500 4400 50  0000 L CNN
@@ -318,7 +318,7 @@ F 3 "" H 2200 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K21
+L longfir:diode-choc K21
 U 1 1 619AD97C
 P 3150 4400
 F 0 "K21" H 3300 4400 50  0000 L CNN
@@ -329,7 +329,7 @@ F 3 "" H 3000 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K22
+L longfir:diode-choc K22
 U 1 1 619AEB0F
 P 3550 4400
 F 0 "K22" H 3700 4400 50  0000 L CNN
@@ -340,7 +340,7 @@ F 3 "" H 3400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K23
+L longfir:diode-choc K23
 U 1 1 619B015D
 P 3950 4400
 F 0 "K23" H 4100 4400 50  0000 L CNN
@@ -351,7 +351,7 @@ F 3 "" H 3800 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K24
+L longfir:diode-choc K24
 U 1 1 619B142B
 P 4350 4400
 F 0 "K24" H 4500 4400 50  0000 L CNN
@@ -362,7 +362,7 @@ F 3 "" H 4200 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zc_symbols:diode-choc K19
+L longfir:diode-choc K19
 U 1 1 619B2C5C
 P 3950 4050
 F 0 "K19" H 4100 4050 50  0000 L CNN
@@ -416,7 +416,7 @@ Connection ~ 3750 4200
 Wire Wire Line
 	3750 4200 3750 3150
 $Comp
-L zc_symbols:diode-choc K3
+L longfir:diode-choc K3
 U 1 1 619DD3BE
 P 2350 3350
 F 0 "K3" H 2500 3350 50  0000 L CNN
@@ -430,7 +430,7 @@ Connection ~ 2150 3500
 Wire Wire Line
 	2150 3500 2150 3150
 $Comp
-L zc_symbols:diode-choc K4
+L longfir:diode-choc K4
 U 1 1 619DE369
 P 2750 3350
 F 0 "K4" H 2900 3350 50  0000 L CNN
@@ -446,7 +446,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3200 3250 3200
 $Comp
-L zc_symbols:diode-choc K5
+L longfir:diode-choc K5
 U 1 1 619DEB8B
 P 3150 3350
 F 0 "K5" H 3300 3350 50  0000 L CNN
@@ -463,7 +463,7 @@ Connection ~ 3250 3200
 Wire Wire Line
 	3250 3200 3650 3200
 $Comp
-L zc_symbols:diode-choc K6
+L longfir:diode-choc K6
 U 1 1 619DF110
 P 3550 3350
 F 0 "K6" H 3700 3350 50  0000 L CNN
@@ -576,34 +576,34 @@ Connection ~ 2950 4200
 Wire Wire Line
 	8500 3550 8850 3550
 $Comp
-L MMLid:SK6812-MINI-E D1
+L longfir:SK6812-MINI-E D1
 U 1 1 6141C690
 P 3750 5500
 F 0 "D1" H 3750 6000 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 3750 5900 50  0000 C CNN
-F 2 "mmccoyd:SK6812-MINI-E" H 3800 5200 50  0001 L TNN
+F 2 "longfir:SK6812-MINI-E" H 3800 5200 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3850 5125 50  0001 L TNN
 	1    3750 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMLid:SK6812-MINI-E D2
+L longfir:SK6812-MINI-E D2
 U 1 1 6141D38F
 P 4800 5500
 F 0 "D2" H 4800 6000 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 4800 5900 50  0000 C CNN
-F 2 "mmccoyd:SK6812-MINI-E" H 4850 5200 50  0001 L TNN
+F 2 "longfir:SK6812-MINI-E" H 4850 5200 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4900 5125 50  0001 L TNN
 	1    4800 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMLid:SK6812-MINI-E D3
+L longfir:SK6812-MINI-E D3
 U 1 1 6141DBB5
 P 5900 5500
 F 0 "D3" H 5900 6000 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 5900 5900 50  0000 C CNN
-F 2 "mmccoyd:SK6812-MINI-E" H 5950 5200 50  0001 L TNN
+F 2 "longfir:SK6812-MINI-E" H 5950 5200 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6000 5125 50  0001 L TNN
 	1    5900 5500
 	1    0    0    -1  
@@ -658,12 +658,12 @@ Wire Wire Line
 Wire Wire Line
 	3750 5800 4800 5800
 $Comp
-L MMLid:SK6812-MINI-E D4
+L longfir:SK6812-MINI-E D4
 U 1 1 614FFB02
 P 6750 5500
 F 0 "D4" H 6750 6000 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 6750 5900 50  0000 C CNN
-F 2 "mmccoyd:SK6812-MINI-E" H 6800 5200 50  0001 L TNN
+F 2 "longfir:SK6812-MINI-E" H 6800 5200 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 5125 50  0001 L TNN
 	1    6750 5500
 	1    0    0    -1  
@@ -684,23 +684,23 @@ Wire Wire Line
 Wire Wire Line
 	3350 5200 3750 5200
 $Comp
-L MMLid:SK6812-MINI-E D6
+L longfir:SK6812-MINI-E D6
 U 1 1 61550485
 P 8500 5500
 F 0 "D6" H 8850 5550 50  0000 L CNN
 F 1 "SK6812-MINI-E" H 8850 5500 50  0000 L CNN
-F 2 "mmccoyd:SK6812-MINI-E" H 8550 5200 50  0001 L TNN
+F 2 "longfir:SK6812-MINI-E" H 8550 5200 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8600 5125 50  0001 L TNN
 	1    8500 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMLid:SK6812-MINI-E D5
+L longfir:SK6812-MINI-E D5
 U 1 1 61501BED
 P 7600 5500
 F 0 "D5" H 7600 6000 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 7600 5900 50  0000 C CNN
-F 2 "mmccoyd:SK6812-MINI-E" H 7650 5200 50  0001 L TNN
+F 2 "longfir:SK6812-MINI-E" H 7650 5200 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7700 5125 50  0001 L TNN
 	1    7600 5500
 	1    0    0    -1  
