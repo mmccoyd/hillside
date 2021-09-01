@@ -564,7 +564,6 @@ F 3 "" H 8850 3550 50  0001 C CNN
 $EndComp
 Text GLabel 8500 3600 2    50   BiDi ~ 0
 data
-NoConn ~ 8500 3450
 Connection ~ 3250 4250
 Wire Wire Line
 	3250 4250 3650 4250
@@ -726,4 +725,11 @@ Wire Wire Line
 Wire Wire Line
 	7900 5500 8200 5500
 NoConn ~ 5900 3200
+Wire Wire Line
+	8500 3450 8500 3400
+Wire Wire Line
+	8500 3400 8850 3400
+Wire Wire Line
+	8850 3400 8850 3550
+Connection ~ 8850 3550
 $EndSCHEMATC
