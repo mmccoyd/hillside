@@ -1,9 +1,9 @@
 # LongFir Keyboard
 
-This choc spaced board has the agressive stagger of the Ferris but is roomier with an expanded thumb arc and breakoff outer pinky column.
+This split choc-spaced board has the agressive stagger of the Ferris but a longer thumb arc and a breakoff outer pinky column.
 Underglow with SK6812-MINI-E provides layer feedback, and it is reversible at 100 x 141 mm.
 
-I wanted a key or so more than the Ferris, so designed a PCB, which expanded a bit....
+I wanted a key or so more than the Ferris and an outer pinky option, so I designed a PCB, which grew a little in that footprint....
 
 ## Materials/guide
 
@@ -17,11 +17,11 @@ I wanted a key or so more than the Ferris, so designed a PCB, which expanded a b
 
 # Why
 
-I wanted a 3x6+3 with aggressive stager and choc switches and spacing, so moving the Choc Corne switches seemed the easiest path. But learning more than blind PCB modification seemed a good idea, so I started a new PCB using the Ferris column and thumb spacing.
+I wanted a 3x6+3 with aggressive stager and choc spacing and switches, so moving the Choc Corne switches seemed the easiest path. But learning more than blind PCB modification seemed a better idea, so I started a new PCB using the Ferris column and thumb spacing.
 
-I liked the extra bottom row keys on my Atreus, so added two under the middle columns, where they seem unobtrusive. Though one then shifted to the thumb arch, which seems more versatile. One upper thumb key seemed useful and combo-able, while two there seemed useful but looked too bulky in something 'small'.  
+I liked the extra bottom row keys on my Atreus, so added two under the middle columns, where they seem unobtrusive. Then one shifted to the thumb arch, which seems more versatile. An upper thumb key seemed useful and combo-able; two there looked bulky in something 'small'.  
 
-Light underglow provides status, and the outer column can break off should I outgrow it. It is more keys than the minimum I wanted, but that makes the keymap evolution feel less tight.
+Light underglow provides quick status, and the outer column can break off should I outgrow it. It is more keys than my initial idea, but that makes keymap evolution feel less tight.
 
 It is like a Choc Ferris on steroids, which is very close to a Choc Kyria.
 
