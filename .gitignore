@@ -61,3 +61,4 @@ fp-info-cache
 /gerber/
 /.\*/
 /old
+*.DS_Store
