@@ -5,10 +5,10 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "LongFir Keyboard"
-Date ""
+Date "2021-09-10"
 Rev ""
-Comp ""
-Comment1 "A choc-spaced split keyboard with a layout between a Ferris and a Kyria"
+Comp "mmccoyd"
+Comment1 "A choc-spaced split keyboard with Ferris column stagger but more thumb and pinky keys."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -658,35 +658,35 @@ Connection ~ 4700 5750
 $Comp
 L MMLid:Conn_01x05-Connector_Generic J2
 U 1 1 616B8147
-P 7950 4700
-F 0 "J2" H 8050 4750 50  0000 L CNN
-F 1 "HapticHeader" H 8050 4650 50  0000 L CNN
-F 2 "longfir:HapticHeader_1x05" H 7950 4700 50  0001 C CNN
-F 3 "" H 7950 4700 50  0001 C CNN
-	1    7950 4700
+P 7600 4850
+F 0 "J2" H 7700 4900 50  0000 L CNN
+F 1 "HapticHeader" H 7700 4800 50  0000 L CNN
+F 2 "longfir:HapticHeader_1x05" H 7600 4850 50  0001 C CNN
+F 3 "" H 7600 4850 50  0001 C CNN
+	1    7600 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 7750 4900 0    50   Input ~ 0
+Text GLabel 7400 5050 0    50   Input ~ 0
 VCC
-Text GLabel 7750 4600 0    50   Input ~ 0
+Text GLabel 7400 4750 0    50   Input ~ 0
 trig
-Text GLabel 7750 4700 0    50   Input ~ 0
+Text GLabel 7400 4850 0    50   Input ~ 0
 SCL
-Text GLabel 7750 4800 0    50   Input ~ 0
+Text GLabel 7400 4950 0    50   Input ~ 0
 SDA
 $Comp
 L pwr:GND #PWR07
 U 1 1 616C872C
-P 7425 4500
-F 0 "#PWR07" H 7425 4250 50  0001 C CNN
-F 1 "GND" H 7450 4300 50  0000 C CNN
-F 2 "" H 7425 4500 50  0001 C CNN
-F 3 "" H 7425 4500 50  0001 C CNN
-	1    7425 4500
+P 7075 4650
+F 0 "#PWR07" H 7075 4400 50  0001 C CNN
+F 1 "GND" H 7100 4450 50  0000 C CNN
+F 2 "" H 7075 4650 50  0001 C CNN
+F 3 "" H 7075 4650 50  0001 C CNN
+	1    7075 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7425 4500 7750 4500
+	7075 4650 7400 4650
 Wire Wire Line
 	7150 3400 7525 3400
 Text GLabel 7150 3600 2    50   Output ~ 0
@@ -770,4 +770,39 @@ Wire Wire Line
 	2450 4700 2150 4550
 Wire Wire Line
 	2150 4550 2750 4550
+$Comp
+L ki_device:R R2
+U 1 1 618CD67C
+P 6450 5000
+F 0 "R2" H 6550 5050 50  0000 L CNN
+F 1 "R" H 6550 5000 50  0000 L CNN
+F 2 "ki_resist_smd:R_0805_2012Metric" V 6380 5000 50  0001 C CNN
+F 3 "~" H 6450 5000 50  0001 C CNN
+	1    6450 5000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6600 4700 2    50   Output ~ 0
+SCL
+Text GLabel 6600 5000 2    50   Output ~ 0
+SDA
+$Comp
+L ki_device:R R1
+U 1 1 618CC9AE
+P 6450 4700
+F 0 "R1" H 6550 4750 50  0000 L CNN
+F 1 "R" H 6550 4700 50  0000 L CNN
+F 2 "ki_resist_smd:R_0805_2012Metric" V 6380 4700 50  0001 C CNN
+F 3 "~" H 6450 4700 50  0001 C CNN
+	1    6450 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6200 4850 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6300 4700 6300 4850
+Wire Wire Line
+	6300 4850 6200 4850
+Connection ~ 6300 4850
+Wire Wire Line
+	6300 4850 6300 5000
 $EndSCHEMATC
