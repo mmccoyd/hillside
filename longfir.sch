@@ -144,8 +144,6 @@ F 3 "" H 1800 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 3850 1350 4200
-Wire Wire Line
 	1750 3850 1750 4200
 Wire Wire Line
 	1650 3900 2050 3900
@@ -304,80 +302,63 @@ Wire Wire Line
 	3250 3900 3650 3900
 Connection ~ 3650 3900
 $Comp
-L longfir:diode-choc K20
-U 1 1 619AC99A
-P 2350 4400
-F 0 "K20" H 2500 4400 50  0000 L CNN
-F 1 "diode-choc" H 2350 4150 50  0001 C CNN
-F 2 "cridesgit:pg1350-DR" H 2200 4400 50  0001 C CNN
-F 3 "" H 2200 4400 50  0001 C CNN
-	1    2350 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L longfir:diode-choc K21
 U 1 1 619AD97C
-P 3050 4550
-F 0 "K21" H 3200 4550 50  0000 L CNN
-F 1 "diode-choc" H 3050 4300 50  0001 C CNN
-F 2 "cridesgit:pg1350-DR" H 2900 4550 50  0001 C CNN
-F 3 "" H 2900 4550 50  0001 C CNN
-	1    3050 4550
+P 2950 4850
+F 0 "K21" H 3100 4850 50  0000 L CNN
+F 1 "diode-choc" H 2950 4600 50  0001 C CNN
+F 2 "cridesgit:pg1350-DR" H 2800 4850 50  0001 C CNN
+F 3 "" H 2800 4850 50  0001 C CNN
+	1    2950 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L longfir:diode-choc K22
 U 1 1 619AEB0F
-P 3450 4550
-F 0 "K22" H 3600 4550 50  0000 L CNN
-F 1 "diode-choc" H 3450 4300 50  0001 C CNN
-F 2 "cridesgit:pg1350-DR" H 3300 4550 50  0001 C CNN
-F 3 "" H 3300 4550 50  0001 C CNN
-	1    3450 4550
+P 3350 4850
+F 0 "K22" H 3500 4850 50  0000 L CNN
+F 1 "diode-choc" H 3350 4600 50  0001 C CNN
+F 2 "cridesgit:pg1350-DR" H 3200 4850 50  0001 C CNN
+F 3 "" H 3200 4850 50  0001 C CNN
+	1    3350 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L longfir:diode-choc K23
 U 1 1 619B015D
-P 3850 4550
-F 0 "K23" H 4000 4550 50  0000 L CNN
-F 1 "diode-choc" H 3850 4300 50  0001 C CNN
-F 2 "cridesgit:pg1350-DR" H 3700 4550 50  0001 C CNN
-F 3 "" H 3700 4550 50  0001 C CNN
-	1    3850 4550
+P 3750 4850
+F 0 "K23" H 3900 4850 50  0000 L CNN
+F 1 "diode-choc" H 3750 4600 50  0001 C CNN
+F 2 "cridesgit:pg1350-DR" H 3600 4850 50  0001 C CNN
+F 3 "" H 3600 4850 50  0001 C CNN
+	1    3750 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L longfir:diode-choc K24
 U 1 1 619B142B
-P 4250 4550
-F 0 "K24" H 4400 4550 50  0000 L CNN
-F 1 "diode-choc" H 4250 4300 50  0001 C CNN
-F 2 "cridesgit:pg1350-DR" H 4100 4550 50  0001 C CNN
-F 3 "" H 4100 4550 50  0001 C CNN
-	1    4250 4550
+P 4150 4850
+F 0 "K24" H 4300 4850 50  0000 L CNN
+F 1 "diode-choc" H 4150 4600 50  0001 C CNN
+F 2 "cridesgit:pg1350-DR" H 4000 4850 50  0001 C CNN
+F 3 "" H 4000 4850 50  0001 C CNN
+	1    4150 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L longfir:diode-choc K19
 U 1 1 619B2C5C
-P 3950 4050
-F 0 "K19" H 4100 4050 50  0000 L CNN
-F 1 "diode-choc" H 3950 3800 50  0001 C CNN
-F 2 "cridesgit:pg1350-DR" H 3800 4050 50  0001 C CNN
-F 3 "" H 3800 4050 50  0001 C CNN
-	1    3950 4050
+P 3850 4200
+F 0 "K19" H 4000 4200 50  0000 L CNN
+F 1 "diode-choc" H 3850 3950 50  0001 C CNN
+F 2 "cridesgit:pg1350-DR" H 3700 4200 50  0001 C CNN
+F 3 "" H 3700 4200 50  0001 C CNN
+	1    3850 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3650 3900 4050 3900
-Connection ~ 4050 3900
-Wire Wire Line
-	2150 4550 2150 4200
 Connection ~ 2150 3850
 Wire Wire Line
 	2150 3850 2150 3500
-Connection ~ 2150 4200
 Wire Wire Line
 	2150 4200 2150 3850
 Connection ~ 2550 3850
@@ -395,8 +376,6 @@ Wire Wire Line
 	3350 3850 3350 3500
 Wire Wire Line
 	3350 4200 3350 3850
-Wire Wire Line
-	3750 4200 3750 3150
 $Comp
 L longfir:diode-choc K3
 U 1 1 619DD3BE
@@ -467,22 +446,16 @@ Text GLabel 2950 3150 1    50   Input ~ 0
 col4
 Text GLabel 3350 3150 1    50   Input ~ 0
 col5
-Text GLabel 3750 3150 1    50   Input ~ 0
-col6
-Text GLabel 4650 4250 2    50   Output ~ 0
+Text GLabel 4650 4550 2    50   Output ~ 0
 row3
 Text GLabel 4650 3900 2    50   Output ~ 0
 row2
-Wire Wire Line
-	3650 3550 4650 3550
 Wire Wire Line
 	3650 3200 4650 3200
 Text GLabel 4650 3550 2    50   Output ~ 0
 row1
 Text GLabel 4650 3200 2    50   Output ~ 0
 row0
-Text GLabel 5750 4200 0    50   Output ~ 0
-col6
 Wire Wire Line
 	5350 3300 5750 3300
 $Comp
@@ -496,8 +469,6 @@ F 3 "" H 5350 3300 50  0001 C CNN
 	1    5350 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 3900 4650 3900
 $Comp
 L pwr:PWR_FLAG #FLG02
 U 1 1 618AB37B
@@ -641,48 +612,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 6050 8100 6050
 NoConn ~ 5750 3200
-Wire Wire Line
-	2850 4700 2850 4400
-Wire Wire Line
-	3250 4700 3250 4400
-Wire Wire Line
-	3650 4700 3650 4400
-Wire Wire Line
-	4050 4700 4050 4400
-Wire Wire Line
-	4050 4400 3750 4200
-Connection ~ 3750 4200
-Wire Wire Line
-	3950 4400 3700 4250
-Connection ~ 3700 4250
-Wire Wire Line
-	3700 4250 4100 4250
-Wire Wire Line
-	4350 4400 4100 4250
-Connection ~ 4100 4250
-Wire Wire Line
-	4100 4250 4650 4250
-Wire Wire Line
-	2450 4250 2900 4250
-Wire Wire Line
-	3650 4400 3350 4200
-Connection ~ 3350 4200
-Wire Wire Line
-	3250 4400 2950 4200
-Connection ~ 2950 4200
-Wire Wire Line
-	2850 4400 2550 4200
-Connection ~ 2550 4200
-Wire Wire Line
-	3150 4400 2900 4250
-Connection ~ 2900 4250
-Wire Wire Line
-	2900 4250 3300 4250
-Wire Wire Line
-	3550 4400 3300 4250
-Connection ~ 3300 4250
-Wire Wire Line
-	3300 4250 3700 4250
 NoConn ~ 5750 4300
 Text GLabel 8150 3350 2    50   BiDi ~ 0
 data
@@ -730,9 +659,9 @@ $Comp
 L MMLid:Conn_01x05-Connector_Generic J2
 U 1 1 616B8147
 P 7950 4700
-F 0 "J2" H 8075 4750 50  0000 L CNN
-F 1 "Conn_01x05-Connector_Generic" H 8075 4650 50  0000 L CNN
-F 2 "mmccoyd:pimoroni_left_side_mount" H 7950 4700 50  0001 C CNN
+F 0 "J2" H 8050 4750 50  0000 L CNN
+F 1 "HapticHeader" H 8050 4650 50  0000 L CNN
+F 2 "longfir:HapticHeader_1x05" H 7950 4700 50  0001 C CNN
 F 3 "" H 7950 4700 50  0001 C CNN
 	1    7950 4700
 	1    0    0    -1  
@@ -766,4 +695,79 @@ Text GLabel 7150 3700 2    50   Output ~ 0
 SCL
 Text GLabel 7150 4300 2    50   Output ~ 0
 trig
+Wire Wire Line
+	3650 3550 4650 3550
+Wire Wire Line
+	3650 3900 4650 3900
+Wire Wire Line
+	3950 4650 3950 5000
+Wire Wire Line
+	3850 4700 3500 4550
+Connection ~ 3500 4550
+Wire Wire Line
+	3500 4550 3900 4550
+Wire Wire Line
+	4250 4700 3900 4550
+Connection ~ 3900 4550
+Wire Wire Line
+	1350 3850 1350 4200
+Wire Wire Line
+	3550 4650 3550 5000
+Wire Wire Line
+	3150 4650 3150 5000
+Wire Wire Line
+	2750 4650 2750 5000
+$Comp
+L longfir:diode-choc K20
+U 1 1 619AC99A
+P 2350 4850
+F 0 "K20" H 2500 4850 50  0000 L CNN
+F 1 "diode-choc" H 2350 4600 50  0001 C CNN
+F 2 "cridesgit:pg1350-DR" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0001 C CNN
+	1    2350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4700 3150 4550
+Connection ~ 3150 4550
+Wire Wire Line
+	3150 4550 3500 4550
+Wire Wire Line
+	3050 4700 2750 4550
+Connection ~ 2750 4550
+Wire Wire Line
+	2750 4550 3150 4550
+NoConn ~ 5750 4200
+Wire Wire Line
+	3650 4350 3350 4200
+Connection ~ 3350 4200
+Wire Wire Line
+	3950 4650 2950 4200
+Connection ~ 2950 4200
+Wire Wire Line
+	3550 4650 2550 4200
+Connection ~ 2550 4200
+Wire Wire Line
+	3150 4650 2150 4200
+Connection ~ 2150 4200
+Wire Wire Line
+	2750 4650 1750 4200
+Connection ~ 1750 4200
+Wire Wire Line
+	2150 5000 2150 4650
+Wire Wire Line
+	2150 4650 1350 4200
+Connection ~ 1350 4200
+Wire Wire Line
+	3900 4550 4600 4550
+Wire Wire Line
+	3950 4050 4600 4550
+Connection ~ 4600 4550
+Wire Wire Line
+	4600 4550 4650 4550
+Wire Wire Line
+	2450 4700 2150 4550
+Wire Wire Line
+	2150 4550 2750 4550
 $EndSCHEMATC
