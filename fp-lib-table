@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name longfir)(type KiCad)(uri ${KIPRJMOD}/lib/longfir.pretty)(options "")(descr ""))
+  (lib (name redwood)(type KiCad)(uri ${KIPRJMOD}/lib/redwood.pretty)(options "")(descr ""))
 )

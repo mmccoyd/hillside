@@ -1,4 +1,4 @@
-# LongFir Keyboard
+# Redwood Keyboard
 
 This split choc-spaced board has the agressive stagger of the Ferris but a longer thumb arc and a breakoff outer pinky column.
 Underglow with SK6812-MINI-E provides layer feedback, and it is reversible at 100 x 141 mm.
@@ -12,8 +12,8 @@ I wanted a key or so more than the Ferris and an outer pinky option, so I design
 
 ## Images
 
-![render](docs/image/longfir-front.png "Front Render")
-![](docs/image/longfir-schematic.svg "Schematic")
+![render](docs/image/redwood-front.png "Front Render")
+![](docs/image/redwood-schematic.svg "Schematic")
 
 # Why
 

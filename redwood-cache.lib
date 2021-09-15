@@ -94,11 +94,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# longfir_SK6812-MINI-E
+# redwood_SK6812-MINI-E
 #
-DEF longfir_SK6812-MINI-E D 0 10 Y Y 1 F N
+DEF redwood_SK6812-MINI-E D 0 10 Y Y 1 F N
 F0 "D" 200 225 50 H V R BNN
-F1 "longfir_SK6812-MINI-E" 50 -225 50 H V L TNN
+F1 "redwood_SK6812-MINI-E" 50 -225 50 H V L TNN
 F2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" 50 -300 50 H I L TNN
 F3 "" 100 -375 50 H I L TNN
 $FPLIST
@@ -121,11 +121,11 @@ X DIN 4 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# longfir_TRRS
+# redwood_TRRS
 #
-DEF longfir_TRRS J 0 20 Y Y 1 F N
+DEF redwood_TRRS J 0 20 Y Y 1 F N
 F0 "J" 300 225 50 H V C CNN
-F1 "longfir_TRRS" 275 -300 50 H V C CNN
+F1 "redwood_TRRS" 275 -300 50 H V C CNN
 F2 "" 1150 -150 50 V I C CNN
 F3 "" 1150 -150 50 V I C CNN
 $FPLIST
@@ -145,11 +145,11 @@ X Tip T -100 100 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# longfir_diode-choc
+# redwood_diode-choc
 #
-DEF longfir_diode-choc K 0 20 N Y 1 F N
+DEF redwood_diode-choc K 0 20 N Y 1 F N
 F0 "K" -150 0 50 H V C CNN
-F1 "longfir_diode-choc" 0 -250 50 H I C CNN
+F1 "redwood_diode-choc" 0 -250 50 H I C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW

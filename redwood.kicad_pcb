@@ -163,7 +163,7 @@
     (add_net VCC)
   )
 
-  (module longfir:SW_Tactile_SPST_Angled_MJTP1117 (layer F.Cu) (tedit 613FCEB3) (tstamp 6139CB6B)
+  (module redwood:SW_Tactile_SPST_Angled_MJTP1117 (layer F.Cu) (tedit 613FCEB3) (tstamp 6139CB6B)
     (at 221.28 111.98 285)
     (descr "tactile switch SPST right angle, PTS645VL39-2 LFS")
     (tags "tactile switch SPST angled PTS645VL39-2 LFS C&K Button")
@@ -217,7 +217,7 @@
     )
   )
 
-  (module longfir:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 613A0856)
+  (module redwood:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 613A0856)
     (at 218.322328 141.509268 135)
     (path /619B142B)
     (fp_text reference K24 (at 0 0 135) (layer F.Fab) hide
@@ -281,7 +281,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 135) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 613A04BF)
+  (module redwood:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 613A04BF)
     (at 201.728276 128.652806 150)
     (path /619B015D)
     (fp_text reference K23 (at 0 0 150) (layer F.Fab) hide
@@ -345,7 +345,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 150) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 612F19C6)
+  (module redwood:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 612F19C6)
     (at 182.274686 120.54 165)
     (path /619AEB0F)
     (fp_text reference K22 (at 0 0 165) (layer F.Fab) hide
@@ -409,7 +409,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 165) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 612F17F4)
+  (module redwood:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 612F17F4)
     (at 161.5 117.5 180)
     (path /619AD97C)
     (fp_text reference K21 (at 0 0) (layer F.Fab) hide
@@ -473,7 +473,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C992)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C992)
     (at 136 119 180)
     (path /619AC99A)
     (fp_text reference K20 (at 0 0) (layer F.Fab) hide
@@ -537,7 +537,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 613F1AAF)
+  (module redwood:pg1350-DR (layer F.Cu) (tedit 61411104) (tstamp 613F1AAF)
     (at 210.228276 113.930374 150)
     (path /619B2C5C)
     (fp_text reference K19 (at 0 0 150) (layer F.Fab) hide
@@ -601,7 +601,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 150) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C911)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C911)
     (at 190 103 180)
     (path /6199C35E)
     (fp_text reference K18 (at 0 0) (layer F.Fab) hide
@@ -665,7 +665,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C8E6)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C8E6)
     (at 172 100.5 180)
     (path /6199B692)
     (fp_text reference K17 (at 0 0) (layer F.Fab) hide
@@ -729,7 +729,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C8BB)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C8BB)
     (at 154 95 180)
     (path /6199AC10)
     (fp_text reference K16 (at 0 0) (layer F.Fab) hide
@@ -793,7 +793,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C890)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C890)
     (at 136 102 180)
     (path /6199A06B)
     (fp_text reference K15 (at 0 0) (layer F.Fab) hide
@@ -857,7 +857,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C865)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C865)
     (at 118 114 180)
     (path /6192375A)
     (fp_text reference K14 (at 0 0) (layer F.Fab) hide
@@ -921,7 +921,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C83A)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C83A)
     (at 100 114 180)
     (path /61922E9C)
     (fp_text reference K13 (at 0 0) (layer F.Fab) hide
@@ -985,7 +985,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C80F)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C80F)
     (at 190 86 180)
     (path /6199EE93)
     (fp_text reference K12 (at 0 0) (layer F.Fab) hide
@@ -1049,7 +1049,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C7E4)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C7E4)
     (at 172 83.5 180)
     (path /6199E287)
     (fp_text reference K11 (at 0 0) (layer F.Fab) hide
@@ -1113,7 +1113,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C7B9)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C7B9)
     (at 154 78 180)
     (path /6199D871)
     (fp_text reference K10 (at 0 0) (layer F.Fab) hide
@@ -1177,7 +1177,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C78E)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C78E)
     (at 136 85 180)
     (path /6199CCE0)
     (fp_text reference K9 (at 0 0) (layer F.Fab) hide
@@ -1241,7 +1241,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C763)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C763)
     (at 118 97 180)
     (path /6193BABC)
     (fp_text reference K8 (at 0 0) (layer F.Fab) hide
@@ -1305,7 +1305,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C738)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C738)
     (at 100 97 180)
     (path /6191EF95)
     (fp_text reference K7 (at 0 0) (layer F.Fab) hide
@@ -1369,7 +1369,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C70D)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C70D)
     (at 190 69 180)
     (path /619DF110)
     (fp_text reference K6 (at 0 0) (layer F.Fab) hide
@@ -1433,7 +1433,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C6E2)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C6E2)
     (at 172 66.5 180)
     (path /619DEB8B)
     (fp_text reference K5 (at 0 0) (layer F.Fab) hide
@@ -1497,7 +1497,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C6B7)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C6B7)
     (at 154 61 180)
     (path /619DE369)
     (fp_text reference K4 (at 0 0) (layer F.Fab) hide
@@ -1561,7 +1561,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C68C)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C68C)
     (at 136 68 180)
     (path /619DD3BE)
     (fp_text reference K3 (at 0 0) (layer F.Fab) hide
@@ -1625,7 +1625,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C661)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C661)
     (at 118 80 180)
     (path /6196B340)
     (fp_text reference K2 (at 0 0) (layer F.Fab) hide
@@ -1689,7 +1689,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C636)
+  (module redwood:pg1350-DR locked (layer F.Cu) (tedit 61411104) (tstamp 6122C636)
     (at 100 80 180)
     (path /6196A1A7)
     (fp_text reference K1 (at 0 0) (layer F.Fab) hide
@@ -1753,7 +1753,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module longfir:PomoroniHaptic (layer F.Cu) (tedit 6140097E) (tstamp 6141DDD9)
+  (module redwood:PomoroniHaptic (layer F.Cu) (tedit 6140097E) (tstamp 6141DDD9)
     (at 214.975 93.45)
     (descr "Through hole header 2.54mm pitch and one of two mount points for Pomoroni Haptic PIM452")
     (tags "Haptic Pomoroni PIM452 header 2.54mm")
@@ -1838,7 +1838,7 @@
       (net 11 GND))
   )
 
-  (module longfir:R_0805_2012Metric_DoubleSided (layer F.Cu) (tedit 613FEE3B) (tstamp 61425DD8)
+  (module redwood:R_0805_2012Metric_DoubleSided (layer F.Cu) (tedit 613FEE3B) (tstamp 61425DD8)
     (at 206.025 103.89 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1874,7 +1874,7 @@
     )
   )
 
-  (module longfir:R_0805_2012Metric_DoubleSided (layer F.Cu) (tedit 613FEE3B) (tstamp 613BE204)
+  (module redwood:R_0805_2012Metric_DoubleSided (layer F.Cu) (tedit 613FEE3B) (tstamp 613BE204)
     (at 204 103.89 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1910,7 +1910,7 @@
     )
   )
 
-  (module longfir:ProMicro_v2 (layer F.Cu) (tedit 613FE122) (tstamp 6143595D)
+  (module redwood:ProMicro_v2 (layer F.Cu) (tedit 613FE122) (tstamp 6143595D)
     (at 210 86.63)
     (path /6162C399)
     (fp_text reference U1 (at -1.27 2.762 270) (layer F.SilkS) hide
@@ -2191,7 +2191,7 @@
       (net 21 "Net-(U1-Pad24)"))
   )
 
-  (module longfir:MJ-4PP-9 (layer F.Cu) (tedit 613EF44C) (tstamp 613F4528)
+  (module redwood:MJ-4PP-9 (layer F.Cu) (tedit 613EF44C) (tstamp 613F4528)
     (at 214.98 129.36 90)
     (path /61A70C2C)
     (fp_text reference J2 (at -1.99 10.82 270) (layer F.Fab)
@@ -2247,7 +2247,7 @@
     )
   )
 
-  (module longfir:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 613B2313)
+  (module redwood:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 613B2313)
     (at 131.73 115.11)
     (path /61550485)
     (fp_text reference D5 (at 0 -2.2 unlocked) (layer F.Fab)
@@ -2299,7 +2299,7 @@
     )
   )
 
-  (module longfir:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 612E57F2)
+  (module redwood:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 612E57F2)
     (at 161.486067 113.577196)
     (path /61501BED)
     (fp_text reference D4 (at 0 -2.2 unlocked) (layer F.Fab)
@@ -2351,7 +2351,7 @@
     )
   )
 
-  (module longfir:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 612DAFA9)
+  (module redwood:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 612DAFA9)
     (at 183.313671 116.792767 345)
     (path /614FFB02)
     (fp_text reference D3 (at 0 -2.2 345 unlocked) (layer F.Fab)
@@ -2403,7 +2403,7 @@
     )
   )
 
-  (module longfir:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 613E3E86)
+  (module redwood:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 613E3E86)
     (at 203.699418 125.287879 330)
     (path /6141DBB5)
     (fp_text reference D2 (at 0 -2.2 330 unlocked) (layer F.Fab)
@@ -2455,7 +2455,7 @@
     )
   )
 
-  (module longfir:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 612CB29D)
+  (module redwood:SK6812-MINI-E (layer F.Cu) (tedit 6138E7B8) (tstamp 612CB29D)
     (at 208.481456 108.542398 330)
     (path /6141D38F)
     (fp_text reference D1 (at 0 -2.2 330 unlocked) (layer F.Fab)
@@ -2507,7 +2507,7 @@
     )
   )
 
-  (module longfir:Tenting_Puck (layer F.Cu) (tedit 613FF9CD) (tstamp 61397EEF)
+  (module redwood:Tenting_Puck (layer F.Cu) (tedit 613FF9CD) (tstamp 61397EEF)
     (at 163.01 81.96)
     (fp_text reference REF** (at 7.6835 1.4605) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
