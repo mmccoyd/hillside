@@ -12,4 +12,13 @@ K audio jack receptacle stereo headphones TRRS connector
 F ~
 $ENDCMP
 #
+$CMP Tenting_Mount
+D Mount points for tenting puck from splitkb.com
+K Tenting Puck
+$ENDCMP
+#
+$CMP Trackball_Mount
+D To hold pointing point footprint for Pimoroni Trackball
+$ENDCMP
+#
 #End Doc Library
