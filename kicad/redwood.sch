@@ -784,7 +784,7 @@ Connection ~ 6700 5250
 Wire Wire Line
 	1950 6400 2250 6400
 $Comp
-L redwood:Trackball_Mounts H2
+L redwood:Trackball_Mount H2
 U 1 1 614FB6B6
 P 8700 5450
 F 0 "H2" H 8825 5475 50  0000 L CNN
@@ -795,7 +795,7 @@ F 3 "" H 8825 5475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:Tenting_Mounts H1
+L redwood:Tenting_Mount H1
 U 1 1 6147F195
 P 8700 4950
 F 0 "H1" H 8850 5025 50  0000 L TNN

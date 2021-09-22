@@ -193,11 +193,11 @@ X Tip T -100 100 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# redwood_Tenting_Mounts
+# redwood_Tenting_Mount
 #
-DEF redwood_Tenting_Mounts M 0 40 Y Y 1 F N
+DEF redwood_Tenting_Mount M 0 40 Y Y 1 F N
 F0 "M" 150 75 50 H V L TNN
-F1 "redwood_Tenting_Mounts" 150 -75 50 H V L BNN
+F1 "redwood_Tenting_Mount" 150 -75 50 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -209,11 +209,11 @@ C 100 0 25 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# redwood_Trackball_Mounts
+# redwood_Trackball_Mount
 #
-DEF redwood_Trackball_Mounts M 0 40 Y Y 1 F N
+DEF redwood_Trackball_Mount M 0 40 Y Y 1 F N
 F0 "M" 125 25 50 H V L CNN
-F1 "redwood_Trackball_Mounts" 125 -50 50 H V L CNN
+F1 "redwood_Trackball_Mount" 125 -50 50 H V L CNN
 F2 "" 125 25 50 H I C CNN
 F3 "" 125 25 50 H I C CNN
 DRAW
