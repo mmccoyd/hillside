@@ -195,8 +195,8 @@ ENDDEF
 #
 # redwood_Tenting_Mount
 #
-DEF redwood_Tenting_Mount M 0 40 Y Y 1 F N
-F0 "M" 150 75 50 H V L TNN
+DEF redwood_Tenting_Mount H 0 40 Y Y 1 F N
+F0 "H" 150 75 50 H V L TNN
 F1 "redwood_Tenting_Mount" 150 -75 50 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -211,8 +211,8 @@ ENDDEF
 #
 # redwood_Trackball_Mount
 #
-DEF redwood_Trackball_Mount M 0 40 Y Y 1 F N
-F0 "M" 125 25 50 H V L CNN
+DEF redwood_Trackball_Mount H 0 40 Y Y 1 F N
+F0 "H" 125 25 50 H V L CNN
 F1 "redwood_Trackball_Mount" 125 -50 50 H V L CNN
 F2 "" 125 25 50 H I C CNN
 F3 "" 125 25 50 H I C CNN
