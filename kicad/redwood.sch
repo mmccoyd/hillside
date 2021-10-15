@@ -879,4 +879,18 @@ F 3 "" H 4950 7700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 7700 4950 7600
+$Comp
+L redwood:Via V2
+U 1 1 615E1C4E
+P 4950 7450
+F 0 "V2" H 5150 7450 50  0001 C BNN
+F 1 "Via" H 4950 7200 50  0001 C CNN
+F 2 "mmccoyd:VIA-0.8mm" H 4950 7350 50  0001 C CNN
+F 3 "" H 4950 7450 50  0001 C CNN
+	1    4950 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 7450 4950 7600
+Connection ~ 4950 7600
 $EndSCHEMATC
