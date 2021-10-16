@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pwr:GND #PWR04
+L redwood:GND #PWR04
 U 1 1 6120BEE9
 P 7150 4750
 F 0 "#PWR04" H 7150 4500 50  0001 C CNN
@@ -27,7 +27,7 @@ $EndComp
 Text GLabel 6550 4750 0    50   Output ~ 0
 reset
 $Comp
-L kbd:ProMicro_r U1
+L redwood:ProMicro_r U1
 U 1 1 6162C399
 P 6750 3900
 F 0 "U1" H 6800 4887 60  0000 C CNN
@@ -60,7 +60,7 @@ row2
 Text GLabel 7500 4300 2    50   Input ~ 0
 row3
 $Comp
-L pwr:GND #PWR03
+L redwood:GND #PWR03
 U 1 1 61711229
 P 7875 3400
 F 0 "#PWR03" H 7875 3150 50  0001 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 7875 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pwr:PWR_FLAG #FLG01
+L redwood:PWR_FLAG #FLG01
 U 1 1 618AC0F3
 P 5600 7700
 F 0 "#FLG01" H 5600 7775 50  0001 C CNN
@@ -447,7 +447,7 @@ row0
 Wire Wire Line
 	5700 3300 6100 3300
 $Comp
-L pwr:GND #PWR02
+L redwood:GND #PWR02
 U 1 1 618DD7B5
 P 5700 3300
 F 0 "#PWR02" H 5700 3050 50  0001 C CNN
@@ -458,7 +458,7 @@ F 3 "" H 5700 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pwr:PWR_FLAG #FLG02
+L redwood:PWR_FLAG #FLG02
 U 1 1 618AB37B
 P 6000 7700
 F 0 "#FLG02" H 6000 7775 50  0001 C CNN
@@ -494,7 +494,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2650 6025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L pwr:GND #PWR06
+L redwood:GND #PWR06
 U 1 1 614248F7
 P 6000 7700
 F 0 "#PWR06" H 6000 7450 50  0001 C CNN
@@ -511,7 +511,7 @@ LED
 Text GLabel 1150 6100 0    50   Input ~ 0
 VCC
 $Comp
-L pwr:GND #PWR05
+L redwood:GND #PWR05
 U 1 1 61436F2E
 P 5550 6700
 F 0 "#PWR05" H 5550 6450 50  0001 C CNN
@@ -590,7 +590,7 @@ Wire Wire Line
 	4550 6400 4850 6400
 NoConn ~ 6100 3200
 $Comp
-L MMLid:Conn_01x05-Connector_Generic J1
+L redwood:Conn_01x05-Connector_Generic J1
 U 1 1 616B8147
 P 8900 4300
 F 0 "J1" H 9000 4350 50  0000 L CNN
@@ -607,7 +607,7 @@ SCL
 Text GLabel 8700 4400 0    50   BiDi ~ 0
 SDA
 $Comp
-L pwr:GND #PWR07
+L redwood:GND #PWR07
 U 1 1 616C872C
 P 8375 4100
 F 0 "#PWR07" H 8375 3850 50  0001 C CNN
@@ -684,7 +684,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 4700 1950 4550
 $Comp
-L ki_device:R R2
+L redwood:R R2
 U 1 1 618CD67C
 P 6900 5500
 F 0 "R2" V 7000 5550 50  0000 L CNN
@@ -699,7 +699,7 @@ SCL
 Text GLabel 7050 5500 2    50   BiDi ~ 0
 SDA
 $Comp
-L ki_device:R R1
+L redwood:R R1
 U 1 1 618CC9AE
 P 6900 5250
 F 0 "R1" V 7000 5300 50  0000 L CNN
@@ -736,7 +736,7 @@ data
 Text GLabel 8350 3400 0    50   BiDi ~ 0
 VCC
 $Comp
-L pwr:GND #PWR09
+L redwood:GND #PWR09
 U 1 1 61A733F7
 P 8350 3700
 F 0 "#PWR09" H 8350 3450 50  0001 C CNN
@@ -750,7 +750,7 @@ Wire Wire Line
 	8350 3600 8350 3700
 Connection ~ 8350 3700
 $Comp
-L kbd:SW_PUSH SW1
+L redwood:SW_PUSH SW1
 U 1 1 6120A557
 P 6850 4750
 F 0 "SW1" H 6850 5005 50  0000 C CNN
@@ -819,7 +819,7 @@ $EndComp
 Wire Wire Line
 	1950 4650 2050 4700
 $Comp
-L ki_device:D_Small D6
+L redwood:D_Small D6
 U 1 1 61519A6F
 P 2050 4550
 F 0 "D6" H 2050 4400 50  0000 C CNN
@@ -833,7 +833,7 @@ Wire Wire Line
 	2150 4550 2550 4550
 Connection ~ 2550 4550
 $Comp
-L pwr:GND #PWR0101
+L redwood:GND #PWR0101
 U 1 1 61525DEF
 P 1500 5100
 F 0 "#PWR0101" H 1500 4850 50  0001 C CNN
@@ -861,13 +861,13 @@ U 1 1 615FDDB2
 P 4950 7600
 F 0 "V1" H 5150 7600 50  0001 C BNN
 F 1 "Via" H 4950 7350 50  0001 C CNN
-F 2 "mmccoyd:VIA-0.8mm" H 4950 7500 50  0001 C CNN
+F 2 "redwood:VIA-0.8mm" H 4950 7500 50  0001 C CNN
 F 3 "" H 4950 7600 50  0001 C CNN
 	1    4950 7600
 	1    0    0    -1  
 $EndComp
 $Comp
-L pwr:GND #PWR0102
+L redwood:GND #PWR0102
 U 1 1 615FED02
 P 4950 7700
 F 0 "#PWR0102" H 4950 7450 50  0001 C CNN
@@ -885,7 +885,7 @@ U 1 1 615E1C4E
 P 4950 7450
 F 0 "V2" H 5150 7450 50  0001 C BNN
 F 1 "Via" H 4950 7200 50  0001 C CNN
-F 2 "mmccoyd:VIA-0.8mm" H 4950 7350 50  0001 C CNN
+F 2 "redwood:VIA-0.8mm" H 4950 7350 50  0001 C CNN
 F 3 "" H 4950 7450 50  0001 C CNN
 	1    4950 7450
 	1    0    0    -1  

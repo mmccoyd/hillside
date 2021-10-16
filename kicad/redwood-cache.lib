@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MMLid_Conn_01x05-Connector_Generic
+# redwood_Conn_01x05-Connector_Generic
 #
-DEF MMLid_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
+DEF redwood_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "MMLid_Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
+F1 "redwood_Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -26,11 +26,59 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# kbd_ProMicro_r
+# redwood_D_Small
 #
-DEF kbd_ProMicro_r U 0 40 Y Y 1 F N
+DEF redwood_D_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "redwood_D_Small" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# redwood_GND
+#
+DEF redwood_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "redwood_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# redwood_PWR_FLAG
+#
+DEF redwood_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "redwood_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# redwood_ProMicro_r
+#
+DEF redwood_ProMicro_r U 0 40 Y Y 1 F N
 F0 "U" 50 900 60 H V C CNN
-F1 "kbd_ProMicro_r" 50 -600 60 H V C CNN
+F1 "redwood_ProMicro_r" 50 -600 60 H V C CNN
 F2 "" 150 -1050 60 H V C CNN
 F3 "" 150 -1050 60 H V C CNN
 DRAW
@@ -62,48 +110,11 @@ X D7/6 9 750 -100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# kbd_SW_PUSH
+# redwood_R
 #
-DEF kbd_SW_PUSH SW 0 40 N N 1 F N
-F0 "SW" 150 110 50 H V C CNN
-F1 "kbd_SW_PUSH" 0 -80 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-S -170 50 170 60 0 1 0 N
-P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
-X 1 1 -300 0 200 R 50 50 0 1 P I
-X 2 2 300 0 200 L 50 50 0 1 P I
-ENDDRAW
-ENDDEF
-#
-# ki_device_D_Small
-#
-DEF ki_device_D_Small D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "ki_device_D_Small" -150 -80 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# ki_device_R
-#
-DEF ki_device_R R 0 0 N Y 1 F N
+DEF redwood_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "ki_device_R" 0 0 50 V V C CNN
+F1 "redwood_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -113,32 +124,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# pwr_GND
-#
-DEF pwr_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "pwr_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# pwr_PWR_FLAG
-#
-DEF pwr_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "pwr_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
@@ -166,6 +151,21 @@ X VDD 1 0 300 100 D 50 50 1 1 W
 X DOUT 2 300 0 100 L 50 50 1 1 O
 X VSS 3 0 -300 100 U 50 50 1 1 W
 X DIN 4 -300 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# redwood_SW_PUSH
+#
+DEF redwood_SW_PUSH SW 0 40 N N 1 F N
+F0 "SW" 150 110 50 H V C CNN
+F1 "redwood_SW_PUSH" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+S -170 50 170 60 0 1 0 N
+P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
+X 1 1 -300 0 200 R 50 50 0 1 P I
+X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
