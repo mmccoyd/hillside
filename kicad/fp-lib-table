@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name redwood)(type KiCad)(uri ${KIPRJMOD}/lib/redwood.pretty)(options "")(descr ""))
+  (lib (name ki_syms)(type KiCad)(uri ${KIPRJMOD}/lib/ki_syms.pretty)(options "")(descr ""))
 )

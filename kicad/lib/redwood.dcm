@@ -1,34 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP D_Small
-D Diode, small symbol
-K diode
-F ~
-$ENDCMP
-#
-$CMP GND
-D Power symbol creates a global label with name "GND" , ground
-K power-flag
-$ENDCMP
-#
-$CMP PWR_FLAG
-D Special symbol for telling ERC where power comes from
-K power-flag
-F ~
-$ENDCMP
-#
-$CMP R
-D Resistor
-K R res resistor
-F ~
-$ENDCMP
-#
-$CMP SK6812-MINI-E
-D RGB LED with integrated controller
-K RGB LED NeoPixel addressable
-F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-$ENDCMP
-#
 $CMP TRRS
 D Audio Jack, 4 Poles (TRRS)
 K audio jack receptacle stereo headphones TRRS connector
