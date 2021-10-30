@@ -6,6 +6,12 @@ K diode
 F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
 $ENDCMP
 #
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag

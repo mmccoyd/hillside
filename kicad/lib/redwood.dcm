@@ -1,18 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TRRS
-D Audio Jack, 4 Poles (TRRS)
-K audio jack receptacle stereo headphones TRRS connector
-F ~
-$ENDCMP
-#
-$CMP Tenting_Mount
+$CMP Mount_Tenting
 D Mount points for tenting puck from splitkb.com
 K Tenting Puck
 $ENDCMP
 #
-$CMP Trackball_Mount
+$CMP Mount_Trackball
 D To hold pointing point footprint for Pimoroni Trackball
+$ENDCMP
+#
+$CMP TRRS
+D Audio Jack, 4 Poles (TRRS)
+K audio jack receptacle stereo headphones TRRS connector
+F ~
 $ENDCMP
 #
 #End Doc Library
