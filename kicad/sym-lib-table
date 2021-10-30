@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name redwood)(type Legacy)(uri ${KIPRJMOD}/lib/redwood.lib)(options "")(descr ""))
+  (lib (name hillside)(type Legacy)(uri ${KIPRJMOD}/lib/hillside.lib)(options "")(descr ""))
   (lib (name ki_syms)(type Legacy)(uri ${KIPRJMOD}/lib/ki_syms.lib)(options "")(descr ""))
 )

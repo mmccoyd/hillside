@@ -27,12 +27,12 @@ $EndComp
 Text GLabel 2800 6300 0    50   Output ~ 0
 reset
 $Comp
-L redwood:ProMicro_r U1
+L hillside:ProMicro_r U1
 U 1 1 6162C399
 P 3000 5400
 F 0 "U1" H 3050 6387 60  0000 C CNN
 F 1 "ProMicro_r" H 3050 6281 60  0000 C CNN
-F 2 "redwood:ProMicro_v2" H 3150 4350 60  0001 C CNN
+F 2 "hillside:ProMicro_v2" H 3150 4350 60  0001 C CNN
 F 3 "" H 3150 4350 60  0000 C CNN
 	1    3000 5400
 	1    0    0    -1  
@@ -237,7 +237,7 @@ U 1 1 616B8147
 P 8600 4900
 F 0 "J1" H 8700 4950 50  0000 L CNN
 F 1 "Haptic" H 8700 4850 50  0000 L CNN
-F 2 "redwood:Pimoroni_Haptic" H 8600 4900 50  0001 C CNN
+F 2 "hillside:Pimoroni_Haptic" H 8600 4900 50  0001 C CNN
 F 3 "" H 8600 4900 50  0001 C CNN
 	1    8600 4900
 	1    0    0    -1  
@@ -307,12 +307,12 @@ Connection ~ 8300 4700
 Wire Wire Line
 	8300 4700 8400 4700
 $Comp
-L redwood:TRRS J2
+L hillside:TRRS J2
 U 1 1 61A70C2C
 P 2900 6800
 F 0 "J2" H 3450 6800 50  0000 L CNN
 F 1 "TRRS" H 3450 6700 50  0000 L CNN
-F 2 "redwood:MJ-4PP-9" V 4050 6650 50  0001 C CNN
+F 2 "hillside:MJ-4PP-9" V 4050 6650 50  0001 C CNN
 F 3 "~" V 4050 6650 50  0001 C CNN
 	1    2900 6800
 	1    0    0    -1  
@@ -336,7 +336,7 @@ Wire Wire Line
 	2800 6900 2800 7000
 Connection ~ 2800 7000
 $Comp
-L redwood:SW_PUSH SW1
+L hillside:SW_PUSH SW1
 U 1 1 6120A557
 P 3100 6300
 F 0 "SW1" H 3100 6555 50  0000 C CNN
@@ -370,34 +370,34 @@ Connection ~ 6950 4750
 Wire Wire Line
 	6300 6200 6600 6200
 $Comp
-L redwood:Mount_Trackball H2
+L hillside:Mount_Trackball H2
 U 1 1 614FB6B6
 P 9200 4800
 F 0 "H2" H 9325 4825 50  0000 L CNN
 F 1 "Trackball" H 9325 4750 50  0000 L CNN
-F 2 "redwood:Pimoroni_Trackball" H 9325 4825 50  0001 C CNN
+F 2 "hillside:Pimoroni_Trackball" H 9325 4825 50  0001 C CNN
 F 3 "" H 9325 4825 50  0001 C CNN
 	1    9200 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:Mount_Tenting H1
+L hillside:Mount_Tenting H1
 U 1 1 6147F195
 P 5450 4800
 F 0 "H1" H 5600 4875 50  0000 L TNN
 F 1 "Mount_Tenting" H 5600 4725 50  0000 L BNN
-F 2 "redwood:Tenting_Puck" H 5450 4800 50  0001 C CNN
+F 2 "hillside:Tenting_Puck" H 5450 4800 50  0001 C CNN
 F 3 "" H 5450 4800 50  0001 C CNN
 	1    5450 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Rotary K20
+L hillside:SW_Rotary K20
 U 1 1 6150C245
 P 2650 3900
 F 0 "K20" H 2900 4000 50  0000 L CNN
 F 1 "SW_Rotary" H 2675 3650 50  0001 C CNN
-F 2 "redwood:pg1350-DR_rotary" H 2575 4150 50  0001 C CNN
+F 2 "hillside:pg1350-DR_rotary" H 2575 4150 50  0001 C CNN
 F 3 "" H 2575 4150 50  0001 C CNN
 	1    2650 3900
 	1    0    0    -1  
@@ -464,23 +464,23 @@ Wire Wire Line
 	2300 7750 2150 7750
 Connection ~ 2150 7750
 $Comp
-L redwood:SW_Key K1
+L hillside:SW_Key K1
 U 1 1 617CBCE8
 P 950 1500
 F 0 "K1" H 950 1800 50  0000 C CNN
 F 1 "SW_Key" H 950 1700 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 950 1500 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 950 1500 50  0001 C CNN
 F 3 "" H 950 1500 50  0000 C CNN
 	1    950  1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K2
+L hillside:SW_Key K2
 U 1 1 617D0821
 P 1650 1500
 F 0 "K2" H 1650 1800 50  0000 C CNN
 F 1 "SW_Key" H 1650 1700 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 1650 1500 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 1650 1500 50  0001 C CNN
 F 3 "" H 1650 1500 50  0000 C CNN
 	1    1650 1500
 	1    0    0    -1  
@@ -503,23 +503,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3850 1350
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K3
+L hillside:SW_Key K3
 U 1 1 6183EDFD
 P 2750 1500
 F 0 "K3" H 2750 1800 50  0000 C CNN
 F 1 "SW_Key" H 2750 1700 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 2750 1500 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 2750 1500 50  0001 C CNN
 F 3 "" H 2750 1500 50  0000 C CNN
 	1    2750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K4
+L hillside:SW_Key K4
 U 1 1 6183EE07
 P 3450 1500
 F 0 "K4" H 3450 1800 50  0000 C CNN
 F 1 "SW_Key" H 3450 1700 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 3450 1500 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 3450 1500 50  0001 C CNN
 F 3 "" H 3450 1500 50  0000 C CNN
 	1    3450 1500
 	1    0    0    -1  
@@ -552,23 +552,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2050 1900
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K7
+L hillside:SW_Key K7
 U 1 1 6185890A
 P 950 2050
 F 0 "K7" H 950 2350 50  0000 C CNN
 F 1 "SW_Key" H 950 2250 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 950 2050 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 950 2050 50  0001 C CNN
 F 3 "" H 950 2050 50  0000 C CNN
 	1    950  2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K8
+L hillside:SW_Key K8
 U 1 1 61858914
 P 1650 2050
 F 0 "K8" H 1650 2350 50  0000 C CNN
 F 1 "SW_Key" H 1650 2250 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 1650 2050 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 1650 2050 50  0001 C CNN
 F 3 "" H 1650 2050 50  0000 C CNN
 	1    1650 2050
 	1    0    0    -1  
@@ -619,23 +619,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2050 2450
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K13
+L hillside:SW_Key K13
 U 1 1 616DA088
 P 950 2600
 F 0 "K13" H 950 2900 50  0000 C CNN
 F 1 "SW_Key" H 950 2800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 950 2600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 950 2600 50  0001 C CNN
 F 3 "" H 950 2600 50  0000 C CNN
 	1    950  2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K14
+L hillside:SW_Key K14
 U 1 1 616DA092
 P 1650 2600
 F 0 "K14" H 1650 2900 50  0000 C CNN
 F 1 "SW_Key" H 1650 2800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 1650 2600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 1650 2600 50  0001 C CNN
 F 3 "" H 1650 2600 50  0000 C CNN
 	1    1650 2600
 	1    0    0    -1  
@@ -666,23 +666,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3850 1900
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K9
+L hillside:SW_Key K9
 U 1 1 61738D17
 P 2750 2050
 F 0 "K9" H 2750 2350 50  0000 C CNN
 F 1 "SW_Key" H 2750 2250 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 2750 2050 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 2750 2050 50  0001 C CNN
 F 3 "" H 2750 2050 50  0000 C CNN
 	1    2750 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K10
+L hillside:SW_Key K10
 U 1 1 61738D21
 P 3450 2050
 F 0 "K10" H 3450 2350 50  0000 C CNN
 F 1 "SW_Key" H 3450 2250 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 3450 2050 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 3450 2050 50  0001 C CNN
 F 3 "" H 3450 2050 50  0000 C CNN
 	1    3450 2050
 	1    0    0    -1  
@@ -712,23 +712,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3850 2450
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K15
+L hillside:SW_Key K15
 U 1 1 617598FA
 P 2750 2600
 F 0 "K15" H 2750 2900 50  0000 C CNN
 F 1 "SW_Key" H 2750 2800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 2750 2600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 2750 2600 50  0001 C CNN
 F 3 "" H 2750 2600 50  0000 C CNN
 	1    2750 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K16
+L hillside:SW_Key K16
 U 1 1 61759904
 P 3450 2600
 F 0 "K16" H 3450 2900 50  0000 C CNN
 F 1 "SW_Key" H 3450 2800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 3450 2600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 3450 2600 50  0001 C CNN
 F 3 "" H 3450 2600 50  0000 C CNN
 	1    3450 2600
 	1    0    0    -1  
@@ -759,23 +759,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5650 1350
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K5
+L hillside:SW_Key K5
 U 1 1 617E537C
 P 4550 1500
 F 0 "K5" H 4550 1800 50  0000 C CNN
 F 1 "SW_Key" H 4550 1700 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 4550 1500 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 4550 1500 50  0001 C CNN
 F 3 "" H 4550 1500 50  0000 C CNN
 	1    4550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K6
+L hillside:SW_Key K6
 U 1 1 617E5386
 P 5250 1500
 F 0 "K6" H 5250 1800 50  0000 C CNN
 F 1 "SW_Key" H 5250 1700 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 5250 1500 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 5250 1500 50  0001 C CNN
 F 3 "" H 5250 1500 50  0000 C CNN
 	1    5250 1500
 	1    0    0    -1  
@@ -811,23 +811,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5650 1900
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K11
+L hillside:SW_Key K11
 U 1 1 617E53A4
 P 4550 2050
 F 0 "K11" H 4550 2350 50  0000 C CNN
 F 1 "SW_Key" H 4550 2250 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 4550 2050 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 4550 2050 50  0001 C CNN
 F 3 "" H 4550 2050 50  0000 C CNN
 	1    4550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K12
+L hillside:SW_Key K12
 U 1 1 617E53AE
 P 5250 2050
 F 0 "K12" H 5250 2350 50  0000 C CNN
 F 1 "SW_Key" H 5250 2250 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 5250 2050 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 5250 2050 50  0001 C CNN
 F 3 "" H 5250 2050 50  0000 C CNN
 	1    5250 2050
 	1    0    0    -1  
@@ -857,23 +857,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5650 2450
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K17
+L hillside:SW_Key K17
 U 1 1 617E53C9
 P 4550 2600
 F 0 "K17" H 4550 2900 50  0000 C CNN
 F 1 "SW_Key" H 4550 2800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 4550 2600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 4550 2600 50  0001 C CNN
 F 3 "" H 4550 2600 50  0000 C CNN
 	1    4550 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K18
+L hillside:SW_Key K18
 U 1 1 617E53D3
 P 5250 2600
 F 0 "K18" H 5250 2900 50  0000 C CNN
 F 1 "SW_Key" H 5250 2800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 5250 2600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 5250 2600 50  0001 C CNN
 F 3 "" H 5250 2600 50  0000 C CNN
 	1    5250 2600
 	1    0    0    -1  
@@ -908,12 +908,12 @@ Wire Wire Line
 	2450 3550 650  2600
 Connection ~ 650  2600
 $Comp
-L redwood:SW_Key K21
+L hillside:SW_Key K21
 U 1 1 619671D4
 P 3500 3600
 F 0 "K21" H 3500 3900 50  0000 C CNN
 F 1 "SW_Key" H 3500 3800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 3500 3600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 3500 3600 50  0001 C CNN
 F 3 "" H 3500 3600 50  0000 C CNN
 	1    3500 3600
 	1    0    0    -1  
@@ -944,23 +944,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5700 3450
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K22
+L hillside:SW_Key K22
 U 1 1 619CA548
 P 4600 3600
 F 0 "K22" H 4600 3900 50  0000 C CNN
 F 1 "SW_Key" H 4600 3800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 4600 3600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 4600 3600 50  0001 C CNN
 F 3 "" H 4600 3600 50  0000 C CNN
 	1    4600 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K23
+L hillside:SW_Key K23
 U 1 1 619CA552
 P 5300 3600
 F 0 "K23" H 5300 3900 50  0000 C CNN
 F 1 "SW_Key" H 5300 3800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 5300 3600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 5300 3600 50  0001 C CNN
 F 3 "" H 5300 3600 50  0000 C CNN
 	1    5300 3600
 	1    0    0    -1  
@@ -1020,23 +1020,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7000 3450
 	1    0    0    1   
 $EndComp
 $Comp
-L redwood:SW_Key K24
+L hillside:SW_Key K24
 U 1 1 616F3997
 P 6400 3600
 F 0 "K24" H 6400 3900 50  0000 C CNN
 F 1 "SW_Key" H 6400 3800 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 6400 3600 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 6400 3600 50  0001 C CNN
 F 3 "" H 6400 3600 50  0000 C CNN
 	1    6400 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L redwood:SW_Key K19
+L hillside:SW_Key K19
 U 1 1 616F39A1
 P 6050 2950
 F 0 "K19" H 6050 3250 50  0000 C CNN
 F 1 "SW_Key" H 6050 3150 50  0000 C CNN
-F 2 "redwood:pg1350-R" H 6050 2950 50  0001 C CNN
+F 2 "hillside:pg1350-R" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0000 C CNN
 	1    6050 2950
 	1    0    0    -1  
@@ -1232,12 +1232,12 @@ Wire Notes Line
 	5050 6750 10500 6750
 NoConn ~ 8650 1150
 $Comp
-L redwood:Scene H3
+L hillside:Scene H3
 U 1 1 62029C5C
 P 850 7050
 F 0 "H3" H 1100 7200 50  0000 L CNN
 F 1 "Scene" H 1100 7100 50  0000 L CNN
-F 2 "redwood:Hillside_Scene" H 850 6800 50  0001 C CNN
+F 2 "hillside:Hillside_Scene" H 850 6800 50  0001 C CNN
 F 3 "" H 850 6800 50  0001 C CNN
 	1    850  7050
 	1    0    0    -1  

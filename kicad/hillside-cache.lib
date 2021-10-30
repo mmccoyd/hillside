@@ -224,11 +224,11 @@ X via 1 0 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# redwood_Mount_Tenting
+# hillside_Mount_Tenting
 #
-DEF redwood_Mount_Tenting H 0 40 Y Y 1 F N
+DEF hillside_Mount_Tenting H 0 40 Y Y 1 F N
 F0 "H" 150 75 50 H V L TNN
-F1 "redwood_Mount_Tenting" 150 -75 50 H V L BNN
+F1 "hillside_Mount_Tenting" 150 -75 50 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -240,11 +240,11 @@ C 100 0 25 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# redwood_Mount_Trackball
+# hillside_Mount_Trackball
 #
-DEF redwood_Mount_Trackball H 0 40 Y Y 1 F N
+DEF hillside_Mount_Trackball H 0 40 Y Y 1 F N
 F0 "H" 125 25 50 H V L CNN
-F1 "redwood_Mount_Trackball" 125 -50 50 H V L CNN
+F1 "hillside_Mount_Trackball" 125 -50 50 H V L CNN
 F2 "" 125 25 50 H I C CNN
 F3 "" 125 25 50 H I C CNN
 DRAW
@@ -257,11 +257,11 @@ P 9 0 1 0 -100 100 100 100 100 -100 50 -100 50 -125 -50 -125 -50 -100 -100 -100 
 ENDDRAW
 ENDDEF
 #
-# redwood_ProMicro_r
+# hillside_ProMicro_r
 #
-DEF redwood_ProMicro_r U 0 40 Y Y 1 F N
+DEF hillside_ProMicro_r U 0 40 Y Y 1 F N
 F0 "U" 50 900 60 H V C CNN
-F1 "redwood_ProMicro_r" 50 -600 60 H V C CNN
+F1 "hillside_ProMicro_r" 50 -600 60 H V C CNN
 F2 "" 150 -1050 60 H V C CNN
 F3 "" 150 -1050 60 H V C CNN
 DRAW
@@ -293,11 +293,11 @@ X D7/6 9 750 -100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# redwood_SW_Key
+# hillside_SW_Key
 #
-DEF redwood_SW_Key K 0 40 N N 1 F N
+DEF hillside_SW_Key K 0 40 N N 1 F N
 F0 "K" 0 -40 50 H V C BNN
-F1 "redwood_SW_Key" 0 -130 50 H V C CNN
+F1 "hillside_SW_Key" 0 -130 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -308,11 +308,11 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# redwood_SW_PUSH
+# hillside_SW_PUSH
 #
-DEF redwood_SW_PUSH SW 0 40 N N 1 F N
+DEF hillside_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "redwood_SW_PUSH" 0 -80 50 H V C CNN
+F1 "hillside_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -323,11 +323,11 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# redwood_SW_Rotary
+# hillside_SW_Rotary
 #
-DEF redwood_SW_Rotary K 0 20 N Y 1 F N
+DEF hillside_SW_Rotary K 0 20 N Y 1 F N
 F0 "K" 0 250 50 H V C CNN
-F1 "redwood_SW_Rotary" 25 -250 50 H I C CNN
+F1 "hillside_SW_Rotary" 25 -250 50 H I C CNN
 F2 "" -75 250 50 H I C CNN
 F3 "" -75 250 50 H I C CNN
 DRAW
@@ -362,11 +362,11 @@ X S2 S2 100 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# redwood_Scene
+# hillside_Scene
 #
-DEF redwood_Scene H 0 40 Y Y 1 F N
+DEF hillside_Scene H 0 40 Y Y 1 F N
 F0 "H" 0 -250 50 H V C CNN
-F1 "redwood_Scene" 0 -150 50 H V C CNN
+F1 "hillside_Scene" 0 -150 50 H V C CNN
 F2 "" 0 -250 50 H I C CNN
 F3 "" 0 -250 50 H I C CNN
 DRAW
@@ -381,11 +381,11 @@ P 7 0 1 0 100 -50 100 0 50 50 100 0 100 50 100 0 150 50 N
 ENDDRAW
 ENDDEF
 #
-# redwood_TRRS
+# hillside_TRRS
 #
-DEF redwood_TRRS J 0 20 Y Y 1 F N
+DEF hillside_TRRS J 0 20 Y Y 1 F N
 F0 "J" 300 225 50 H V C CNN
-F1 "redwood_TRRS" 275 -300 50 H V C CNN
+F1 "hillside_TRRS" 275 -300 50 H V C CNN
 F2 "" 1150 -150 50 V I C CNN
 F3 "" 1150 -150 50 V I C CNN
 $FPLIST

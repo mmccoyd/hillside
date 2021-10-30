@@ -225,7 +225,7 @@
     (add_net raw)
   )
 
-  (module redwood:Hillside_Scene (layer F.Cu) (tedit 617C7164) (tstamp 617B77A0)
+  (module hillside:Hillside_Scene (layer F.Cu) (tedit 617C7164) (tstamp 617B77A0)
     (at 149.11 121.37)
     (path /62029C5C)
     (fp_text reference H3 (at 3.25 -14.12) (layer F.Fab)
@@ -1081,7 +1081,7 @@
     )
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E5A21)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E5A21)
     (at 215.140348 144.691248 135)
     (path /616F3997)
     (fp_text reference K24 (at 0 7 315) (layer F.Fab)
@@ -1135,7 +1135,7 @@
       (net 49 "Net-(D18-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E5911)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E5911)
     (at 207.978277 117.827488 150)
     (path /616F39A1)
     (fp_text reference K19 (at 0 7 330) (layer F.Fab)
@@ -1189,7 +1189,7 @@
       (net 50 "Net-(D18-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E16EC)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E16EC)
     (at 199.478277 132.54992 150)
     (path /619CA552)
     (fp_text reference K23 (at 0 7 330) (layer F.Fab)
@@ -1243,7 +1243,7 @@
       (net 47 "Net-(D17-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E16CD)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616E16CD)
     (at 181.110001 124.886666 165)
     (path /619CA548)
     (fp_text reference K22 (at 0 7 345) (layer F.Fab)
@@ -1297,7 +1297,7 @@
       (net 48 "Net-(D17-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DDF62)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DDF62)
     (at 161.5 122 180)
     (path /619671D4)
     (fp_text reference K21 (at 0 7 180) (layer F.Fab)
@@ -1351,7 +1351,7 @@
       (net 45 "Net-(D16-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA9BD)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA9BD)
     (at 190 107.5 180)
     (path /617E53D3)
     (fp_text reference K18 (at 0 7 180) (layer F.Fab)
@@ -1405,7 +1405,7 @@
       (net 43 "Net-(D15-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA99E)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA99E)
     (at 172 105 180)
     (path /617E53C9)
     (fp_text reference K17 (at 0 7 180) (layer F.Fab)
@@ -1459,7 +1459,7 @@
       (net 44 "Net-(D15-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA88F)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA88F)
     (at 190 90.5 180)
     (path /617E53AE)
     (fp_text reference K12 (at 0 7 180) (layer F.Fab)
@@ -1513,7 +1513,7 @@
       (net 41 "Net-(D12-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA870)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA870)
     (at 172 88 180)
     (path /617E53A4)
     (fp_text reference K11 (at 0 7 180) (layer F.Fab)
@@ -1567,7 +1567,7 @@
       (net 42 "Net-(D12-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA761)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA761)
     (at 190 73.5 180)
     (path /617E5386)
     (fp_text reference K6 (at 0 7 180) (layer F.Fab)
@@ -1621,7 +1621,7 @@
       (net 32 "Net-(D9-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA742)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DA742)
     (at 172 71 180)
     (path /617E537C)
     (fp_text reference K5 (at 0 7 180) (layer F.Fab)
@@ -1675,7 +1675,7 @@
       (net 31 "Net-(D9-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D815D)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D815D)
     (at 154 99.5 180)
     (path /61759904)
     (fp_text reference K16 (at 0 7 180) (layer F.Fab)
@@ -1729,7 +1729,7 @@
       (net 37 "Net-(D14-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D813E)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D813E)
     (at 136 106.5 180)
     (path /617598FA)
     (fp_text reference K15 (at 0 7 180) (layer F.Fab)
@@ -1783,7 +1783,7 @@
       (net 38 "Net-(D14-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D7FCB)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D7FCB)
     (at 154 82.5 180)
     (path /61738D21)
     (fp_text reference K10 (at 0 7 180) (layer F.Fab)
@@ -1837,7 +1837,7 @@
       (net 35 "Net-(D11-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D7FAC)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D7FAC)
     (at 136 89.5 180)
     (path /61738D17)
     (fp_text reference K9 (at 0 7 180) (layer F.Fab)
@@ -1891,7 +1891,7 @@
       (net 36 "Net-(D11-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D5F11)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D5F11)
     (at 118 118.5 180)
     (path /616DA092)
     (fp_text reference K14 (at 0 7 180) (layer F.Fab)
@@ -1945,7 +1945,7 @@
       (net 33 "Net-(D13-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D5EF2)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D5EF2)
     (at 100 118.5 180)
     (path /616DA088)
     (fp_text reference K13 (at 0 7 180) (layer F.Fab)
@@ -1999,7 +1999,7 @@
       (net 34 "Net-(D13-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DFF44)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616DFF44)
     (at 118 84.5 180)
     (path /617D0821)
     (fp_text reference K2 (at 0 7 180) (layer F.Fab)
@@ -2053,7 +2053,7 @@
       (net 28 "Net-(D7-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D7A11)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D7A11)
     (at 118 101.5 180)
     (path /61858914)
     (fp_text reference K8 (at 0 7 180) (layer F.Fab)
@@ -2107,7 +2107,7 @@
       (net 39 "Net-(D10-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 6179F37D)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 6179F37D)
     (at 100 101.5 180)
     (path /6185890A)
     (fp_text reference K7 (at 0 7 180) (layer F.Fab)
@@ -2161,7 +2161,7 @@
       (net 40 "Net-(D10-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D78F9)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D78F9)
     (at 154 65.5 180)
     (path /6183EE07)
     (fp_text reference K4 (at 0 7 180) (layer F.Fab)
@@ -2215,7 +2215,7 @@
       (net 30 "Net-(D8-Pad2)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D78DB)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D78DB)
     (at 136 72.5 180)
     (path /6183EDFD)
     (fp_text reference K3 (at 0 7 180) (layer F.Fab)
@@ -2269,7 +2269,7 @@
       (net 29 "Net-(D8-Pad1)"))
   )
 
-  (module redwood:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D789F)
+  (module hillside:pg1350-R (layer F.Cu) (tedit 616E5BA9) (tstamp 616D789F)
     (at 100 84.5 180)
     (path /617CBCE8)
     (fp_text reference K1 (at 0 7 180) (layer F.Fab)
@@ -3536,7 +3536,7 @@
     )
   )
 
-  (module redwood:MJ-4PP-9 (layer F.Cu) (tedit 616491A9) (tstamp 613F4528)
+  (module hillside:MJ-4PP-9 (layer F.Cu) (tedit 616491A9) (tstamp 613F4528)
     (at 214.48 129.36 90)
     (path /61A70C2C)
     (fp_text reference J2 (at -1.99 10.82 270) (layer F.Fab)
@@ -3592,7 +3592,7 @@
     )
   )
 
-  (module redwood:ProMicro_v2 (layer F.Cu) (tedit 616493EF) (tstamp 614259C5)
+  (module hillside:ProMicro_v2 (layer F.Cu) (tedit 616493EF) (tstamp 614259C5)
     (at 210 86.63)
     (path /6162C399)
     (fp_text reference U1 (at 0 -1.63) (layer F.Fab) hide
@@ -3873,7 +3873,7 @@
       (net 52 raw))
   )
 
-  (module redwood:Tenting_Puck (layer F.Cu) (tedit 615DF35A) (tstamp 614718CA)
+  (module hillside:Tenting_Puck (layer F.Cu) (tedit 615DF35A) (tstamp 614718CA)
     (at 163.01 81.96)
     (path /6147F195)
     (fp_text reference H1 (at 0.01 0.01) (layer Cmts.User) hide
@@ -3926,7 +3926,7 @@
     (pad "" thru_hole circle (at -19.05 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module redwood:pg1350-DR_rotary (layer F.Cu) (tedit 61469FCF) (tstamp 61484F49)
+  (module hillside:pg1350-DR_rotary (layer F.Cu) (tedit 61469FCF) (tstamp 61484F49)
     (at 136 119 180)
     (path /6150C245)
     (fp_text reference K20 (at 0.05 -0.5) (layer F.Fab) hide
@@ -4027,7 +4027,7 @@
     (pad "" np_thru_hole circle (at 0 -4.5 180) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
   )
 
-  (module redwood:Pimoroni_Haptic (layer F.Cu) (tedit 614615A5) (tstamp 61777693)
+  (module hillside:Pimoroni_Haptic (layer F.Cu) (tedit 614615A5) (tstamp 61777693)
     (at 215.475 93.45)
     (descr "Pimoroni Haptic PIM452 header 2.54mm pitch and one mount point")
     (tags "Haptic Pimoroni PIM452 header 2.54mm")
@@ -4111,7 +4111,7 @@
     (pad "" thru_hole circle (at 6.75 -8.25) (size 5 5) (drill 2.5) (layers *.Cu *.Mask))
   )
 
-  (module redwood:Pimoroni_Trackball (layer F.Cu) (tedit 614558E4) (tstamp 61460E69)
+  (module hillside:Pimoroni_Trackball (layer F.Cu) (tedit 614558E4) (tstamp 61460E69)
     (at 212 112.92 180)
     (descr "Through hole header 2.54mm pitch and one of two mount points for Pomoroni Haptic PIM452")
     (tags "Haptic Pomoroni PIM452 header 2.54mm")
