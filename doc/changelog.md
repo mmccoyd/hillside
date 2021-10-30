@@ -1,7 +1,27 @@
 
-# Redwood - PCB 0.1.0
+# Version 0.1.0-alpha-3
 
-The main changes are:
+## Main Changes
+
+- Haptic spacer mount further out for more clearance from MCU pins
+- MCU and TRRS pads only exposed on side they will be soldered on
+
+## Details
+
++ Traces more clearance under diodes
++ Traces clear of center screw area of tenting puck
++ TRRS in half mm
++ I2C resistors out half mm more from MCU
++ Edge
+    + Move curve about right mount point up, to smooth top corner
+    + Move top right edge right, for more space between mount spacer and MCU
+    + Round bottom right more
+    + Bottom left curve moved right
+
+# Version 0.1.0-alpha-2 PCB  
+
+## Main Changes
+
 - Trace fixes
 - Better tenting puck screw clearance
 - Optional haptic feedback, trackball and rotary encoder.
@@ -36,9 +56,11 @@ The haptic kex mount standoff might touch both the SCL and the unused D4 castell
 - Pimoroni Haptic footprint with 1x5 header, mount point, and rough outline
 - TRRS symbol and footprint clear with T, R1, R2, and S pin labels
 
-# LongFir - PCB 0.1.0-alpha-1
+# Version 0.1.0-alpha-1
 
-Broken: For each switch there is no trace connecting the two side vias to the diode, though there is a channel in the copper fill plane for one. The two traces in the switch footprint did not make it to the gerber, nor the 3D view.
+## Broken
+
+For each switch there is no trace connecting the two side vias to the diode, though there is a channel in the copper fill plane for one. The two traces in the switch footprint did not make it to the gerber, nor the 3D view.
 
 ## Features
 
@@ -67,6 +89,6 @@ Broken: For each switch there is no trace connecting the two side vias to the di
 - LEDs fit nicely between switch bodies. Slight room in cutout is good. Not sure if pads are long enough.
 - LEDs shine through PCB edge and up when no solder mask
 
-# LongFir - PCB 0.1.0-alpha-0
+# Version 0.1.0-alpha-0
 
 Not fabricated. Drill files were out of sync with gerber files.

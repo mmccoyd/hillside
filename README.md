@@ -1,16 +1,16 @@
-# Redwood Keyboard
+# Hillside Keyboard
 
-Redwood is a split 3x6+6 choc-spaced board with the aggressive stagger of the Ferris but a longer thumb arc and a break-off outer pinky column, so rather like a choc Kyria, minus two keys. It uses a reversible 98 x 137mm PCB.  It isn't  minimalist at 42 to 48 keys, but is compact on finger travel while still allowing roomy keymaps.
+Hillside is a split 3x6+6 choc-spaced board with the aggressive stagger of the Ferris but a longer thumb arc and a break-off outer pinky column, so rather like a choc Kyria, minus two keys. It uses a reversible 98 x 137mm PCB.  It isn't  minimalist at 42 to 48 keys, but is compact on finger travel while still allowing roomy keymaps.
 
 It has encoder support under each ring finger, a header for haptic feedback, mount points for a tenting puck and hand wiring a trackball, and a little underglow from SK6812-MINI-Es. It does use SMT SOD-123 diodes and optionally two 0805 resistors.
 
-I wanted a key or so more than the Ferris and an outer pinky option. Instead of tweaking the 3x6 choc Corne I started a new PCB for more flexibility, though it grew to fill its footprint....
+I wanted choc spacing but a key or so more than the Ferris and optional outer pinky column. Instead of tweaking the 3x6 choc Corne I started a new PCB for more flexibility, though it grew to fill its footprint....
 
 ## Details
 
 * [Materials](doc/materials.md)
 * [Building](doc/build.md)
-* Firmware powered by [QMK](qmk.com), listed under keyboards/handwired/redwood as it not a production board, although not a handwired board.
+* Firmware powered by [QMK](qmk.com), listed under keyboards/handwired/hillside, although it is not handwired.
 * It is only suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the MBK keycaps. Not MX ones.
 * [Future](doc/Future.md)
 
@@ -24,6 +24,6 @@ It is like a Ferris Sweep on steroids, which wound up close to a Choc Kyria but 
 
 ## Images
 
-![render](doc/image/redwood-front.png "Front Render")
-![Schematic](doc/image/redwood.svg "Schematic")
-![pcb](doc/image/redwood-brd.png "PCB")
+![render](doc/image/hillside-front.png "Front Render")
+![Schematic](doc/image/hillside.svg "Schematic")
+![pcb](doc/image/hillside-brd.png "PCB")

@@ -15,13 +15,35 @@ Cost: $11 plus $13 to $27 shipping (for 5 PCBs or 2.5 keyboards).
 | Part  | Type  | Count | US Shops  | Cost  |
 | ---   | ----  | ----:   | --- | ---: |
 | MCU    | Elite-C, etc | 2 |  Keebio, MKUltra, LittleKeyboards   | $36  |
-| Diodes | 1N4148 SOD 123 | 48  |  MKUltra(F), Keebio, [Digi-Key](https://www.digikey.com/en/products/detail/comchip-technology/1N4148W-HF/12326093)  | $6 |
-| Reset Switch  | MJTP1117 | 2 | Keebio, [Digi-Key](https://www.digikey.com/en/products/detail/apem-inc/MJTP1117/1795496) | $1 |
+| Diodes |  BAV70 SOT-23 | 24  | [Digi-Key](https://www.digikey.com/en/products/detail/panjit-international-inc/BAV70-AU-R1-000A1/14660844)  | $5 |
+| Reset Switch  | 5.2 x 5.2 mm | 2 | [Mouser](https://www.mouser.com/ProductDetail/Alps-Alpine/SKQGAFE010?qs=N5Jky1br14NfR%252BVUVAoP9A%3D%3D), [Digi-Key](https://www.digikey.com/en/products/detail/apem-inc/MJTP1117/1795496) | $1 |
 | TRRS Jack | MJ-4PP-9 or PJ-320A | 2 | [Keebio](https://keeb.io/products/trrs-jack-3-5mm), [Amazon](https://www.amazon.com/uxcell-Connector-Female-Socket-PJ-320A/dp/B07KY8NMD5) | $1 |
+
+### Reset Switch Options
+There are a few choices for the reset switch you might use, as they share common footprint and size of their legs. The Alps SKQG and COMAX have legs 1.0 wide, centers 3.7 apart, and extending to 6.4mm.
+Their spec sheets each suggest a footprint with pads 1.1 x 1.8 with centers 3.7 and 6.2 apart.
+That is the footprint we have used.
+Of the two, the Alps seems well regarded for keyboards,
+ though the COMAX should function just as well.
+
+ The switch details are:
+
+- Alps SKQG [SKQGAFE010](http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html) available from
+[Mouser](https://www.mouser.com/ProductDetail/Alps-Alpine/SKQGAFE010?qs=N5Jky1br14NfR%252BVUVAoP9A%3D%3D)
+with 100 grams force.  
+- COMAX RS-187R05A2-DS MT RT
+available from
+[Digi-Key](https://www.digikey.com/htmldatasheets/production/877745/0/0/1/rs-187r05-ds-mt-rt-drawing.html)
+
+JLCPCB's available basic tactile switch, TS-1187A-B-A-B [#C318884](https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html), has a leg profile that extends just 0.1mm (+- 0.25mm) further than the Alps and COMAX ones, though the pads of their suggested footprint are much larger and the body is 0.1mm smaller.
+
+You can also go without the reset switch as you can set a key on a layer to do that.
+Or you can use tweezers to connect the two vias on the reset footprint, or their connected pads.
+
 
 ## Switches, Keycaps, Cables
 
-You'll need switches, keycaps and a USB cable. The halfs can be connected by a common TRS cable or a less common TRRS cable.
+You'll need switches, keycaps and a USB cable. The halves can be connected by a common TRS cable or a less common TRRS cable.
 
 | Part  | Type  | Count | US Shops  | Cost  |
 | ---   | ----  | ----:   | --- | ---: |
@@ -44,6 +66,11 @@ As insurance against a damaged MCU bricking half of the keyboard, socketing the 
 | Silicon Feet | 2mm such as 3M SJ5302   | | Amazon | $8 |
 
 
+## Encoders
+
+Alps EC11 or EC12 encoders fit the footprints and are available with matching knobs at various keyboard
+stores. Some have an extra plastic stub on the bottom that would go through the board. If you get one with the extra stub, just cut it off with snips as I did not add a hole for it.
+
 ## Haptic Feedback
 
 If you'd like tactile feedback of keypresses or modes, you can mount a haptic board above the MCU.
@@ -60,7 +87,7 @@ I used a spacer that is 5.0mm in diameter, [732-12827-ND](https://www.digikey.co
 
 ## Tenting Hardware
 
-Tenting can make things much more ergonomic by stressing the wrists less. You can do that with a book, some wood, or with a tenting puck and more sophisticated camera mounting components. SplitKB created the keyboard tenting puck that Redwood is designed for. Yet choc switch bodies are closer than the MX keys the puck was likely meant for. So some screws with narrower heads may help. I'm testing narrow head screws from McMasterCarr.
+Tenting can make things much more ergonomic by stressing the wrists less. You can do that with a book, some wood, or with a tenting puck and more sophisticated camera mounting components. SplitKB created the keyboard tenting puck that Hillside is designed for. Yet choc switch bodies are closer than the MX keys the puck was likely meant for. So some screws with narrower heads may help. I'm testing narrow head screws from McMasterCarr.
 
 | Part  | Type  | Count | US Shops  | Cost  |
 | ---   | ----  | ----:   | --- | ---: |
