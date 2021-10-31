@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BAV70
+$CMP BAV70_Small
 D Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
 F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
