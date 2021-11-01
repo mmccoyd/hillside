@@ -947,12 +947,12 @@ Wire Notes Line
 	5050 6650 10500 6650
 NoConn ~ 9100 1650
 $Comp
-L hillside:Scene H3
+L hillside:Logo H3
 U 1 1 62029C5C
 P 850 7050
 F 0 "H3" H 1100 7200 50  0000 L CNN
-F 1 "Scene" H 1100 7100 50  0000 L CNN
-F 2 "hillside:Hillside_Scene" H 850 6800 50  0001 C CNN
+F 1 "Logo" H 1100 7100 50  0000 L CNN
+F 2 "hillside:Hillside_Logo" H 850 6800 50  0001 C CNN
 F 3 "" H 850 6800 50  0001 C CNN
 	1    850  7050
 	1    0    0    -1  

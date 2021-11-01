@@ -142,7 +142,7 @@ ENDDEF
 DEF Via V 0 20 N Y 1 F N
 F0 "V" 200 0 50 H I C BNN
 F1 "Via" 0 -250 50 H I C CNN
-F2 "mmccoyd:VIA-0.8mm" 0 -100 50 H I C CNN
+F2 "ki_sym:VIA-0.8mm" 0 -100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 0 50 0 1 0 N
