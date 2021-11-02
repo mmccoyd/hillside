@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ki_syms:GND #PWR04
+L hillside_basic:GND #PWR04
 U 1 1 6120BEE9
 P 3400 6000
 F 0 "#PWR04" H 3400 5750 50  0001 C CNN
@@ -60,7 +60,7 @@ row2
 Text GLabel 3750 5500 2    50   Input ~ 0
 row3
 $Comp
-L ki_syms:GND #PWR03
+L hillside_basic:GND #PWR03
 U 1 1 61711229
 P 4125 4600
 F 0 "#PWR03" H 4125 4350 50  0001 C CNN
@@ -99,7 +99,7 @@ row0
 Wire Wire Line
 	1950 4500 2350 4500
 $Comp
-L ki_syms:GND #PWR02
+L hillside_basic:GND #PWR02
 U 1 1 618DD7B5
 P 1950 4500
 F 0 "#PWR02" H 1950 4250 50  0001 C CNN
@@ -110,7 +110,7 @@ F 3 "" H 1950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_syms:PWR_FLAG #FLG02
+L hillside_basic:PWR_FLAG #FLG02
 U 1 1 618AB37B
 P 700 7600
 F 0 "#FLG02" H 700 7675 50  0001 C CNN
@@ -124,29 +124,29 @@ Wire Wire Line
 	3750 4700 3750 4600
 Connection ~ 3750 4600
 $Comp
-L ki_syms:SK6812-MINI-E D1
+L hillside_basic:SK6812-MINI-E D1
 U 1 1 6141D38F
 P 6000 6100
 F 0 "D1" H 6000 6600 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 6000 6500 50  0000 C CNN
-F 2 "ki_syms:SK6812-MINI-E" H 6050 5800 50  0001 L TNN
+F 2 "hillside_basic:SK6812-MINI-E" H 6050 5800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6100 5725 50  0001 L TNN
 	1    6000 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_syms:SK6812-MINI-E D2
+L hillside_basic:SK6812-MINI-E D2
 U 1 1 6141DBB5
 P 6900 6100
 F 0 "D2" H 6900 6600 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 6900 6500 50  0000 C CNN
-F 2 "ki_syms:SK6812-MINI-E" H 6950 5800 50  0001 L TNN
+F 2 "hillside_basic:SK6812-MINI-E" H 6950 5800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7000 5725 50  0001 L TNN
 	1    6900 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_syms:GND #PWR06
+L hillside_basic:GND #PWR06
 U 1 1 614248F7
 P 700 7600
 F 0 "#PWR06" H 700 7350 50  0001 C CNN
@@ -163,7 +163,7 @@ LED
 Text GLabel 5500 5800 0    50   Input ~ 0
 VCC_ACC
 $Comp
-L ki_syms:GND #PWR05
+L hillside_basic:GND #PWR05
 U 1 1 61436F2E
 P 9900 6400
 F 0 "#PWR05" H 9900 6150 50  0001 C CNN
@@ -175,12 +175,12 @@ F 3 "" H 9900 6400 50  0001 C CNN
 $EndComp
 Connection ~ 6900 6400
 $Comp
-L ki_syms:SK6812-MINI-E D3
+L hillside_basic:SK6812-MINI-E D3
 U 1 1 614FFB02
 P 7750 6100
 F 0 "D3" H 7750 6600 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 7750 6500 50  0000 C CNN
-F 2 "ki_syms:SK6812-MINI-E" H 7800 5800 50  0001 L TNN
+F 2 "hillside_basic:SK6812-MINI-E" H 7800 5800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7850 5725 50  0001 L TNN
 	1    7750 6100
 	1    0    0    -1  
@@ -197,23 +197,23 @@ Connection ~ 7750 5800
 Wire Wire Line
 	7750 5800 6900 5800
 $Comp
-L ki_syms:SK6812-MINI-E D5
+L hillside_basic:SK6812-MINI-E D5
 U 1 1 61550485
 P 9500 6100
 F 0 "D5" H 9850 6150 50  0000 L CNN
 F 1 "SK6812-MINI-E" H 9850 6100 50  0000 L CNN
-F 2 "ki_syms:SK6812-MINI-E" H 9550 5800 50  0001 L TNN
+F 2 "hillside_basic:SK6812-MINI-E" H 9550 5800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9600 5725 50  0001 L TNN
 	1    9500 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_syms:SK6812-MINI-E D4
+L hillside_basic:SK6812-MINI-E D4
 U 1 1 61501BED
 P 8600 6100
 F 0 "D4" H 8600 6600 50  0000 C CNN
 F 1 "SK6812-MINI-E" H 8600 6500 50  0000 C CNN
-F 2 "ki_syms:SK6812-MINI-E" H 8650 5800 50  0001 L TNN
+F 2 "hillside_basic:SK6812-MINI-E" H 8650 5800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8700 5725 50  0001 L TNN
 	1    8600 6100
 	1    0    0    -1  
@@ -232,7 +232,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 6100 9200 6100
 $Comp
-L ki_syms:Conn_01x05-Connector_Generic J1
+L hillside_basic:Conn_01x05-Connector_Generic J1
 U 1 1 616B8147
 P 7550 4850
 F 0 "J1" H 7650 4900 50  0000 L CNN
@@ -249,7 +249,7 @@ SCL
 Text GLabel 7350 4950 0    50   BiDi ~ 0
 SDA
 $Comp
-L ki_syms:GND #PWR07
+L hillside_basic:GND #PWR07
 U 1 1 616C872C
 P 7025 4650
 F 0 "#PWR07" H 7025 4400 50  0001 C CNN
@@ -268,12 +268,12 @@ SDA
 Text GLabel 3750 4900 2    50   Output ~ 0
 SCL
 $Comp
-L ki_syms:R R2
+L hillside_basic:R R2
 U 1 1 618CD67C
 P 6300 5450
 F 0 "R2" V 6400 5500 50  0000 L CNN
 F 1 "R:I2C" V 6400 5450 50  0000 R CNN
-F 2 "ki_syms:R_0805_2012Metric" V 6230 5450 50  0001 C CNN
+F 2 "hillside_basic:R_0805_2012Metric" V 6230 5450 50  0001 C CNN
 F 3 "~" H 6300 5450 50  0001 C CNN
 	1    6300 5450
 	0    -1   -1   0   
@@ -283,12 +283,12 @@ SCL
 Text GLabel 6450 5450 2    50   BiDi ~ 0
 SDA
 $Comp
-L ki_syms:R R1
+L hillside_basic:R R1
 U 1 1 618CC9AE
 P 6300 5200
 F 0 "R1" V 6400 5250 50  0000 L CNN
 F 1 "R:I2C" V 6400 5200 50  0000 R CNN
-F 2 "ki_syms:R_0805_2012Metric" V 6230 5200 50  0001 C CNN
+F 2 "hillside_basic:R_0805_2012Metric" V 6230 5200 50  0001 C CNN
 F 3 "~" H 6300 5200 50  0001 C CNN
 	1    6300 5200
 	0    -1   -1   0   
@@ -314,7 +314,7 @@ U 1 1 6120A557
 P 3100 6000
 F 0 "SW1" H 3100 6255 50  0000 C CNN
 F 1 "Reset" H 3100 6164 50  0000 C CNN
-F 2 "ki_syms:SW_SPST_SKQG_WithStem" H 3100 6000 50  0001 C CNN
+F 2 "hillside_basic:SW_SPST_SKQG_WithStem" H 3100 6000 50  0001 C CNN
 F 3 "" H 3100 6000 50  0000 C CNN
 	1    3100 6000
 	1    0    0    -1  
@@ -378,7 +378,7 @@ $EndComp
 Wire Wire Line
 	2350 3150 2450 3200
 $Comp
-L ki_syms:GND #PWR0101
+L hillside_basic:GND #PWR0101
 U 1 1 61525DEF
 P 1900 3600
 F 0 "#PWR0101" H 1900 3350 50  0001 C CNN
@@ -401,18 +401,18 @@ enc_a
 Text GLabel 2350 4800 0    50   Input ~ 0
 enc_b
 $Comp
-L ki_syms:Via V1
+L hillside_basic:Via V1
 U 1 1 615FDDB2
 P 2150 7750
 F 0 "V1" H 2350 7750 50  0001 C BNN
 F 1 "V" H 2150 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 2150 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 2150 7650 50  0001 C CNN
 F 3 "" H 2150 7750 50  0001 C CNN
 	1    2150 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:GND #PWR0102
+L hillside_basic:GND #PWR0102
 U 1 1 615FED02
 P 1950 7750
 F 0 "#PWR0102" H 1950 7500 50  0001 C CNN
@@ -423,12 +423,12 @@ F 3 "" H 1950 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_syms:Via V2
+L hillside_basic:Via V2
 U 1 1 615E1C4E
 P 2300 7750
 F 0 "V2" H 2500 7750 50  0001 C BNN
 F 1 "Via" H 2300 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 2300 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 2300 7650 50  0001 C CNN
 F 3 "" H 2300 7750 50  0001 C CNN
 	1    2300 7750
 	0    1    1    0   
@@ -744,7 +744,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3500 4800 3200
 $Comp
-L ki_syms:PWR_FLAG #FLG01
+L hillside_basic:PWR_FLAG #FLG01
 U 1 1 618AC0F3
 P 1150 7600
 F 0 "#FLG01" H 1150 7675 50  0001 C CNN
@@ -779,29 +779,29 @@ $EndComp
 Wire Wire Line
 	5750 3500 5750 3200
 $Comp
-L ki_conn_generic:Conn_01x01 J3
+L hillside_basic:Conn_01x01 J3
 U 1 1 61A0B3C6
 P 8000 1750
 F 0 "J3" H 8100 1800 50  0000 L CNN
 F 1 "Bat_Pos" H 8100 1700 50  0000 L CNN
-F 2 "ki_syms:1pin_conn" H 8000 1750 50  0001 C CNN
+F 2 "hillside_basic:1pin_conn" H 8000 1750 50  0001 C CNN
 F 3 "~" H 8000 1750 50  0001 C CNN
 	1    8000 1750
 	-1   0    0    1   
 $EndComp
 $Comp
-L ki_conn_generic:Conn_01x01 J4
+L hillside_basic:Conn_01x01 J4
 U 1 1 61A0BFA4
 P 8000 2050
 F 0 "J4" H 8100 2100 50  0000 L CNN
 F 1 "Bat_GND" H 8100 2000 50  0000 L CNN
-F 2 "ki_syms:1pin_conn" H 8000 2050 50  0001 C CNN
+F 2 "hillside_basic:1pin_conn" H 8000 2050 50  0001 C CNN
 F 3 "~" H 8000 2050 50  0001 C CNN
 	1    8000 2050
 	-1   0    0    1   
 $EndComp
 $Comp
-L ki_syms:GND #PWR01
+L hillside_basic:GND #PWR01
 U 1 1 61A0CB9B
 P 8200 2050
 F 0 "#PWR01" H 8200 1800 50  0001 C CNN
@@ -812,12 +812,12 @@ F 3 "" H 8200 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_switch:SW_SPDT SW2
+L hillside_basic:SW_SPDT SW2
 U 1 1 61A0E70B
 P 8900 1750
 F 0 "SW2" H 8900 2050 50  0000 C CNN
 F 1 "SW_Power" H 8900 1950 50  0000 C CNN
-F 2 "ki_syms:SW_SPDT_JS202011AQN" H 8900 1750 50  0001 C CNN
+F 2 "hillside_basic:SW_SPDT_JS202011AQN" H 8900 1750 50  0001 C CNN
 F 3 "~" H 8900 1750 50  0001 C CNN
 	1    8900 1750
 	1    0    0    -1  
@@ -831,12 +831,12 @@ raw
 Text Notes 8200 1250 0    70   ~ 0
 Power for Nice!nano
 $Comp
-L ki_jumper:SolderJumper_2_Bridged JP1
+L hillside_basic:SolderJumper_2_Bridged JP1
 U 1 1 61A8564F
 P 6000 4800
 F 0 "JP1" H 6000 5050 50  0000 C CNN
 F 1 "SolderJumper" H 6000 4950 50  0000 C CNN
-F 2 "ki_syms:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6000 4800 50  0001 C CNN
+F 2 "hillside_basic:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6000 4800 50  0001 C CNN
 F 3 "~" H 6000 4800 50  0001 C CNN
 	1    6000 4800
 	1    0    0    -1  
@@ -846,7 +846,7 @@ VCC
 Text GLabel 6150 4800 2    50   Output ~ 0
 VCC_ACC
 $Comp
-L ki_syms:PWR_FLAG #FLG0101
+L hillside_basic:PWR_FLAG #FLG0101
 U 1 1 61A979CE
 P 1600 7600
 F 0 "#FLG0101" H 1600 7675 50  0001 C CNN
@@ -861,34 +861,34 @@ VCC_ACC
 Wire Wire Line
 	1950 7750 2150 7750
 $Comp
-L ki_syms:Via V3
+L hillside_basic:Via V3
 U 1 1 61AF8824
 P 2450 7750
 F 0 "V3" H 2650 7750 50  0001 C BNN
 F 1 "Via" H 2450 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 2450 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 2450 7650 50  0001 C CNN
 F 3 "" H 2450 7750 50  0001 C CNN
 	1    2450 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V4
+L hillside_basic:Via V4
 U 1 1 61AF8B92
 P 2600 7750
 F 0 "V4" H 2800 7750 50  0001 C BNN
 F 1 "Via" H 2600 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 2600 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 2600 7650 50  0001 C CNN
 F 3 "" H 2600 7750 50  0001 C CNN
 	1    2600 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V5
+L hillside_basic:Via V5
 U 1 1 61AF8EF4
 P 2750 7750
 F 0 "V5" H 2950 7750 50  0001 C BNN
 F 1 "Via" H 2750 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 2750 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 2750 7650 50  0001 C CNN
 F 3 "" H 2750 7750 50  0001 C CNN
 	1    2750 7750
 	0    1    1    0   
@@ -911,7 +911,7 @@ Wire Notes Line
 Wire Notes Line
 	10500 2700 10500 1050
 $Comp
-L ki_syms:GND #PWR08
+L hillside_basic:GND #PWR08
 U 1 1 61D72EC4
 P 9300 2150
 F 0 "#PWR08" H 9300 1900 50  0001 C CNN
@@ -924,12 +924,12 @@ $EndComp
 Wire Wire Line
 	9100 1850 9300 1850
 $Comp
-L ki_syms:C C1
+L hillside_basic:C C1
 U 1 1 61D809AF
 P 9300 2000
 F 0 "C1" H 9450 2050 50  0000 L CNN
 F 1 "4u7" H 9450 2000 50  0000 L TNN
-F 2 "ki_syms:C_0805_2012Metric" H 9338 1850 50  0001 C CNN
+F 2 "hillside_basic:C_0805_2012Metric" H 9338 1850 50  0001 C CNN
 F 3 "~" H 9300 2000 50  0001 C CNN
 	1    9300 2000
 	1    0    0    -1  
@@ -958,12 +958,12 @@ F 3 "" H 850 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_syms:Via V6
+L hillside_basic:Via V6
 U 1 1 620C3F48
 P 2900 7750
 F 0 "V6" H 3100 7750 50  0001 C BNN
 F 1 "Via" H 2900 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 2900 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 2900 7650 50  0001 C CNN
 F 3 "" H 2900 7750 50  0001 C CNN
 	1    2900 7750
 	0    1    1    0   
@@ -971,34 +971,34 @@ $EndComp
 Wire Wire Line
 	2900 7750 2750 7750
 $Comp
-L ki_syms:Via V7
+L hillside_basic:Via V7
 U 1 1 620C3F53
 P 3050 7750
 F 0 "V7" H 3250 7750 50  0001 C BNN
 F 1 "Via" H 3050 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 3050 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 3050 7650 50  0001 C CNN
 F 3 "" H 3050 7750 50  0001 C CNN
 	1    3050 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V8
+L hillside_basic:Via V8
 U 1 1 620C3F5D
 P 3200 7750
 F 0 "V8" H 3400 7750 50  0001 C BNN
 F 1 "Via" H 3200 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 3200 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 3200 7650 50  0001 C CNN
 F 3 "" H 3200 7750 50  0001 C CNN
 	1    3200 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V9
+L hillside_basic:Via V9
 U 1 1 620C3F67
 P 3350 7750
 F 0 "V9" H 3550 7750 50  0001 C BNN
 F 1 "Via" H 3350 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 3350 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 3350 7650 50  0001 C CNN
 F 3 "" H 3350 7750 50  0001 C CNN
 	1    3350 7750
 	0    1    1    0   
@@ -1014,12 +1014,12 @@ Wire Wire Line
 	3200 7750 3350 7750
 Connection ~ 2750 7750
 $Comp
-L ki_syms:Via V10
+L hillside_basic:Via V10
 U 1 1 620FBA79
 P 3500 7750
 F 0 "V10" H 3700 7750 50  0001 C BNN
 F 1 "Via" H 3500 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 3500 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 3500 7650 50  0001 C CNN
 F 3 "" H 3500 7750 50  0001 C CNN
 	1    3500 7750
 	0    1    1    0   
@@ -1027,12 +1027,12 @@ $EndComp
 Wire Wire Line
 	3350 7750 3500 7750
 $Comp
-L ki_syms:Via V11
+L hillside_basic:Via V11
 U 1 1 620FBA84
 P 3650 7750
 F 0 "V11" H 3850 7750 50  0001 C BNN
 F 1 "Via" H 3650 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 3650 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 3650 7650 50  0001 C CNN
 F 3 "" H 3650 7750 50  0001 C CNN
 	1    3650 7750
 	0    1    1    0   
@@ -1040,34 +1040,34 @@ $EndComp
 Wire Wire Line
 	3650 7750 3500 7750
 $Comp
-L ki_syms:Via V12
+L hillside_basic:Via V12
 U 1 1 620FBA8F
 P 3800 7750
 F 0 "V12" H 4000 7750 50  0001 C BNN
 F 1 "Via" H 3800 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 3800 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 3800 7650 50  0001 C CNN
 F 3 "" H 3800 7750 50  0001 C CNN
 	1    3800 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V13
+L hillside_basic:Via V13
 U 1 1 620FBA99
 P 3950 7750
 F 0 "V13" H 4150 7750 50  0001 C BNN
 F 1 "Via" H 3950 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 3950 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 3950 7650 50  0001 C CNN
 F 3 "" H 3950 7750 50  0001 C CNN
 	1    3950 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V14
+L hillside_basic:Via V14
 U 1 1 620FBAA3
 P 4100 7750
 F 0 "V14" H 4300 7750 50  0001 C BNN
 F 1 "Via" H 4100 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 4100 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 4100 7650 50  0001 C CNN
 F 3 "" H 4100 7750 50  0001 C CNN
 	1    4100 7750
 	0    1    1    0   
@@ -1084,23 +1084,23 @@ Wire Wire Line
 Connection ~ 3500 7750
 Connection ~ 3350 7750
 $Comp
-L ki_syms:Via V15
+L hillside_basic:Via V15
 U 1 1 62148AE9
 P 4250 7750
 F 0 "V15" H 4450 7750 50  0001 C BNN
 F 1 "Via" H 4250 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 4250 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 4250 7650 50  0001 C CNN
 F 3 "" H 4250 7750 50  0001 C CNN
 	1    4250 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V16
+L hillside_basic:Via V16
 U 1 1 62148AF3
 P 4400 7750
 F 0 "V16" H 4600 7750 50  0001 C BNN
 F 1 "Via" H 4400 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 4400 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 4400 7650 50  0001 C CNN
 F 3 "" H 4400 7750 50  0001 C CNN
 	1    4400 7750
 	0    1    1    0   
@@ -1108,34 +1108,34 @@ $EndComp
 Wire Wire Line
 	4400 7750 4250 7750
 $Comp
-L ki_syms:Via V17
+L hillside_basic:Via V17
 U 1 1 62148AFE
 P 4550 7750
 F 0 "V17" H 4750 7750 50  0001 C BNN
 F 1 "Via" H 4550 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 4550 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 4550 7650 50  0001 C CNN
 F 3 "" H 4550 7750 50  0001 C CNN
 	1    4550 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V18
+L hillside_basic:Via V18
 U 1 1 62148B08
 P 4700 7750
 F 0 "V18" H 4900 7750 50  0001 C BNN
 F 1 "Via" H 4700 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 4700 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 4700 7650 50  0001 C CNN
 F 3 "" H 4700 7750 50  0001 C CNN
 	1    4700 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V19
+L hillside_basic:Via V19
 U 1 1 62148B12
 P 4850 7750
 F 0 "V19" H 5050 7750 50  0001 C BNN
 F 1 "Via" H 4850 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 4850 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 4850 7650 50  0001 C CNN
 F 3 "" H 4850 7750 50  0001 C CNN
 	1    4850 7750
 	0    1    1    0   
@@ -1156,67 +1156,67 @@ Connection ~ 4250 7750
 Text Notes 2050 7600 0    50   ~ 0
 Stiching vias
 $Comp
-L ki_mech:MountingHole H5
+L hillside_basic:MountingHole H5
 U 1 1 62184C57
 P 9450 4950
 F 0 "H5" H 9550 5000 50  0000 L CNN
 F 1 "MountHole" H 9550 4950 50  0000 L CNN
-F 2 "ki_syms:MountingHole_2.2mm_M2_Pad" H 9450 4950 50  0001 C CNN
+F 2 "hillside_basic:MountingHole_2.2mm_M2_Pad" H 9450 4950 50  0001 C CNN
 F 3 "~" H 9450 4950 50  0001 C CNN
 	1    9450 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_mech:MountingHole H7
+L hillside_basic:MountingHole H7
 U 1 1 6218A790
 P 9450 5150
 F 0 "H7" H 9550 5200 50  0000 L CNN
 F 1 "MountHole" H 9550 5150 50  0000 L CNN
-F 2 "ki_syms:MountingHole_2.2mm_M2" H 9450 5150 50  0001 C CNN
+F 2 "hillside_basic:MountingHole_2.2mm_M2" H 9450 5150 50  0001 C CNN
 F 3 "~" H 9450 5150 50  0001 C CNN
 	1    9450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_mech:MountingHole H4
+L hillside_basic:MountingHole H4
 U 1 1 6219AAC2
 P 8700 4950
 F 0 "H4" H 8800 5000 50  0000 L CNN
 F 1 "MountHole" H 8800 4950 50  0000 L CNN
-F 2 "ki_syms:MountingHole_2.2mm_M2_Pad" H 8700 4950 50  0001 C CNN
+F 2 "hillside_basic:MountingHole_2.2mm_M2_Pad" H 8700 4950 50  0001 C CNN
 F 3 "~" H 8700 4950 50  0001 C CNN
 	1    8700 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_mech:MountingHole H6
+L hillside_basic:MountingHole H6
 U 1 1 6219AACC
 P 8700 5150
 F 0 "H6" H 8800 5200 50  0000 L CNN
 F 1 "MountHole" H 8800 5150 50  0000 L CNN
-F 2 "ki_syms:MountingHole_2.2mm_M2" H 8700 5150 50  0001 C CNN
+F 2 "hillside_basic:MountingHole_2.2mm_M2" H 8700 5150 50  0001 C CNN
 F 3 "~" H 8700 5150 50  0001 C CNN
 	1    8700 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_mech:MountingHole H8
+L hillside_basic:MountingHole H8
 U 1 1 621ECFAE
 P 8700 5350
 F 0 "H8" H 8800 5400 50  0000 L CNN
 F 1 "MountHole" H 8800 5350 50  0000 L CNN
-F 2 "ki_syms:MountingHole_2.2mm_M2_Pad" H 8700 5350 50  0001 C CNN
+F 2 "hillside_basic:MountingHole_2.2mm_M2_Pad" H 8700 5350 50  0001 C CNN
 F 3 "~" H 8700 5350 50  0001 C CNN
 	1    8700 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L ki_mech:MountingHole H9
+L hillside_basic:MountingHole H9
 U 1 1 621FDCBF
 P 9450 5350
 F 0 "H9" H 9550 5400 50  0000 L CNN
 F 1 "MountHole" H 9550 5350 50  0000 L CNN
-F 2 "ki_syms:MountingHole_2.2mm_M2_Pad" H 9450 5350 50  0001 C CNN
+F 2 "hillside_basic:MountingHole_2.2mm_M2_Pad" H 9450 5350 50  0001 C CNN
 F 3 "~" H 9450 5350 50  0001 C CNN
 	1    9450 5350
 	1    0    0    -1  
@@ -1224,34 +1224,34 @@ $EndComp
 Text GLabel 8200 1750 2    50   Output ~ 0
 bat+
 $Comp
-L ki_syms:Via V20
+L hillside_basic:Via V20
 U 1 1 617D6764
 P 5000 7750
 F 0 "V20" H 5200 7750 50  0001 C BNN
 F 1 "Via" H 5000 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 5000 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 5000 7650 50  0001 C CNN
 F 3 "" H 5000 7750 50  0001 C CNN
 	1    5000 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V21
+L hillside_basic:Via V21
 U 1 1 617D676E
 P 5150 7750
 F 0 "V21" H 5350 7750 50  0001 C BNN
 F 1 "Via" H 5150 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 5150 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 5150 7650 50  0001 C CNN
 F 3 "" H 5150 7750 50  0001 C CNN
 	1    5150 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L ki_syms:Via V22
+L hillside_basic:Via V22
 U 1 1 617D6778
 P 5300 7750
 F 0 "V22" H 5500 7750 50  0001 C BNN
 F 1 "Via" H 5300 7500 50  0001 C CNN
-F 2 "ki_syms:VIA-0.8mm" H 5300 7650 50  0001 C CNN
+F 2 "hillside_basic:VIA-0.8mm" H 5300 7650 50  0001 C CNN
 F 3 "" H 5300 7750 50  0001 C CNN
 	1    5300 7750
 	0    1    1    0   
@@ -1266,7 +1266,7 @@ Wire Wire Line
 	5150 7750 5300 7750
 Connection ~ 4850 7750
 $Comp
-L ki_syms:GND #PWR09
+L hillside_basic:GND #PWR09
 U 1 1 61A733F7
 P 2400 6300
 F 0 "#PWR09" H 2400 6050 50  0001 C CNN
@@ -1295,34 +1295,34 @@ Wire Wire Line
 Wire Wire Line
 	1250 2450 1750 2450
 $Comp
-L ki_syms:BAV70_Small D7
+L hillside_basic:BAV70_Small D7
 U 1 1 6199B22C
 P 1950 1350
 F 0 "D7" H 1950 1500 50  0000 C CNN
 F 1 "BAV70" H 1950 1600 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 2050 1350 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 2050 1350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1950 1350 50  0001 C CNN
 	1    1950 1350
 	1    0    0    1   
 $EndComp
 $Comp
-L ki_syms:BAV70_Small D8
+L hillside_basic:BAV70_Small D8
 U 1 1 6199CD98
 P 3550 1350
 F 0 "D8" H 3550 1500 50  0000 C CNN
 F 1 "BAV70" H 3550 1600 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 3650 1350 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 3650 1350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3550 1350 50  0001 C CNN
 	1    3550 1350
 	1    0    0    1   
 $EndComp
 $Comp
-L ki_syms:BAV70_Small D9
+L hillside_basic:BAV70_Small D9
 U 1 1 6199DD91
 P 5150 1350
 F 0 "D9" H 5150 1500 50  0000 C CNN
 F 1 "BAV70" H 5150 1600 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 5250 1350 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 5250 1350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5150 1350 50  0001 C CNN
 	1    5150 1350
 	1    0    0    1   
@@ -1334,34 +1334,34 @@ Wire Wire Line
 Wire Wire Line
 	3550 1250 3550 1150
 $Comp
-L ki_syms:BAV70_Small D12
+L hillside_basic:BAV70_Small D12
 U 1 1 619E9A3F
 P 5150 1900
 F 0 "D12" H 5150 2050 50  0000 C CNN
 F 1 "BAV70" H 5150 2150 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 5250 1900 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 5250 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5150 1900 50  0001 C CNN
 	1    5150 1900
 	1    0    0    1   
 $EndComp
 $Comp
-L ki_syms:BAV70_Small D10
+L hillside_basic:BAV70_Small D10
 U 1 1 619EB8F1
 P 1950 1900
 F 0 "D10" H 1950 2050 50  0000 C CNN
 F 1 "BAV70" H 1950 2150 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 2050 1900 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 2050 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1950 1900 50  0001 C CNN
 	1    1950 1900
 	1    0    0    1   
 $EndComp
 $Comp
-L ki_syms:BAV70_Small D13
+L hillside_basic:BAV70_Small D13
 U 1 1 619EC50C
 P 1950 2450
 F 0 "D13" H 1950 2600 50  0000 C CNN
 F 1 "BAV70" H 1950 2700 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 2050 2450 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 2050 2450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1950 2450 50  0001 C CNN
 	1    1950 2450
 	1    0    0    1   
@@ -1409,23 +1409,23 @@ Connection ~ 3550 2250
 Wire Wire Line
 	3550 2250 5150 2250
 $Comp
-L ki_syms:BAV70_Small D11
+L hillside_basic:BAV70_Small D11
 U 1 1 61A99D93
 P 3550 1900
 F 0 "D11" H 3550 2050 50  0000 C CNN
 F 1 "BAV70" H 3550 2150 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 3650 1900 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 3650 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3550 1900 50  0001 C CNN
 	1    3550 1900
 	1    0    0    1   
 $EndComp
 $Comp
-L ki_syms:BAV70_Small D14
+L hillside_basic:BAV70_Small D14
 U 1 1 61A9A575
 P 3550 2450
 F 0 "D14" H 3550 2600 50  0000 C CNN
 F 1 "BAV70" H 3550 2700 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 3650 2450 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 3650 2450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3550 2450 50  0001 C CNN
 	1    3550 2450
 	1    0    0    1   
@@ -1453,12 +1453,12 @@ Wire Wire Line
 Wire Wire Line
 	4950 2450 4450 2450
 $Comp
-L ki_syms:BAV70_Small D15
+L hillside_basic:BAV70_Small D15
 U 1 1 61ADB5D7
 P 5150 2450
 F 0 "D15" H 5150 2600 50  0000 C CNN
 F 1 "BAV70" H 5150 2700 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 5250 2450 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 5250 2450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5150 2450 50  0001 C CNN
 	1    5150 2450
 	1    0    0    1   
@@ -1475,34 +1475,34 @@ Connection ~ 3550 1700
 Wire Wire Line
 	3550 1700 5150 1700
 $Comp
-L ki_syms:BAV70_Small D16
+L hillside_basic:BAV70_Small D16
 U 1 1 61AF643C
 P 3800 3350
 F 0 "D16" H 3800 3500 50  0000 C CNN
 F 1 "BAV70" H 3800 3600 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 3900 3350 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 3900 3350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3800 3350 50  0001 C CNN
 	1    3800 3350
 	1    0    0    1   
 $EndComp
 $Comp
-L ki_syms:BAV70_Small D17
+L hillside_basic:BAV70_Small D17
 U 1 1 61AF6C2B
 P 5400 3350
 F 0 "D17" H 5400 3500 50  0000 C CNN
 F 1 "BAV70" H 5400 3600 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 5500 3350 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 5500 3350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5400 3350 50  0001 C CNN
 	1    5400 3350
 	1    0    0    1   
 $EndComp
 $Comp
-L ki_syms:BAV70_Small D18
+L hillside_basic:BAV70_Small D18
 U 1 1 61AF7424
 P 6400 3350
 F 0 "D18" H 6400 3500 50  0000 C CNN
 F 1 "BAV70" H 6400 3600 50  0000 C CNN
-F 2 "ki_syms:SOT-23" H 6500 3350 50  0001 C CNN
+F 2 "hillside_basic:SOT-23" H 6500 3350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6400 3350 50  0001 C CNN
 	1    6400 3350
 	1    0    0    1   

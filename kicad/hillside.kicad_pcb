@@ -392,7 +392,7 @@
       ))
   )
 
-  (module ki_syms:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D4203)
+  (module hillside_basic:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D4203)
     (at 127 110)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -412,7 +412,7 @@
     (pad "" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module ki_syms:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D9666)
+  (module hillside_basic:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D9666)
     (at 181 68)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -432,7 +432,7 @@
     (pad "" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module ki_syms:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D7184)
+  (module hillside_basic:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D7184)
     (at 181 110.5)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -452,7 +452,7 @@
     (pad "" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module ki_syms:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 617E0806) (tstamp 617D4213)
+  (module hillside_basic:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 617E0806) (tstamp 617D4213)
     (at 109 110)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -472,7 +472,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module ki_syms:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 617E0800) (tstamp 617D420B)
+  (module hillside_basic:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 617E0800) (tstamp 617D420B)
     (at 109 93)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -492,7 +492,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module ki_syms:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D41FB)
+  (module hillside_basic:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 617E07B1) (tstamp 617D41FB)
     (at 127 81)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -649,7 +649,7 @@
     (pad "" thru_hole circle (at 6.75 -8.25) (size 5 5) (drill 2.5) (layers *.Cu *.Mask))
   )
 
-  (module ki_syms:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm (layer F.Cu) (tedit 617DC748) (tstamp 61775807)
+  (module hillside_basic:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm (layer F.Cu) (tedit 617DC748) (tstamp 61775807)
     (at 222.18 80.18 270)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
     (tags "solder jumper open")
@@ -694,7 +694,7 @@
       ))
   )
 
-  (module ki_syms:C_0805_2012Metric (layer F.Cu) (tedit 617DC6BF) (tstamp 61791DFE)
+  (module hillside_basic:C_0805_2012Metric (layer F.Cu) (tedit 617DC6BF) (tstamp 61791DFE)
     (at 209.5 70.03)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -746,7 +746,7 @@
     )
   )
 
-  (module ki_syms:1pin_conn (layer F.Cu) (tedit 617DC34B) (tstamp 617DD6F5)
+  (module hillside_basic:1pin_conn (layer F.Cu) (tedit 617DC34B) (tstamp 617DD6F5)
     (at 204.9 70.1)
     (descr "Resitance 3 pas")
     (tags R)
@@ -783,7 +783,7 @@
     )
   )
 
-  (module ki_syms:1pin_conn (layer F.Cu) (tedit 617DC34B) (tstamp 6175E748)
+  (module hillside_basic:1pin_conn (layer F.Cu) (tedit 617DC34B) (tstamp 6175E748)
     (at 213.8 70.1)
     (descr "Resitance 3 pas")
     (tags R)
@@ -1101,7 +1101,7 @@
       (net 52 raw))
   )
 
-  (module ki_syms:SW_SPST_SKQG_WithStem (layer F.Cu) (tedit 617D7CAC) (tstamp 61792198)
+  (module hillside_basic:SW_SPST_SKQG_WithStem (layer F.Cu) (tedit 617D7CAC) (tstamp 61792198)
     (at 224.7 137.1 270)
     (descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html")
     (tags "SPST Button Switch")
@@ -1215,7 +1215,7 @@
     )
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 613E80FE) (tstamp 617D23AB)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 613E80FE) (tstamp 617D23AB)
     (at 170.29 107.5)
     (path /617D6778)
     (fp_text reference V22 (at 0 1.4) (layer F.Fab) hide
@@ -1228,7 +1228,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 613E80FE) (tstamp 617D23A6)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 613E80FE) (tstamp 617D23A6)
     (at 132.22 103.5)
     (path /617D676E)
     (fp_text reference V21 (at 0 1.4) (layer F.Fab) hide
@@ -1241,7 +1241,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 613E80FE) (tstamp 617D23A1)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 613E80FE) (tstamp 617D23A1)
     (at 186.91 113)
     (path /617D6764)
     (fp_text reference V20 (at 0 1.4) (layer F.Fab) hide
@@ -1254,7 +1254,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:SW_SPDT_JS202011AQN (layer F.Cu) (tedit 617BC574) (tstamp 617A23A2)
+  (module hillside_basic:SW_SPDT_JS202011AQN (layer F.Cu) (tedit 617BC574) (tstamp 617A23A2)
     (at 219.75 111.75 295)
     (descr "C&K DPDT JS202011AQN wired as SPDT")
     (path /61A0E70B)
@@ -1314,7 +1314,7 @@
       (net 51 bat+))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D2121)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D2121)
     (at 140.99 95.84)
     (path /62148B12)
     (fp_text reference V19 (at 1.3 1.4) (layer F.Fab) hide
@@ -1327,7 +1327,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D211C)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D211C)
     (at 193.59 96.33)
     (path /62148B08)
     (fp_text reference V18 (at 1.3 1.4) (layer F.Fab) hide
@@ -1340,7 +1340,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D2117)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D2117)
     (at 195.22 103)
     (path /62148AFE)
     (fp_text reference V17 (at 1.3 1.4) (layer F.Fab) hide
@@ -1353,7 +1353,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D2112)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D2112)
     (at 108.14 101.45)
     (path /62148AF3)
     (fp_text reference V16 (at 1.3 1.4) (layer F.Fab) hide
@@ -1366,7 +1366,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D210D)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617D210D)
     (at 102.69 124.14)
     (path /62148AE9)
     (fp_text reference V15 (at 1.3 1.4) (layer F.Fab) hide
@@ -1379,7 +1379,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB9A)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB9A)
     (at 185.02 86.61)
     (path /620FBAA3)
     (fp_text reference V14 (at 1.3 1.4) (layer F.Fab) hide
@@ -1392,7 +1392,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB95)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB95)
     (at 129.49 95.5)
     (path /620FBA99)
     (fp_text reference V13 (at 1.3 1.4) (layer F.Fab) hide
@@ -1405,7 +1405,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB90)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB90)
     (at 164.18 90.29)
     (path /620FBA8F)
     (fp_text reference V12 (at 1.3 1.4) (layer F.Fab) hide
@@ -1418,7 +1418,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB8B)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB8B)
     (at 182.48 94.99)
     (path /620FBA84)
     (fp_text reference V11 (at 1.3 1.4) (layer F.Fab) hide
@@ -1431,7 +1431,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB86)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB86)
     (at 146.14 101.22)
     (path /620FBA79)
     (fp_text reference V10 (at 1.3 1.4) (layer F.Fab) hide
@@ -1444,7 +1444,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB71)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB71)
     (at 146.39 92.32)
     (path /620C3F53)
     (fp_text reference V7 (at 1.3 1.4) (layer F.Fab) hide
@@ -1457,7 +1457,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB44)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617CCB44)
     (at 180.07 74.53)
     (path /615FDDB2)
     (fp_text reference V1 (at 1.3 1.4) (layer F.Fab) hide
@@ -1470,7 +1470,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617C74E2)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617C74E2)
     (at 181.62 103.34)
     (path /620C3F67)
     (fp_text reference V9 (at 1.3 1.4) (layer F.Fab) hide
@@ -1483,7 +1483,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617C74DD)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617C74DD)
     (at 146.03 105.47)
     (path /620C3F5D)
     (fp_text reference V8 (at 1.3 1.4) (layer F.Fab) hide
@@ -1496,7 +1496,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617C7502)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 617C7502)
     (at 126.2 124.06)
     (path /620C3F48)
     (fp_text reference V6 (at 1.3 1.4) (layer F.Fab) hide
@@ -1509,7 +1509,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 61779FA1)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 61779FA1)
     (at 169.9 117.87)
     (path /61AF8EF4)
     (fp_text reference V5 (at 1.3 1.4) (layer F.Fab) hide
@@ -1522,7 +1522,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 61779F7C)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 61779F7C)
     (at 208.2 136.55)
     (path /61AF8B92)
     (fp_text reference V4 (at 1.3 1.4) (layer F.Fab) hide
@@ -1535,7 +1535,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 61779F77)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 61779F77)
     (at 223.28 93.48 90)
     (path /61AF8824)
     (fp_text reference V3 (at 1.3 1.4 90) (layer F.Fab) hide
@@ -1548,7 +1548,7 @@
       (net 11 GND) (zone_connect 2))
   )
 
-  (module ki_syms:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 615E494B)
+  (module hillside_basic:VIA-0.8mm (layer F.Cu) (tedit 617BA8C7) (tstamp 615E494B)
     (at 201.12 104.09)
     (path /615E1C4E)
     (fp_text reference V2 (at 1.3 1.4) (layer F.Fab) hide
@@ -2803,7 +2803,7 @@
       (net 27 "Net-(D7-Pad1)"))
   )
 
-  (module ki_syms:R_0805_2012Metric (layer F.Cu) (tedit 6145208D) (tstamp 617767D8)
+  (module hillside_basic:R_0805_2012Metric (layer F.Cu) (tedit 6145208D) (tstamp 617767D8)
     (at 220.86 91.46 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2852,7 +2852,7 @@
     )
   )
 
-  (module ki_syms:R_0805_2012Metric (layer F.Cu) (tedit 6145208D) (tstamp 617DAE26)
+  (module hillside_basic:R_0805_2012Metric (layer F.Cu) (tedit 6145208D) (tstamp 617DAE26)
     (at 220.86 97.48 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2904,7 +2904,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616E5388)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616E5388)
     (at 218.463749 141.367847 45)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -2975,7 +2975,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616E1020)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616E1020)
     (at 190 102.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3046,7 +3046,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616E543D)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616E543D)
     (at 154 94.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3117,7 +3117,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616DA501)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616DA501)
     (at 172 100.3 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3188,7 +3188,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D8ED5)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D8ED5)
     (at 136 101.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3259,7 +3259,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D59C3)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D59C3)
     (at 118 113.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3330,7 +3330,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616DA460)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616DA460)
     (at 172 83.3 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3401,7 +3401,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D7BB6)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D7BB6)
     (at 136 84.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3472,7 +3472,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D774F)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D774F)
     (at 118 96.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3543,7 +3543,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616DA3DF)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616DA3DF)
     (at 172 66.3 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3614,7 +3614,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D773A)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D773A)
     (at 136 67.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3685,7 +3685,7 @@
     )
   )
 
-  (module ki_syms:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D593A)
+  (module hillside_basic:SOT-23 (layer F.Cu) (tedit 616D3D0B) (tstamp 616D593A)
     (at 118 79.8 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3756,7 +3756,7 @@
     )
   )
 
-  (module ki_syms:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 613B2313)
+  (module hillside_basic:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 613B2313)
     (at 131.73 115.11)
     (path /61550485)
     (fp_text reference D5 (at 0.1 -0.83 unlocked) (layer F.Fab)
@@ -3808,7 +3808,7 @@
     )
   )
 
-  (module ki_syms:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 616E7034)
+  (module hillside_basic:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 616E7034)
     (at 161.536067 113.717196)
     (path /61501BED)
     (fp_text reference D4 (at 0.1 -0.83 unlocked) (layer F.Fab)
@@ -3860,7 +3860,7 @@
     )
   )
 
-  (module ki_syms:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 612DAFA9)
+  (module hillside_basic:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 612DAFA9)
     (at 183.303671 116.752767 345)
     (path /614FFB02)
     (fp_text reference D3 (at 0.1 -0.83 345 unlocked) (layer F.Fab)
@@ -3912,7 +3912,7 @@
     )
   )
 
-  (module ki_syms:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 613E3E86)
+  (module hillside_basic:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 613E3E86)
     (at 203.667163 125.378879 330)
     (path /6141DBB5)
     (fp_text reference D2 (at 0.1 -0.83 330 unlocked) (layer F.Fab)
@@ -3964,7 +3964,7 @@
     )
   )
 
-  (module ki_syms:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 616EEE6D)
+  (module hillside_basic:SK6812-MINI-E (layer F.Cu) (tedit 61462983) (tstamp 616EEE6D)
     (at 209.101456 108.892398 330)
     (path /6141D38F)
     (fp_text reference D1 (at 0.1 -0.83 330 unlocked) (layer F.Fab)

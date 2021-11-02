@@ -42,6 +42,23 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Conn_01x01
+#
+DEF Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Conn_01x05-Connector_Generic
 #
 DEF Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
@@ -77,6 +94,21 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MountingHole
+#
+DEF MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
@@ -137,12 +169,53 @@ X DIN 4 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# SW_SPDT
+#
+DEF SW_SPDT SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "SW_SPDT" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SolderJumper_2_Bridged
+#
+DEF SolderJumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "SolderJumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+S -20 20 20 -20 0 1 0 F
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Via
 #
 DEF Via V 0 20 N Y 1 F N
 F0 "V" 200 0 50 H I C BNN
 F1 "Via" 0 -250 50 H I C CNN
-F2 "ki_sym:VIA-0.8mm" 0 -100 50 H I C CNN
+F2 "hillside_basic:VIA-0.8mm" 0 -100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 0 50 0 1 0 N

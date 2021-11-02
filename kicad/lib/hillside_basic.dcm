@@ -12,9 +12,21 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Conn_01x01
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
+$ENDCMP
+#
+$CMP MountingHole
+D Mounting Hole without connection
+K mounting hole
+F ~
 $ENDCMP
 #
 $CMP PWR_FLAG
@@ -33,6 +45,18 @@ $CMP SK6812-MINI-E
 D RGB LED with integrated controller
 K RGB LED NeoPixel addressable
 F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Bridged
+D Solder Jumper, 2-pole, closed/bridged
+K solder jumper SPST
+F ~
 $ENDCMP
 #
 #End Doc Library
