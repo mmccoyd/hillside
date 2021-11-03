@@ -7,19 +7,19 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.10-1-10_14)"
     },
-    "CreationDate":  "2021-09-20T15:17:19-07:00"
+    "CreationDate":  "2021-11-02T17:36:35-07:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "redwood",
-      "GUID": "72656477-6f6f-4642-9e6b-696361645f70",
-      "Revision": "rev?"
+      "Name": "hillside",
+      "GUID": "68696c6c-7369-4646-952e-6b696361645f",
+      "Revision": "0.1.0"
     },
     "Size":
     {
-      "X": 136.604,
+      "X": 136.600,
       "Y": 97.923
     },
     "LayerNumber": 2,
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "redwood-F_Cu.gbr",
+      "Path":  "hillside-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "redwood-B_Cu.gbr",
+      "Path":  "hillside-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "redwood-F_SilkS.gbr",
+      "Path":  "hillside-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "redwood-B_SilkS.gbr",
+      "Path":  "hillside-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "redwood-F_Mask.gbr",
+      "Path":  "hillside-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "redwood-B_Mask.gbr",
+      "Path":  "hillside-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "redwood-Edge_Cuts.gbr",
+      "Path":  "hillside-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "redwood-F_Fab.gbr",
+      "Path":  "hillside-F_Fab.gbr",
       "FileFunction":  "AssemblyDrawing,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "redwood-B_Fab.gbr",
+      "Path":  "hillside-B_Fab.gbr",
       "FileFunction":  "AssemblyDrawing,Bot",
       "FilePolarity":  "Positive"
     }
