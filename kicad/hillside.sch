@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Hillside Keyboard"
-Date "2021-10-29"
+Date "2021-11-02"
 Rev "0.1.0"
 Comp "mmccoyd"
 Comment1 "A choc-spaced split keyboard with Ferris column stagger but more thumb and pinky keys."
