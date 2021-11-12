@@ -10,7 +10,7 @@ I wanted choc spacing but a key or so more than the Ferris and an optional outer
 
 * [Materials](doc/materials.md)
 * [Building](doc/build.md)
-* [QMK](qmk.com) firmware listed under keyboards/handwired/hillside, although it is not handwired.
+* [QMK](qmk.com) firmware and a decent default keymap with writeup listed under keyboards/handwired/hillside.
 * It is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the MBK keycaps. Not MX ones, nor 18 x 18mm ones such as Work Louder.
 * [Future](doc/Future.md)
 
@@ -22,8 +22,21 @@ I liked the bottom row keys of my Atreus, so I added two under the middle column
 
 It is like a Ferris Sweep on steroids, which wound up close to a Choc Kyria but requires board fabrication and SMT soldering.
 
+
+
+
 ## Images
 
-![render](doc/image/hillside-front.png "Front Render")
+<div style="background-color:#DCDCDC;">
+
 ![Schematic](doc/image/hillside-schema.svg "Schematic")
+</div>
+
 ![pcb](doc/image/hillside-board.png "PCB")
+
+![render](doc/image/hillside-front.png "Front Render")
+
+<div style="background-color:#DCDCDC;">
+
+![switches](doc/image/hillside-keys.svg "Switch Layout")
+</div>

@@ -18,3 +18,5 @@ Hotswap would make salvaging keys from old boards easier, and creating a PCBA bo
 ## TODO
 
 ## Next version
+
+- Capacitor and resistor on LED chain as needed in spec? One big at start.
