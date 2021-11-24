@@ -3,20 +3,35 @@
 
 ## Main Changes
 
-- Haptic spacer mount further out for more clearance from MCU pins
+- Nice!nano battery support
+- BAV70 diodes for less clutter
 - MCU and TRRS pads only exposed on side they will be soldered on
+- Logo and change of name
 
 ## Details
 
-+ Traces more clearance under diodes
+- Nice!nano support: battery pads, switch, decoupling capacitor and vcc_acc cutoff jumper
+- Traces less cluttered with common cathode diodes BAV70
+- SMT reset switch
+- Breakaway column cleanup
+- Name change and logo scene
+- Stitching vias to fill in ground planes
+- Case mounting holes matching screw size of holes for tenting puck
+- TRRS is: ground, data, no-connection, vcc for lower short risk.
+- Silkscreen letters larger for JCLPCB standards
 + Traces clear of center screw area of tenting puck
 + TRRS in half mm
 + I2C resistors out half mm more from MCU
-+ Edge
-    + Move curve about right mount point up, to smooth top corner
-    + Move top right edge right, for more space between mount spacer and MCU
-    + Round bottom right more
-    + Bottom left curve moved right
++ Edge Cut
+    + Curve above right mount point moved up to smooth top corner
+    + Top right edge moved right for more space between mount spacer and MCU
+    + Bottom right rounded more
+    + Bottom left curve moved right to better match keycap curve
+
+## Issues
+
+- The MCU silk letters need to be bigger.
+- The wave swell is from the wrong direction.
 
 # Version 0.1.0-alpha-2 PCB  
 
@@ -56,6 +71,7 @@ The haptic kex mount standoff might touch both the SCL and the unused D4 castell
 - Pimoroni Haptic footprint with 1x5 header, mount point, and rough outline
 - TRRS symbol and footprint clear with T, R1, R2, and S pin labels
 
+
 # Version 0.1.0-alpha-1
 
 ## Broken
@@ -79,8 +95,8 @@ For each switch there is no trace connecting the two side vias to the diode, tho
 
 ## Know Issues
 
-- Traces within switch footprints not in Gerber
-- Diode silk solid bar not visible
+- Traces internal to the switch footprints are not in the Gerber.
+- The diode silk solid bar is not visible.
 
 ## What worked
 
@@ -88,6 +104,7 @@ For each switch there is no trace connecting the two side vias to the diode, tho
 - LEDs work
 - LEDs fit nicely between switch bodies. Slight room in cutout is good. Not sure if pads are long enough.
 - LEDs shine through PCB edge and up when no solder mask
+
 
 # Version 0.1.0-alpha-0
 
