@@ -1,3 +1,11 @@
+# Version 0.1.0
+
+First public release.
+
+- Gerbers and KiCad files from 0.1.0-alpha-3.
+  Created in KiCad 5.1.10 and tested as plotting in KiCad 5.1.12.
+- Wiki with build instructions and pictures
+- QMK and ZMK firmwares
 
 # Version 0.1.0-alpha-3
 
@@ -33,7 +41,7 @@
 - The MCU silk letters need to be bigger.
 - The wave swell is from the wrong direction.
 
-# Version 0.1.0-alpha-2 PCB  
+# Version 0.1.0-alpha-2 PCB
 
 ## Main Changes
 
@@ -64,7 +72,7 @@ The haptic kex mount standoff might touch both the SCL and the unused D4 castell
 
 ## Footprint Changes
 - Choc-diode traces redone; diode silk end bar not cut off
-- Choc switch trace to pad angle has more margin  
+- Choc switch trace to pad angle has more margin
 - Choc switch SMT pad traces are symetric with vias off pad
 - LED ref numbers on fabrication layer not silk
 - TRRS jack works with TRS and TRRS cables
