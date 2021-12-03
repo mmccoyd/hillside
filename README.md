@@ -4,7 +4,8 @@ Hillside is a split ergonomic keyboard with 3x6+4+2 choc-spaced keys. It has the
 
 ![Keyboard with nice!nano and switches](doc/image/nice_pair_stacked.png "Keyboard with nice!nano and switches")
 
-So rather like a choc Kyria, minus two keys. With 42 to 48 keys it isn't minimalist, but is compact on finger travel while still allowing roomy keymaps.
+So rather like a choc Kyria, minus two keys. With 42 to 48 keys it isn't minimalist,
+  but it is compact on finger travel while still allowing roomy keymaps.
 
 Features:
 - 3x6+4+2 choc-spaced keys, aggressive stagger, four key thumb arc, break-off pinky column
@@ -22,7 +23,10 @@ Hillside is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17
 
 Hardware:
 
-The [wiki](https://github.com/mmccoyd/hillside/wiki) describes how to order the PCB and build the board.
+See the [wiki](https://github.com/mmccoyd/hillside/wiki)
+  for how to order the PCB and build the board.
+KiCad 5.1.10 was used to create the board gerbers.
+The KiCad files load and plot with KiCad 5.1.12.
 
 Firmware:
 - For ZMK, interim firmware access is at [Hillside ZMK Firmware](https://github.com/mmccoyd/zmk-config).
@@ -40,11 +44,13 @@ Moving around the switches of the Choc Corne did seem the easiest approach. But 
 I liked the bottom row keys of my Atreus, so I added two under the middle columns, where they seem unobtrusive. Then one shifted to the thumb arch, which seems more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. It has more keys than my initial idea, but that makes keymap evolution feel less tight.
 
 It is like a Ferris Sweep on steroids, which wound up close to a Choc Kyria but requires board fabrication and SMT soldering.
+Naming ideas included FeistyCorne, LongFir and LongSweep, but Hillside seemed the most fun.
 
 ## Acknowledgments
 
 The awesome Low Profile Keyboards and splitkb.com discord communities provided a fertile learning ground for my keyboard explorations.
-The keyboards I used and read about also influenced this board including the
+Several of the symbol and footprint files came from that community, as noted in the doc folder.
+The keyboards I have used and read about also influenced this board including the
   [Atreus](https://shop.keyboard.io/products/keyboardio-atreus),
   [Lily58](https://github.com/kata0510/Lily58),
   [Kyria](https://splitkb.com/collections/keyboard-kits/products/kyria-pcb-kit),
