@@ -28,12 +28,12 @@ See the [wiki](https://github.com/mmccoyd/hillside/wiki)
 KiCad 5.1.10 was used to create the board gerbers.
 The KiCad files load and plot with KiCad 5.1.12.
 
-Firmware:
+Firmware, while PRs are in process:
 - For ZMK, interim firmware access is at [Hillside ZMK Firmware](https://github.com/mmccoyd/zmk-config).
 - For QMK, [./firmware/QMK/](./firmware/QMK/) has the files to copy into QMK's
   boards/handwired/ folder.
 - The default keymap shared by both is described in
-  the [QMK keymap readme](./firmware/QMK/hillside/keymap/README.md).
+  the [QMK keymap readme](./firmware/QMK/hillside/keymaps/default/).
 
 # Why
 
