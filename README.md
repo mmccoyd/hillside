@@ -2,7 +2,7 @@
 
 Hillside is a split ergonomic keyboard with 3x6+4+2 choc-spaced keys. It has the aggressive stagger of the Ferris but a longer thumb arc and a break-off outer pinky column.
 
-![Keyboard with nice!nano and switches](doc/image/nice_pair_stacked.png "Keyboard with nice!nano and switches")
+![Hillside keyboard with nice!nano and switches](doc/image/nice_pair_stacked.png "Keyboard with nice!nano and switches")
 
 So rather like a choc Kyria, minus two keys. With 42 to 48 keys it isn't minimalist,
   but it is compact on finger travel while still allowing roomy keymaps.
@@ -58,6 +58,7 @@ The keyboards I have used and read about also influenced this board including th
   [Ferris](https://github.com/pierrechevalier83/ferris).
 
 ## Images
+![Both halves](doc/image/nice_pair_complete.png "Both halves")
 
 <div style="background-color:#DCDCDC;">
 
