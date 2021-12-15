@@ -398,7 +398,7 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start -0.381 -2.794) (mid 2.3622 -0.0508) (end -0.381 2.667)
+        (arc (start -0.381 -2.794) (mid 2.3622 -0.0635) (end -0.381 2.667)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -1292,6 +1292,7 @@
       )
     )
   )
+
 
   (junction (at 74.93 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 09cf0645-d8e1-425c-a1b1-50dc308b5fe2)
