@@ -1293,6 +1293,7 @@
     )
   )
 
+
   (junction (at 74.93 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 09cf0645-d8e1-425c-a1b1-50dc308b5fe2)
   )
@@ -3296,7 +3297,7 @@
     (uuid 00000000-0000-0000-0000-000061a8564f)
     (property "Reference" "JP1" (id 0) (at 175.26 114.3 0))
     (property "Value" "SolderJumper" (id 1) (at 175.26 116.84 0))
-    (property "Footprint" "hillside_basic:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (id 2) (at 175.26 120.65 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (id 2) (at 175.26 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 175.26 120.65 0)
@@ -3565,7 +3566,7 @@
     (property "Value" "MountHole" (id 1) (at 251.46 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "hillside_basic:MountingHole_2.2mm_M2_Pad" (id 2) (at 248.92 125.73 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (id 2) (at 248.92 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 248.92 125.73 0)
@@ -3582,7 +3583,7 @@
     (property "Value" "MountHole" (id 1) (at 251.46 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "hillside_basic:MountingHole_2.2mm_M2" (id 2) (at 248.92 130.81 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (id 2) (at 248.92 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 248.92 130.81 0)
@@ -3599,7 +3600,7 @@
     (property "Value" "MountHole" (id 1) (at 233.68 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "hillside_basic:MountingHole_2.2mm_M2_Pad" (id 2) (at 231.14 125.73 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (id 2) (at 231.14 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 231.14 125.73 0)
@@ -3616,7 +3617,7 @@
     (property "Value" "MountHole" (id 1) (at 233.68 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "hillside_basic:MountingHole_2.2mm_M2" (id 2) (at 231.14 130.81 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (id 2) (at 231.14 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 231.14 130.81 0)
@@ -3633,7 +3634,7 @@
     (property "Value" "MountHole" (id 1) (at 233.68 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "hillside_basic:MountingHole_2.2mm_M2_Pad" (id 2) (at 231.14 135.89 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (id 2) (at 231.14 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 231.14 135.89 0)
@@ -3650,7 +3651,7 @@
     (property "Value" "MountHole" (id 1) (at 251.46 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "hillside_basic:MountingHole_2.2mm_M2_Pad" (id 2) (at 248.92 135.89 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (id 2) (at 248.92 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 248.92 135.89 0)
@@ -3769,22 +3770,22 @@
       (reference "H3") (unit 1) (value "Logo") (footprint "hillside:Hillside_Logo")
     )
     (path "/00000000-0000-0000-0000-00006219aac2"
-      (reference "H4") (unit 1) (value "MountHole") (footprint "hillside_basic:MountingHole_2.2mm_M2_Pad")
+      (reference "H4") (unit 1) (value "MountHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/00000000-0000-0000-0000-000062184c57"
-      (reference "H5") (unit 1) (value "MountHole") (footprint "hillside_basic:MountingHole_2.2mm_M2_Pad")
+      (reference "H5") (unit 1) (value "MountHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/00000000-0000-0000-0000-00006219aacc"
-      (reference "H6") (unit 1) (value "MountHole") (footprint "hillside_basic:MountingHole_2.2mm_M2")
+      (reference "H6") (unit 1) (value "MountHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/00000000-0000-0000-0000-00006218a790"
-      (reference "H7") (unit 1) (value "MountHole") (footprint "hillside_basic:MountingHole_2.2mm_M2")
+      (reference "H7") (unit 1) (value "MountHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/00000000-0000-0000-0000-0000621ecfae"
-      (reference "H8") (unit 1) (value "MountHole") (footprint "hillside_basic:MountingHole_2.2mm_M2_Pad")
+      (reference "H8") (unit 1) (value "MountHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/00000000-0000-0000-0000-0000621fdcbf"
-      (reference "H9") (unit 1) (value "MountHole") (footprint "hillside_basic:MountingHole_2.2mm_M2_Pad")
+      (reference "H9") (unit 1) (value "MountHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/00000000-0000-0000-0000-0000616b8147"
       (reference "J1") (unit 1) (value "Haptic") (footprint "hillside:Pimoroni_Haptic")
@@ -3799,7 +3800,7 @@
       (reference "J4") (unit 1) (value "Bat_GND") (footprint "hillside_basic:1pin_conn")
     )
     (path "/00000000-0000-0000-0000-000061a8564f"
-      (reference "JP1") (unit 1) (value "SolderJumper") (footprint "hillside_basic:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "SolderJumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000617cbce8"
       (reference "K1") (unit 1) (value "SW_Key") (footprint "hillside:pg1350-R")
