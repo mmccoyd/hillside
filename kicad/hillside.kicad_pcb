@@ -3435,7 +3435,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3e894d00-4425-498d-9ead-f450982a9204)
     )
-    (fp_text value "SolderJumper" (at 0 -1.7 -90) (layer "F.Fab")
+    (fp_text value "VccJumper" (at -1.44 -1.7 -90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 86eb168b-7396-4f91-9918-7be98c740008)
     )
