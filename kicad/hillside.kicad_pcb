@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "Hillside Keyboard")
-    (date "2021-10-29")
-    (rev "0.1.0")
+    (date "2021-12-26")
+    (rev "0.1.1-alpha")
     (company "mmccoyd")
     (comment 1 "A choc-spaced split keyboard with Ferris column stagger but more thumb and pinky keys.")
   )
