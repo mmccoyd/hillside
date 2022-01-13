@@ -1,3 +1,26 @@
+# Version 0.1.1-alpha
+
+Migrate to KiCad 6 and smooth edgecut.
+
+- Migrate to KiCad 6 and fix warnings:
+    - Trim LED pads back from edge
+    - MCU silk labels larger
+    - Use KiCad lib symbols instead of project copies
+    - Fix unconnected segments
+    - Remove drill holes in breakoff slots
+- Edge cut changes:
+    - Expand out 0.25 mm to match keycap edge
+    - Smoother transition curves
+    - MCU moved up for smoother top edge
+- Clearer MCU pin silk labeling on dual sided footprint
+
+## Details
+- Extra set of battery pads for two orientation options
+- Bottom row diodes within own row for cleaner traces
+- Split unrelated tracks apart for clearer traces
+- Fix swell direction on logo
+
+
 # Version 0.1.0
 
 First public release.
