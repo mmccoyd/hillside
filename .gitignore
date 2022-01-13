@@ -18,7 +18,14 @@
 #    bas_part.kicad_mod  footprints
 #    bap_part.kicad_mod  
 
-# gerber/
+
+# Ignore gerbers.
+# We commit and then remove after each fabrication
+kicad/gerber_hillside/*.gbr
+kicad/gerber_hillside/*.gbrjob
+kicad/gerber_hillside/*.drl
+kicad/gerber_hillside/*.ps
+kicad/gerber_hillside.zip
 
 
 
