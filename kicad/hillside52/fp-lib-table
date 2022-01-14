@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name hillside)(type KiCad)(uri ${KIPRJMOD}/lib/hillside.pretty)(options "")(descr ""))
-  (lib (name hillside_basic)(type KiCad)(uri ${KIPRJMOD}/lib/hillside_basic.pretty)(options "")(descr ""))
+  (lib (name hillside)(type KiCad)(uri ${KIPRJMOD}/../lib/hillside.pretty)(options "")(descr ""))
+  (lib (name hillside_basic)(type KiCad)(uri ${KIPRJMOD}/../lib/hillside_basic.pretty)(options "")(descr ""))
 )

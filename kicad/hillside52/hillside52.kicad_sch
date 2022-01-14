@@ -5,7 +5,7 @@
   (paper "USLetter")
 
   (title_block
-    (title "Hillside Keyboard")
+    (title "Hillside52 Keyboard")
     (date "2021-12-23")
     (rev "0.1.1-alpha")
     (company "mmccoyd")

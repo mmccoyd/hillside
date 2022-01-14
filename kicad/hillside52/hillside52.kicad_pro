@@ -347,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hillside.kicad_pro",
+    "filename": "hillside52.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -403,7 +403,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "hillside.net",
+      "netlist": "hillside52.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
