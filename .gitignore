@@ -2,11 +2,44 @@
 
 # What we want:
 
+# KiCad 6 files:
+#       https://dev-docs.kicad.org/en/file-formats/
+#       https://docs.kicad.org/6.0/en/kicad/kicad.html#kicad_files_and_folders
+
+# Project
+# .kicad_pro     project
+
+# Schematic
+# .kicad_sch     schematic  including the symbols used
+# sym-lib-table  list of symbol libraries
+
+# Board
+# .kicad_pcb     board
+# fp-lib-table   list of footprint libraries
+
+# Libs
+# .kicad_sym     symbols multiple per file, not in any special folder
+# foo.pretty/    folder for footprint files  the folder is the library
+#   .kicad_mod     footprint one per file
+
+# Other
+# .kicad_wks   worksheet if custom ones are defined
+# .net         component footprint association file
+# .cmp         
+
+# Things to ignore in git
+# .kicad_prl   local project settings
+# fp-info-cache  footprint cache to speed up loading
+
+
+
+# Old
+
 # myboard.pro   project
 # myboard.sch   schematic
 # myboard.kicad_pcb  board
 
-# myboard-cache.lib  cache of symbols used schematic
+# myboard-cache.lib  cache of symbols used schematic      OBSOLETE w/ 6
 # fp-lib-table for footprints, sym-lib-table for symbols
 
 # library/
@@ -19,6 +52,8 @@
 #    bap_part.kicad_mod  
 
 
+
+ 
 # Ignore gerbers.
 # We commit and then remove after each fabrication
 kicad/gerber_hillside/*.gbr
