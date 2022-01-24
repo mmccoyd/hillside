@@ -6,7 +6,7 @@
 
   (title_block
     (title "Hillside56 Keyboard")
-    (date "2022-01-20")
+    (date "2022-01-24")
     (rev "0.1.0-alpha")
     (company "mmccoyd")
     (comment 1 "A choc-spaced split keyboard with Ferris column stagger but more thumb and pinky keys.")
