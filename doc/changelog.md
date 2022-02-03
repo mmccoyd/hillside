@@ -1,3 +1,10 @@
+# Version 0.1.1
+
+Migrate to KiCad 6 and smooth edgecuts.
+
+- Gerbers and KiCad files from 0.1.1-alpha.
+- Identical to 0.1.0 electrically and in switch positions.
+
 # Version 0.1.1-alpha
 
 Migrate to KiCad 6 and smooth edgecut.

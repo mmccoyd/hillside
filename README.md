@@ -15,29 +15,28 @@ Features:
 - Encoder support under the ring fingers
 - Haptic feedback header
 - Underglow from five SK6812-MINI-Es
-- Reversible 98 x 137mm PCB, which qualifies for AllPCB's free PCB offer
+- Reversible 99 x 137mm PCB, which qualifies for AllPCB's free PCB offer
 - Detailed BOM and default keyboard rational.
 - SMT diodes, resistors, capacitors, and reset switch
 
 Hillside is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the MBK keycaps. Not MX ones, nor 18 x 18mm ones such as Work Louder.
 
-Hardware:
+## Hardware
 
 See the [wiki](https://github.com/mmccoyd/hillside/wiki)
   for how to order the PCB and build the board.
-KiCad 5.1.10 was used to create the board gerbers.
-The KiCad files load and plot with KiCad 5.1.12.
+KiCad 6 was used to create the board gerbers.
 
-Firmware, while PRs are in process:
-- For QMK, [./firmware/QMK/](./firmware/QMK/) has the files to copy into QMK's
-  boards/handwired/ folder.
-- For ZMK, firmware access is at [Hillside ZMK Firmware](https://github.com/mmccoyd/zmk-config).
-- The default keymap is shared by both and is described in
-  the [QMK keymap readme](./firmware/QMK/hillside/keymaps/default/).
+See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20and%20Modifying)
+  on whether it would be difficult to modify this design, for those that are interested.
 
-Forking and Modifying:
-  See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20and%20Modifying)
-  on whether it would be difficult to modify this design.
+## Firmware
+
+QMK includes firmware for [Hillside](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside).
+
+For ZMK, firmware access is at [Hillside ZMK Firmware](https://github.com/mmccoyd/zmk-config).
+
+The default keymap is shared by both and is described in QMK.
 
 # Why
 
@@ -75,5 +74,9 @@ The keyboards I have used and read about also influenced this board including th
 
 <div style="background-color:#DCDCDC;">
 
-![switches](doc/image/hillside-switches.svg "Switch Layout")
+To test if the key layout suits your fingers,
+ print these in landscape mode.
+![switches](doc/image/hillside-switches_left.svg "Switch Layout Left")
+
+![switches](doc/image/hillside-switches_right.svg "Switch Layout Right")
 </div>
