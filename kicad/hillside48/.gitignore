@@ -1,0 +1,7 @@
+# Ignore gerbers.
+# We commit and then remove after each fabrication
+gerber_hillside/*.gbr
+gerber_hillside/*.gbrjob
+gerber_hillside/*.drl
+gerber_hillside/*.ps
+gerber_hillside.zip
