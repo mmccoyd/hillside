@@ -6,8 +6,8 @@
 
   (title_block
     (title "Hillside56 Keyboard")
-    (date "2022-01-24")
-    (rev "0.1.0-alpha")
+    (date "2022-02-20")
+    (rev "0.1.0")
     (company "mmccoyd")
     (comment 1 "The bottom row has a four-key arrow cluster and one encoder can be in any of four spots.")
     (comment 2 "A choc-spaced split keyboard with Ferris column stagger but more thumb and pinky keys.")
