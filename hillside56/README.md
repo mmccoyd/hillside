@@ -2,8 +2,8 @@
 
 Hillside56 is a split ergonomic keyboard with 3x6+5+5 choc-spaced keys.
 It has the aggressive stagger of the Ferris but
-  physical arrow clusters, a longer thumb arc,
-  and a break-off outer pinky column.
+  physical arrow clusters, a longer thumb arc
+  and break-off outer pinky columns.
 
 ![Hillside56 keyboard](doc/image/hill56_photo_pair.png "Both halves")
 
