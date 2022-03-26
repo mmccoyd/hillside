@@ -1,11 +1,11 @@
-# Hillside56
+# Hillside52
 
-Hillside56 is a split ergonomic keyboard with 3x6+5+5 choc-spaced keys.
+Hillside52 is a split ergonomic keyboard with 3x6+5+5 choc-spaced keys.
 It has the aggressive stagger of the Ferris but
   physical arrow clusters, a longer thumb arc
   and break-off outer pinky columns.
 
-![Hillside56 keyboard](doc/image/hill56_photo_pair.png "Both halves")
+![Hillside52 keyboard](doc/image/hill52_photo_pair.png "Both halves")
 
 The arrow clusters provide a more familiar keymap for users new to small keyboards and for more seasoned users provide good encoder or extra key spots.
 
@@ -20,7 +20,7 @@ Additional Features:
 - Detailed BOM and default keyboard rational.
 - SMT diodes, resistors, capacitors, and reset switch
 
-Hillside56 is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the MBK keycaps. Not MX ones, nor 18 x 18mm ones such as Work Louder.
+Hillside52] is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the MBK keycaps. Not MX ones, nor 18 x 18mm ones such as Work Louder.
 
 ## Hardware
 
