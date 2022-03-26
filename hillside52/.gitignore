@@ -1,0 +1,11 @@
+
+
+# Ignore gerbers.
+# We commit and then remove after each fabrication
+gerber_*/*.gbr
+gerber_*/*.gbrjob
+gerber_*/*.drl
+gerber_*/*.ps
+gerber_*/*.svg
+gerber_*/*.dxf
+gerber_*.zip
