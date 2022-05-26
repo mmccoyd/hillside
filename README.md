@@ -38,13 +38,17 @@ For ZMK, firmware access is at [Hillside ZMK Firmware](https://github.com/mmccoy
 
 The default keymap is shared by both and is described in QMK.
 
+## Key Use
+ 
+I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They have the choices of where the thumb arc suits them best. The most tucked thumb is also handy to reach with the middle finger, as the open space serves as nice reference. The keys outside your main three thumb keys are handy for infrequent lock layers, escape, or for use when not actively typing for things such as mute. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb, but is still very handy.
+
 # Why
 
 I wanted choc spacing but a key or so more than the Ferris and an outer pinky column. Instead of tweaking the 3x6 choc Corne I started a new PCB for more flexibility, though it grew to fill its footprint....
 
 Moving around the switches of the Choc Corne did seem the easiest approach. But learning more than blind KiCad modification seemed a better idea, so I created a new PCB matching the Ferris column and thumb spacing.
 
-I liked the bottom row keys of my Atreus, so I added two under the middle columns, where they seem unobtrusive. Then one shifted to the thumb arch, which seems more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. It has more keys than my initial idea, but that makes keymap evolution feel less tight. I'd expect most people will prefer either the tucked three thumbs or the extended three, so they have that choice. The remaining keys are handy for infrequent uses such as escape, mute or extra layers.
+I liked the bottom row keys of my Atreus, so I added two under the middle columns, where they seem unobtrusive. Then one shifted to the thumb arch, which seems more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. It has more keys than my initial idea, but that makes keymap evolution feel less tight. 
 
 It is like a Ferris Sweep on steroids, which wound up close to a Choc Kyria but requires board fabrication and SMT soldering.
 Naming ideas included FeistyCorne, LongFir and LongSweep, but Hillside seemed the most fun.
