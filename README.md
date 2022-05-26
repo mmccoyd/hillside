@@ -46,9 +46,7 @@ I expect most people will primarily use either the tucked three thumbs or the ex
 
 I wanted choc spacing but a key or so more than the Ferris and an outer pinky column. Instead of tweaking the 3x6 choc Corne I started a new PCB for more flexibility, though it grew to fill its footprint....
 
-Moving around the switches of the Choc Corne did seem the easiest approach. But learning more than blind KiCad modification seemed a better idea, so I created a new PCB matching the Ferris column and thumb spacing.
-
-I liked the bottom row keys of my Atreus, so I added two under the middle columns, where they seem unobtrusive. Then one shifted to the thumb arch, which seems more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. It has more keys than my initial idea, but that makes keymap evolution feel less tight. 
+The bottom row of my Atreus was useful for infrequent keys, so I added two keys under the middle columns, where they seemed unobtrusive. Then one of them moved to the thumb arc, where it is more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. The result has more keys than my initial idea, but that makes keymap evolution feel less tight. 
 
 It is like a Ferris Sweep on steroids, which wound up close to a Choc Kyria but requires board fabrication and SMT soldering.
 Naming ideas included FeistyCorne, LongFir and LongSweep, but Hillside seemed the most fun.
