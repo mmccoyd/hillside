@@ -21,10 +21,10 @@ Features:
 
 Hillside is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the MBK keycaps. Not MX ones, nor 18 x 18mm ones such as Work Louder.
 
-## Hardware
+## Hardware and Build Guide
 
 See the [wiki](https://github.com/mmccoyd/hillside/wiki)
-  for how to order the PCB and build the board.
+  for PCB ordering, parts links and a build guide with pictures.
 KiCad 6 was used to create the board gerbers.
 
 See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20and%20Modifying)
@@ -44,7 +44,7 @@ I wanted choc spacing but a key or so more than the Ferris and an outer pinky co
 
 Moving around the switches of the Choc Corne did seem the easiest approach. But learning more than blind KiCad modification seemed a better idea, so I created a new PCB matching the Ferris column and thumb spacing.
 
-I liked the bottom row keys of my Atreus, so I added two under the middle columns, where they seem unobtrusive. Then one shifted to the thumb arch, which seems more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. It has more keys than my initial idea, but that makes keymap evolution feel less tight.
+I liked the bottom row keys of my Atreus, so I added two under the middle columns, where they seem unobtrusive. Then one shifted to the thumb arch, which seems more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. It has more keys than my initial idea, but that makes keymap evolution feel less tight. I'd expect most people will prefer either the tucked three thumbs or the extended three, so they have that choice. The remaining keys are handy for infrequent uses such as escape, mute or extra layers.
 
 It is like a Ferris Sweep on steroids, which wound up close to a Choc Kyria but requires board fabrication and SMT soldering.
 Naming ideas included FeistyCorne, LongFir and LongSweep, but Hillside seemed the most fun.
