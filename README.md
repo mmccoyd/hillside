@@ -39,7 +39,7 @@ The default keymap is shared by both and is described in QMK.
 
 ## Key Use
  
-I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose where the thumb arc suits them best. The most tucked thumb is also handy to reach with the middle finger, as the open space serves as a good reference. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb but is still very handy.
+I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose where the thumb arc suits them best. The most tucked thumb is also handy to reach with the middle finger, as the open space serves as a good reference. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb but is still very handy. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute.
 
 # Why
 
