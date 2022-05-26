@@ -4,7 +4,7 @@ Hillside is a split ergonomic keyboard with 3x6+4+2 choc-spaced keys. It has the
 
 ![Hillside keyboard with nice!nano and switches](doc/image/nice_pair_stacked.png "Keyboard with nice!nano and switches")
 
-So rather like a choc Kyria, minus two keys. With 42 to 48 keys it isn't minimalist,
+So rather like a choc Kyria, minus two keys. With 42 to 48 keys, it isn't minimalist,
   but it is compact on finger travel while still allowing roomy keymaps.
 
 Features:
@@ -16,7 +16,7 @@ Features:
 - Haptic feedback header
 - Underglow from five SK6812-MINI-Es
 - Reversible 99 x 137mm PCB, which qualifies for AllPCB's free PCB offer
-- Detailed BOM and default keyboard rational.
+- Detailed BOM and default keyboard rationale.
 - SMT diodes, resistors, capacitors, and reset switch
 
 Hillside is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the MBK keycaps. Not MX ones, nor 18 x 18mm ones such as Work Louder.
@@ -25,7 +25,6 @@ Hillside is _only_ suitable for choc v1 switches and keycaps based on an 18 x 17
 
 See the [wiki](https://github.com/mmccoyd/hillside/wiki)
   for PCB ordering, parts links and a build guide with pictures.
-KiCad 6 was used to create the board gerbers.
 
 See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20and%20Modifying)
   on whether it would be difficult to modify this design, for those that are interested.
@@ -40,11 +39,11 @@ The default keymap is shared by both and is described in QMK.
 
 ## Key Use
  
-I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They have the choices of where the thumb arc suits them best. The most tucked thumb is also handy to reach with the middle finger, as the open space serves as nice reference. The keys outside your main three thumb keys are handy for infrequent lock layers, escape, or for use when not actively typing for things such as mute. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb, but is still very handy.
+I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose where the thumb arc suits them best. The most tucked thumb is also handy to reach with the middle finger, as the open space serves as a good reference. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb but is still very handy.
 
 # Why
 
-I wanted choc spacing but a key or so more than the Ferris and an outer pinky column. Instead of tweaking the 3x6 choc Corne I started a new PCB for more flexibility, though it grew to fill its footprint....
+I wanted choc spacing but a key or so more than the Ferris and an outer pinky column. Instead of tweaking the 3x6 choc Corne I started a new PCB for more flexibility, though it grew to fill its footprint...
 
 The bottom row of my Atreus was useful for infrequent keys, so I added two keys under the middle columns, where they seemed unobtrusive. Then one of them moved to the thumb arc, where it is more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. The result has more keys than my initial idea, but that makes keymap evolution feel less tight. 
 
@@ -53,9 +52,9 @@ Naming ideas included FeistyCorne, LongFir and LongSweep, but Hillside seemed th
 
 ## Acknowledgments
 
-The awesome Low Profile Keyboards and splitkb.com discord communities provided a fertile learning ground for my keyboard explorations.
-Several of the symbol and footprint files came from that community, as noted in the doc folder.
-The keyboards I have used and read about also influenced this board including the
+The excellent Low Profile Keyboards and splitkb.com discord communities provided a fertile learning ground for my keyboard explorations.
+Several symbol and footprint files came from that community, as noted in the doc folder.
+The keyboards I have used and read about also influenced this board, including the
   [Atreus](https://shop.keyboard.io/products/keyboardio-atreus),
   [Lily58](https://github.com/kata0510/Lily58),
   [Kyria](https://splitkb.com/collections/keyboard-kits/products/kyria-pcb-kit),
@@ -76,7 +75,7 @@ The keyboards I have used and read about also influenced this board including th
 
 <div style="background-color:#DCDCDC;">
 
-To test if the key layout suits your fingers,
+To test if the key layout suits your fingers
  print these in landscape mode.
 ![switches](doc/image/hillside-switches_left.svg "Switch Layout Left")
 
