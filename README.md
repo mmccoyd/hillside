@@ -75,8 +75,16 @@ The keyboards I have used and read about also influenced this board, including t
 
 <div style="background-color:#DCDCDC;">
 
-To test if the key layout suits your fingers
- print these in landscape mode.
+To test if the key layout suits your fingers,
+ print these in landscape mode. 
+  - Click on each to open the github file view in a new tab. 
+  - Click on raw to see just the file in the browser tab.
+  - Tell your browser to print the file. But ensure it is at 100% and in landscape mode.
+  
+SVG files contain dimension information, so your browser should print it the correct size regardless of what size paper you are using.
+As an extra check, the images each contain marked length lines, which you can check with a ruler.
+The images are black lines on whatever the background is, so they do not like browser dark mode backgrounds, but will print black on white.
+
 ![switches](doc/image/hillside-switches_left.svg "Switch Layout Left")
 
 ![switches](doc/image/hillside-switches_right.svg "Switch Layout Right")
