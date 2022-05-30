@@ -39,13 +39,13 @@ The default keymap is shared by both and is described in QMK.
 
 ## Key Use
  
-I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose where the thumb arc suits them best. The most tucked thumb is also handy to reach with the middle finger, as the open space serves as a good reference. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb but is still very handy. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute.
+I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose which part of the thumb arc best suits them. The most tucked thumb is also handy to reach with the middle finger, with the open space serving as a good reference. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb but is still very handy. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute.
 
 # Why
 
 I wanted choc spacing but a key or so more than the Ferris and an outer pinky column. Instead of tweaking the 3x6 choc Corne I started a new PCB for more flexibility, though it grew to fill its footprint...
 
-The bottom row of my Atreus was useful for infrequent keys, so I added two keys under the middle columns, where they seemed unobtrusive. Then one of them moved to the thumb arc, where it is more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. The result has more keys than my initial idea, but that makes keymap evolution feel less tight. 
+The bottom row of my Atreus was useful for infrequent keys, so I added two keys under the middle columns, where they seemed unobtrusive. One of them then moved to the thumb arc, where it is more versatile. An upper thumb key seemed useful and combo-able without pushing the footprint. The result has more keys than my initial idea, but that makes keymap evolution feel less tight. 
 
 It is like a Ferris Sweep on steroids, which wound up close to a Choc Kyria but requires board fabrication and SMT soldering.
 Naming ideas included FeistyCorne, LongFir and LongSweep, but Hillside seemed the most fun.
