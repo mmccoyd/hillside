@@ -77,8 +77,8 @@ The keyboards I have used and read about also influenced this board, including t
 
 To test if the key layout suits your fingers,
  print these in landscape mode. 
-  - Click on each to open the github file view in a new tab. 
-  - Click on raw to see just the file in the browser tab.
+  - Click on each to open the github file view. 
+  - Click on raw to see just the file itself.
   - Tell your browser to print the file. But ensure it is at 100% and in landscape mode.
   
 SVG files contain dimension information, so your browser should print it the correct size regardless of what size paper you are using.
