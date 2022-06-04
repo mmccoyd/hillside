@@ -1,18 +1,16 @@
 # Hillside Ergonomic Keyboards
 
-Hillside is a small family of split ergonomic keyboards.
+![Hillside keyboard with nice!nano and switches](https://github.com/mmccoyd/hillside/wiki/image/family/hill_family_600.png)
 
-![Hillside keyboard with nice!nano and switches](https://github.com/mmccoyd/hillside/wiki/image/board/hill_family_600.png "Hillside 56, 52 and 48 keyboards")
+The Hillside family of split ergonomic keyboards includes:
 
-The boards are the:
-
-- [Hillside 56](hillside56) with a physical arrow T cluster fully separate from the alpha keys. The most novice friendly, but the largest.
-- [Hillside 52](hillside52) with ring and pinky splay and whose physical arrow keys steal one of the alpha keys. The best all around choice.
-- [Hillside 48](hillside48) which is like a Ferris Sweep on steroids. The original and most compact.
+- [Hillside 56](hillside56): The most novice-friendly but largest, with a physical arrow T fully separate from the primary keys.
+- [Hillside 52](hillside52): The best all-around, with ring and pinky splay and a physical arrow T that steals one symbol key.
+- [Hillside 48](hillside48): The most compact, like a Ferris Sweep on steroids.
 
 Their key differences are:
 
-| Board      | Layout  | Arrow <br> T | Finger <br> Splay | Encoder <br> Spots / Side | Hotswap <br> Option| Thin <br> Layout | Thin <br> Size |
+| Board      | Layout  | Arrow <br> T | Finger <br> Splay | Encoder <br> Spots / Side | Hotswap <br> Option| Trimmed <br> Layout | Trimmed <br> Keys |
 |:------------|:--------|:--------:|:---------:|:---------:|:-------:|:-------:|:-------:|
 | [Hillside 56](hillside56) | 3x6+5+5 | yes      |  no       | 4         | yes     | 3x5+4+5 | 48 |
 | [Hillside 52](hillside52) | 3x6+3+5 | yes      |  yes      | 3         | yes     | 3x5+2+5 | 44 |
@@ -21,20 +19,29 @@ Their key differences are:
 Their common features are:
 
 - Choc-spaced keys, aggressive stagger, five thumb keys
-- Break-off pinky column
+- Break-off outer pinky column
 - Tenting puck support
-- QMK and ZMK firmware
+- QMK and wireless ZMK firmware
 - Nice!nano battery power switch
 - Encoder support
 - Haptic feedback header
 - Underglow from five SK6812-MINI-Es
-- Reversible PCB which qualifies for AllPCB's free PCB
+- Reversible PCB, which qualifies for AllPCB's free PCB
 - Detailed BOM and default keyboard rationale.
 - SMT diodes, resistors, capacitors, and reset switch
 
-See the board readmes for details and default keymaps.
+See the board readmes for details, rationales and default keymaps.
 
-*Keycaps*: Hillside boards are _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps) and [MoErgo MCC](https://mkultra.click/moergo-mcc-pom-1u-keycap/). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
+*Keycaps*: Hillside boards are _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps), [MoErgo MCC](https://mkultra.click/moergo-mcc-pom-1u-keycap/) or [Asymplex Choc](https://www.asymplex.xyz/category/choc). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
+
+Hillside includes both 
+ [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside)
+ and [ZMK Firmware](https://github.com/mmccoyd/zmk-config).
+
+
+## Key Use
+
+I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose where the thumb arc suits them best. I find the thumb finger is best for reaching the upper thumb key; clearing the lower thumb requires some care, but it is still very useful. The middle finger also handily reaches the most tucked thumb key, as the open space is a good reference. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute.
 
 ## Hardware and Build Guide
 
@@ -43,18 +50,6 @@ See the [wiki](https://github.com/mmccoyd/hillside/wiki)
 
 See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20and%20Modifying)
   on whether it would be difficult to modify these designs.
-
-## Firmware
-
-QMK includes firmware for [Hillside48](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside).
-
-ZMK firmware is at [Hillside ZMK Firmware](https://github.com/mmccoyd/zmk-config).
-
-The default keymap is shared by both and is described in QMK.
-
-## Key Use
- 
-I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose which part of the thumb arc best suits them. The most tucked thumb is also handy to reach with the middle finger, with the open space serving as a good reference. I find the upper thumb is best reached with the thumb. It needs care clearing the lower thumb but is still very handy. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute.
 
 ## Acknowledgments
 
