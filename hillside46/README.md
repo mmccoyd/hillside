@@ -2,16 +2,17 @@
 
 ![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo.png)
 
-Hillside 46 is a split ergonomic keyboard with 3x6+3+5 choc-spaced keys.
+THIS IS AN INCOMPLETE README. Some of it is still left over from the 52.
+
+Hillside 46 is a split ergonomic keyboard with 3x6+5 choc-spaced keys.
 It has the aggressive stagger of the Ferris plus
-  finger splay, a physical arrow T, 
+  finger splay, 
   a longer thumb arc and break-off outer pinky columns.
 
-The arrow cluster provides a more familiar keymap for users new to small keyboards and utility keys for more seasoned users. 
 The finger splay more naturally follows our hand's mechanics.
 See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 46 are: 
 
-* Three spots for one encoder per side at either: upper or tucked thumb or lowest ring
+* Two spots for one encoder per side at either: upper or tucked thumb or lowest ring
 * Reversible 100 x 143mm PCB, which qualifies for AllPCB's free PCB offer
 * Optional hotswap with Mill-Max switch sockets
 
@@ -25,7 +26,7 @@ Hillside includes:
 
 ## Keymap
 
-The default keymap has physical arrow keys, alternate hand modifiers for all keys and a navigation and editing layer. See the [keymap descrition](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap) for details.
+The default keymap alternate hand modifiers for all keys and a navigation and editing layer. See the [keymap descrition](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap) for details.
 
 [![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/hill46_summary.png)](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap)
 
@@ -36,10 +37,7 @@ See the [wiki](https://github.com/mmccoyd/hillside/wiki)
 
 # Why
 
-A visually easy-to-use keyboard is helpful. Either for people new to small keyboards or for a keyboard pulled from a dusty drawer a year from now. The physical arrow cluster of a 65% keyboard makes it more intuitive than a 60% keyboard, so adding an arrow T to a 40% board seemed a way to make using a 40% board more obvious.
-
-I find a few extra keys lying around lets me have multiple approaches to things. This allows me to choose between approaches gradually over time.
-Also, the extra keys fit within the existing Hillside 48 footprint.
+Your finger tips do not move parallel to each other when you curl and extend them. It makes sense that your keyboard should not either.
 
 
 ## Layout Tester
