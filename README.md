@@ -5,8 +5,9 @@
 The Hillside family of split ergonomic keyboards includes:
 
 - [Hillside 56](hillside56): The most novice-friendly but largest, with a physical arrow T fully separate from the primary keys.
-- [Hillside 52](hillside52): The best all-around, with ring and pinky splay and a physical arrow T that steals one symbol key.
+- [Hillside 52](hillside52): The best all-around, with splayed ring and pinky, and a physical arrow T that steals one symbol key.
 - [Hillside 48](hillside48): The most compact, like a Ferris Sweep on steroids.
+- [Hillside 46](https://github.com/mmccoyd/hillside/tree/_46/hillside46): Splayed and compact, like a splayed Sweep on steroids. The 52 with no bottom row. Still on a [branch](https://github.com/mmccoyd/hillside/tree/_46/hillside46).
 
 Their key differences are:
 
@@ -15,6 +16,7 @@ Their key differences are:
 | [Hillside 56](hillside56) | 3x6+5+5 | yes      |  no       | 4         | yes     | 3x5+4+5 | 48 |
 | [Hillside 52](hillside52) | 3x6+3+5 | yes      |  yes      | 3         | yes     | 3x5+2+5 | 44 |
 | [Hillside 48](hillside48) | 3x6+1+5 | no       |  no       | 1         | no      | 3x5+1+5 | 42 |
+| [Hillside 46](https://github.com/mmccoyd/hillside/tree/_46/hillside46) | 3x6+5 | no       |  yes       | 2         | yes      | 3x5+5 | 40 |
 
 Their common features are:
 
