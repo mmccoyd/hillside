@@ -11,7 +11,7 @@ It has the aggressive stagger of the Ferris plus
 The column splay more naturally follows our hand's mechanics.
 See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 46 are: 
 
-* Two spots for one encoder per side at either: upper or tucked thumb or lowest ring
+* Two spots for one encoder per side at either: upper or tucked thumb
 * Reversible 100 x 143mm PCB, which qualifies for AllPCB's free PCB offer
 * Optional hotswap with Mill-Max switch sockets
 * The top and bottom keys of the outer picky column can be removed individually or the whole column can be removed.
