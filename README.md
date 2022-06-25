@@ -50,7 +50,7 @@ I expect most people will primarily use either the tucked three thumbs or the ex
 
 ## Why
 
-In retrospect, creating four boards is more than I intended. I wanted a few more keys than the Sweep (48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys, and felt people new to small boards would prefer a physical arrow cluster (56). But that put the extra keys too far for me. Many 40% boards tuck the arrow cluster partly into the main rows. So I did that with some splay I wanted (52). But others like a more minimal board, and removing the partial bottom row was easy (46). So it was really three experiments for me, plus an easy variant.
+In retrospect, creating four boards is more than I intended. I wanted a few more keys than the Sweep (48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys, and felt people new to small boards would prefer a physical arrow cluster (56). But that put the extra keys too far for me. Yet the arrow cluster of many 40% boards is tucked partly into the main rows. So I did that with some splay I wanted (52). But others like a more minimal board, and removing the partial bottom row was easy (46). So it was really three experiments for me, plus an easy variant.
 
 ## Hardware and Build Guide
 
