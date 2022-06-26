@@ -4790,7 +4790,7 @@
     (property "Datasheet" "~" (id 3) (at 55.88 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C221662" (id 4) (at 55.88 180.34 0)
+    (property "LCSC" "" (id 4) (at 55.88 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLC Type" "Extended" (id 5) (at 55.88 180.34 0)

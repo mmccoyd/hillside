@@ -4004,7 +4004,7 @@
     (at 210.897493 104.428291 -65)
     (descr "C&K DPDT JS202011AQN wired as SPDT")
     (property "JLC Type" "Extended")
-    (property "LCSC" "C221662")
+    (property "LCSC" "")
     (property "Price" ".43 @2+")
     (property "Sheetfile" "hillside46.kicad_sch")
     (property "Sheetname" "")
