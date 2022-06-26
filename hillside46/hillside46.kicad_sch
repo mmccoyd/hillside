@@ -3959,7 +3959,7 @@
   )
 
   (symbol (lib_id "hillside_basic:SK6812-MINI-E") (at 182.88 154.94 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006141d38f)
     (property "Reference" "D1" (id 0) (at 182.88 142.24 0))
     (property "Value" "SK6812-MINI-E" (id 1) (at 182.88 144.78 0))
@@ -3976,7 +3976,7 @@
   )
 
   (symbol (lib_id "hillside_basic:SK6812-MINI-E") (at 200.66 154.94 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006141dbb5)
     (property "Reference" "D2" (id 0) (at 200.66 142.24 0))
     (property "Value" "SK6812-MINI-E" (id 1) (at 200.66 144.78 0))
@@ -4042,7 +4042,7 @@
   )
 
   (symbol (lib_id "hillside_basic:SK6812-MINI-E") (at 218.44 154.94 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000614ffb02)
     (property "Reference" "D3" (id 0) (at 218.44 142.24 0))
     (property "Value" "SK6812-MINI-E" (id 1) (at 218.44 144.78 0))
@@ -4059,7 +4059,7 @@
   )
 
   (symbol (lib_id "hillside_basic:SK6812-MINI-E") (at 236.22 154.94 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061501bed)
     (property "Reference" "D4" (id 0) (at 236.22 142.24 0))
     (property "Value" "SK6812-MINI-E" (id 1) (at 236.22 144.78 0))
@@ -4110,7 +4110,7 @@
   )
 
   (symbol (lib_id "hillside:ProMicro_r") (at 97.155 140.97 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006162c399)
     (property "Reference" "U1" (id 0) (at 98.425 115.9002 0)
       (effects (font (size 1.524 1.524)))
@@ -4173,7 +4173,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 43.18 64.77 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000616da088)
     (property "Reference" "K13" (id 0) (at 43.18 57.15 0))
     (property "Value" "SW_Key" (id 1) (at 43.18 59.69 0))
@@ -4186,7 +4186,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 60.96 64.77 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000616da092)
     (property "Reference" "K14" (id 0) (at 60.96 57.15 0))
     (property "Value" "SW_Key" (id 1) (at 60.96 59.69 0))
@@ -4199,7 +4199,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 202.565 96.52 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000616f3997)
     (property "Reference" "K23" (id 0) (at 202.565 88.9 0))
     (property "Value" "SW_Key" (id 1) (at 202.565 91.44 0))
@@ -4212,7 +4212,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 96.52 43.18 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061738d17)
     (property "Reference" "K9" (id 0) (at 96.52 35.56 0))
     (property "Value" "SW_Key" (id 1) (at 96.52 38.1 0))
@@ -4225,7 +4225,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 114.3 43.18 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061738d21)
     (property "Reference" "K10" (id 0) (at 114.3 35.56 0))
     (property "Value" "SW_Key" (id 1) (at 114.3 38.1 0))
@@ -4238,7 +4238,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 96.52 57.15 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617598fa)
     (property "Reference" "K15" (id 0) (at 96.52 49.53 0))
     (property "Value" "SW_Key" (id 1) (at 96.52 52.07 0))
@@ -4251,7 +4251,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 114.3 57.15 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061759904)
     (property "Reference" "K16" (id 0) (at 114.3 49.53 0))
     (property "Value" "SW_Key" (id 1) (at 114.3 52.07 0))
@@ -4264,7 +4264,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 43.18 36.83 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617cbce8)
     (property "Reference" "K1" (id 0) (at 43.18 29.21 0))
     (property "Value" "SW_Key" (id 1) (at 43.18 31.75 0))
@@ -4277,7 +4277,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 60.96 36.83 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617d0821)
     (property "Reference" "K2" (id 0) (at 60.96 29.21 0))
     (property "Value" "SW_Key" (id 1) (at 60.96 31.75 0))
@@ -4290,7 +4290,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 149.86 29.21 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617e537c)
     (property "Reference" "K5" (id 0) (at 149.86 21.59 0))
     (property "Value" "SW_Key" (id 1) (at 149.86 24.13 0))
@@ -4303,7 +4303,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 167.64 29.21 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617e5386)
     (property "Reference" "K6" (id 0) (at 167.64 21.59 0))
     (property "Value" "SW_Key" (id 1) (at 167.64 24.13 0))
@@ -4316,7 +4316,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 149.86 43.18 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617e53a4)
     (property "Reference" "K11" (id 0) (at 149.86 35.56 0))
     (property "Value" "SW_Key" (id 1) (at 149.86 38.1 0))
@@ -4329,7 +4329,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 167.64 43.18 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617e53ae)
     (property "Reference" "K12" (id 0) (at 167.64 35.56 0))
     (property "Value" "SW_Key" (id 1) (at 167.64 38.1 0))
@@ -4342,7 +4342,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 149.86 57.15 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617e53c9)
     (property "Reference" "K17" (id 0) (at 149.86 49.53 0))
     (property "Value" "SW_Key" (id 1) (at 149.86 52.07 0))
@@ -4355,7 +4355,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 167.64 57.15 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617e53d3)
     (property "Reference" "K18" (id 0) (at 167.64 49.53 0))
     (property "Value" "SW_Key" (id 1) (at 167.64 52.07 0))
@@ -4368,7 +4368,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 96.52 29.21 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006183edfd)
     (property "Reference" "K3" (id 0) (at 96.52 21.59 0))
     (property "Value" "SW_Key" (id 1) (at 96.52 24.13 0))
@@ -4381,7 +4381,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 114.3 29.21 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006183ee07)
     (property "Reference" "K4" (id 0) (at 114.3 21.59 0))
     (property "Value" "SW_Key" (id 1) (at 114.3 24.13 0))
@@ -4394,7 +4394,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 43.18 50.8 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006185890a)
     (property "Reference" "K7" (id 0) (at 43.18 43.18 0))
     (property "Value" "SW_Key" (id 1) (at 43.18 45.72 0))
@@ -4407,7 +4407,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 60.96 50.8 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061858914)
     (property "Reference" "K8" (id 0) (at 60.96 43.18 0))
     (property "Value" "SW_Key" (id 1) (at 60.96 45.72 0))
@@ -4524,7 +4524,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Rotary") (at 137.16 71.12 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619671d4)
     (property "Reference" "K20" (id 0) (at 137.16 64.77 0))
     (property "Value" "SW_Rotary" (id 1) (at 137.16 66.04 0)
@@ -4619,7 +4619,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 160.655 78.74 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619ca548)
     (property "Reference" "K21" (id 0) (at 160.655 71.12 0))
     (property "Value" "SW_Key" (id 1) (at 160.655 73.66 0))
@@ -4632,7 +4632,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Key") (at 178.435 85.09 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619ca552)
     (property "Reference" "K22" (id 0) (at 178.435 77.47 0))
     (property "Value" "SW_Key" (id 1) (at 178.435 80.01 0))
@@ -4772,7 +4772,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPDT") (at 55.88 180.34 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a0e70b)
     (property "Reference" "SW2" (id 0) (at 55.88 172.72 0))
     (property "Value" "SW_Power" (id 1) (at 55.88 175.26 0))
@@ -5226,7 +5226,7 @@
   )
 
   (symbol (lib_id "hillside:TRRS") (at 137.795 181.61 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 1877e8f2-b5eb-4e12-bda7-600741d0d39f)
     (property "Reference" "J2" (id 0) (at 142.875 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5625,7 +5625,7 @@
   )
 
   (symbol (lib_id "hillside:SW_Rotary") (at 195.58 65.405 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid b8affdd1-51ab-4b69-8f3c-e6bf0b9c7b4b)
     (property "Reference" "K19" (id 0) (at 193.675 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
