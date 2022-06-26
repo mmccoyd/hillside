@@ -1,0 +1,41 @@
+name: Document
+
+on:
+  push:
+  workflow_dispatch:
+
+env:
+  BOARD: hillside46
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/setsoft/kicad_auto:dev_k6
+    defaults:
+      run:
+        working-directory: ./${{ env.BOARD }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Debug
+        run: |
+          pwd
+          ls -la
+
+      - name: Run kibot
+        run: kibot -vvv -c ${{ env.BOARD }}-doc.kibot.yaml
+
+      - name: Upload Docs Zip
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: ./${{ env.BOARD }}/${{ env.BOARD }}-Doc.zip
+
+      - name: Debug list directory
+        run: |
+          pwd
+          ls -la
+          ls -la docs

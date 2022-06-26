@@ -1,0 +1,101 @@
+# Create board documentation images using KiBot
+
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: true
+  ignore_unconnected: false
+
+global:
+  dir: docs
+  solder_mask_color: blue
+  pcb_finish: ENIG
+
+outputs:
+
+  ####
+  # Images
+  - name: pcb_view
+    comment: Image of pcb traces etc
+    type: pcb_print
+    options:
+      format: PNG
+      output: pcb-view.png
+      pages:
+        - layers:
+          - F.Cu
+          - B.Cu
+          - User.Eco2
+          - Edge.Cuts
+
+  - name: switch_outlines
+    comment: Image of switch outlines
+    type: pcb_print
+    options:
+      format: SVG
+      output: switch-layout_left.svg
+      plot_sheet_reference: false
+      pages:
+        - layers:
+          - layer: User.Eco2
+            color: "#000000"
+          - layer: Edge.Cuts
+            color: "#000000"
+          
+  - name: switch_outlines_mirror
+    comment: Image of switch outlines mirrored
+    type: pcb_print
+    options:
+      format: SVG
+      output: switch-layout_right.svg
+      plot_sheet_reference: false
+      mirror: true
+      pages:
+        - layers:
+          - layer: User.Eco2
+            color: "#000000"
+          - layer: Edge.Cuts
+            color: "#000000"
+
+  - name: schematic
+    comment: Image of schematic
+    type: svg_sch_print
+
+  - name: 3D Drawing
+    comment: 3D drawing of PCB
+    type: render_3d
+    options:
+      zoom: 2
+      copper: '#D4AF37'
+      dark_mode: true
+      sort_order: 'D,R,C,SW,U'
+      blacklist: 'H'
+          
+  ####
+  # BoM
+  - name: bom
+    comment: BoM for ordering SMT and through-hole parts
+    type: bom
+    options:
+      format: HTML
+      output: '%f_%i_jlc.%x'
+      ref_separator: ','
+      group_fields: ['Value', 'Footprint', 'LCSC Part #']
+
+
+  - name: ibom
+    comment: Interactive BOM for Hand Assembly
+    type: ibom
+    options:
+      layer_view: 'F'
+
+  - name: Doc
+    comment: Zip of documentation artifacts
+    type: compress
+    dir: ./
+    options:
+      files:
+        - source: docs/*
+          dest: /
