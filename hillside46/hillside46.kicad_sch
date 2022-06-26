@@ -5550,7 +5550,7 @@
     (uuid aa2d396d-372a-49c1-b49f-be68581af83a)
     (property "Reference" "U2" (id 0) (at 105.41 172.085 0))
     (property "Value" "SRV05-4" (id 1) (at 109.22 175.895 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (id 2) (at 93.98 172.72 0)
+    (property "Footprint" "hillside_basic:SOT-23-6_Handsoldering" (id 2) (at 93.98 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" (id 3) (at 111.76 184.15 0)
@@ -6091,7 +6091,7 @@
       (reference "U1") (unit 1) (value "ProMicro_r") (footprint "hillside:ProMicro_v2")
     )
     (path "/aa2d396d-372a-49c1-b49f-be68581af83a"
-      (reference "U2") (unit 1) (value "SRV05-4") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+      (reference "U2") (unit 1) (value "SRV05-4") (footprint "hillside_basic:SOT-23-6_Handsoldering")
     )
     (path "/28a7bffd-830a-4229-bae4-fa3de7e1fd6b"
       (reference "V1") (unit 1) (value "Via") (footprint "hillside_basic:VIA-0.8mm")
