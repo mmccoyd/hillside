@@ -13,6 +13,14 @@ global:
   solder_mask_color: blue
   pcb_finish: ENIG
 
+filters:
+  - name: mechanical
+    comment: Parts like bumpons to not include in BoM
+    type: generic
+    exclude_any:
+      - column: Config
+        regex: 'do not fit'
+    
 outputs:
 
   ####
@@ -67,11 +75,8 @@ outputs:
     comment: 3D drawing of PCB
     type: render_3d
     options:
-      zoom: 2
+      zoom: 8
       copper: '#D4AF37'
-      dark_mode: true
-      sort_order: 'D,R,C,SW,U'
-      blacklist: 'H'
           
   ####
   # BoM
@@ -83,6 +88,12 @@ outputs:
       output: '%f_%i_jlc.%x'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC Part #']
+      number: 2
+      count_smd_tht: true
+      exclude_filter: mechanical
+      html:
+        title: "Hillside 46 Bill of Materials"
+        highlight_empty: false
 
 
   - name: ibom
@@ -90,6 +101,9 @@ outputs:
     type: ibom
     options:
       layer_view: 'F'
+      dark_mode: true
+      sort_order: 'D,R,U2,C,SW,U1,J,K'
+      blacklist: 'H'
 
   - name: Doc
     comment: Zip of documentation artifacts
