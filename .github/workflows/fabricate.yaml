@@ -1,7 +1,11 @@
 name: Fabricate
 
 on:
-  # push:
+  push:
+    paths:
+    - 'hillside46/*.kicad_sch'
+    - 'hillside46/*.kicad_pcb'
+    - 'hillside46/*-fab.kibot.yaml'
   workflow_dispatch:
 
 env:
@@ -20,11 +24,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Debug
-        run: |
-          pwd
-          ls -la
 
       - name: Run kibot
         run: kibot -vvv -c ${{ env.BOARD }}-fab.kibot.yaml

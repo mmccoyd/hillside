@@ -77,7 +77,8 @@ outputs:
     options:
       zoom: 8
       copper: '#D4AF37'
-          
+      solder_paste: '#D4AF37'
+
   ####
   # BoM
   - name: bom
@@ -100,10 +101,12 @@ outputs:
     comment: Interactive BOM for Hand Assembly
     type: ibom
     options:
-      layer_view: 'F'
+      board_view: top-bottom
+      layer_view: FB
       dark_mode: true
-      sort_order: 'D,R,U2,C,SW,U1,J,K'
-      blacklist: 'H'
+      sort_order: 'D,C,R,U,SW,J,K'
+      dnf_filter: mechanical
+      
 
   - name: Doc
     comment: Zip of documentation artifacts

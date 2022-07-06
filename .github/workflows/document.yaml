@@ -2,6 +2,8 @@ name: Document
 
 on:
   push:
+    paths:
+    - 'hillside46/*-doc.kibot.yaml'
   workflow_dispatch:
 
 env:
