@@ -177,6 +177,9 @@
     (property "Datasheet" "" (id 3) (at 3.81 -26.67 0)
       (effects (font (size 1.524 1.524)))
     )
+    (property "ki_description" "ProMicro, Elite-C or compatable" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "ProMicro_r_0_1"
       (rectangle (start 13.97 20.32) (end -11.43 -12.7)
         (stroke (width 0) (type default) (color 0 0 0 0))
@@ -615,6 +618,9 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
+    (property "ki_description" "Choc v1 switch" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "SW_Key_0_1"
       (rectangle (start -4.318 1.27) (end 4.318 1.524)
         (stroke (width 0) (type default) (color 0 0 0 0))
@@ -653,6 +659,9 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
+    (property "ki_description" "Switch, momentary contact" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "SW_PUSH_0_1"
       (rectangle (start -4.318 1.27) (end 4.318 1.524)
         (stroke (width 0) (type default) (color 0 0 0 0))
@@ -689,6 +698,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -1.905 6.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Switch, Choc V1 or Rotary" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_Rotary_1_1"
