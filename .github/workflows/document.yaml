@@ -4,6 +4,7 @@ on:
   push:
     paths:
     - 'hillside46/*-doc.kibot.yaml'
+    - '.github/workflows/document.yaml'
   workflow_dispatch:
 
 env:
@@ -12,8 +13,6 @@ env:
 jobs:
   export:
     runs-on: ubuntu-latest
-    container:
-      image: docker.io/setsoft/kicad_auto:dev_k6
     defaults:
       run:
         working-directory: ./${{ env.BOARD }}
@@ -22,14 +21,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Debug
-        run: |
-          pwd
-          ls -la
-
-      - name: Run kibot
-        run: kibot -vvv -c ${{ env.BOARD }}-doc.kibot.yaml
-
+      - name: KiBot
+        uses: INTI-CMNB/KiBot@v2_dk6
+        with:
+          config: ./${{ env.BOARD }}/${{ env.BOARD }}-doc.kibot.yaml
+          schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
+          board: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
+          dir: ./${{ env.BOARD }}
+          skip: run_drc
+          verbose: 3
+          
       - name: Upload Docs Zip
         uses: actions/upload-artifact@v3
         with:

@@ -6,6 +6,7 @@ on:
     - 'hillside46/*.kicad_sch'
     - 'hillside46/*.kicad_pcb'
     - 'hillside46/*-fab.kibot.yaml'
+    - '.github/workflows/fabricate.yaml'
   workflow_dispatch:
 
 env:
@@ -13,10 +14,8 @@ env:
 
 
 jobs:
-  export:
+  generate:
     runs-on: ubuntu-latest
-    container:
-      image: docker.io/setsoft/kicad_auto:dev_k6
     defaults:
       run:
         working-directory: ./${{ env.BOARD }}
@@ -25,8 +24,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Run kibot
-        run: kibot -vvv -c ${{ env.BOARD }}-fab.kibot.yaml
+      - name: KiBot
+        uses: INTI-CMNB/KiBot@v2_dk6
+        continue-on-error: true
+
+        with:
+          config: ./${{ env.BOARD }}/${{ env.BOARD }}-fab.kibot.yaml
+          schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
+          board: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
+          dir: ./${{ env.BOARD }}
+          verbose: 3
 
       - name: Upload Gerber Zip
         uses: actions/upload-artifact@v3
@@ -40,8 +47,20 @@ jobs:
           name: pcba
           path: ./${{ env.BOARD }}/${{ env.BOARD }}-PCBA.zip
 
+    
       - name: Debug list directory
+        if: ${{ always() }}
         run: |
           pwd
           ls -la
           ls -la gerber
+        
+      - name: Upload Logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs
+          path: |
+            ./${{ env.BOARD }}/*.log
+            ./${{ env.BOARD }}/*.txt
+
