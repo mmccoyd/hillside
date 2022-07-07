@@ -19,14 +19,20 @@ filters:
       - column: 'LCSC'
         regex: '^C\d+'
 
-outputs:
+variants:
+  - name: rotated
+    comment: 'A place holder for the built in rotation filter for JLCPCB'
+    type: kibom
+    variant: rotated
+    pre_transform: _rot_footprint
 
+outputs:
   ####
   # Gerbers
-  - name: gerbers
-    comment: Gerbers with JLCPCB option choices
+  - name: plot
+    comment: Gerber plot with JLCPCB option choices
     type: gerber
-    dir: gerbers
+    dir: gerber
     options: 
     
       # General plot
@@ -76,14 +82,16 @@ outputs:
       zeros_format: DECIMAL_FORMAT
       output: "%f%i.%x"
       
-  - name: Fab
+  - name: Gerbers
     comment: Zip of fabrication artifacts
     type: compress
     options:
       files:
-        - from_output: gerbers
+        - from_output: plot
           dest: /
         - from_output: drill
+          dest: /
+        - source: doc/README_gerber.md
           dest: /
 
   ####
@@ -94,7 +102,7 @@ outputs:
     dir: pcba
     options:
       exclude_filter: 'only_jlc_parts'
-      output: '%f_%i_jlc.%x'
+      output: '%f_%i.%x'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC Part #']
       columns:
@@ -116,7 +124,8 @@ outputs:
     type: position
     dir: pcba
     options:
-      output: '%f_cpl_jlc.%x'
+      variant: rotated
+      output: '%f_cpl_top.%x'
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
@@ -140,7 +149,5 @@ outputs:
     type: compress
     options:
       files:
-        - from_output: position
-          dest: /
-        - from_output: bom
+        - source: pcba/*.csv
           dest: /

@@ -3,7 +3,7 @@ name: Document
 on:
   push:
     paths:
-    - 'hillside46/*-doc.kibot.yaml'
+    - 'hillside46/bin/doc.kibot.yaml'
     - '.github/workflows/document.yaml'
   workflow_dispatch:
 
@@ -24,11 +24,10 @@ jobs:
       - name: KiBot
         uses: INTI-CMNB/KiBot@v2_dk6
         with:
-          config: ./${{ env.BOARD }}/${{ env.BOARD }}-doc.kibot.yaml
+          config: ./${{ env.BOARD }}/bin/doc.kibot.yaml
           schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
           board: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
           dir: ./${{ env.BOARD }}
-          skip: run_drc
           verbose: 3
           
       - name: Upload Docs Zip
@@ -37,8 +36,22 @@ jobs:
           name: docs
           path: ./${{ env.BOARD }}/${{ env.BOARD }}-Doc.zip
 
+      ####
+      # Logs
       - name: Debug list directory
+        if: ${{ always() }}
         run: |
           pwd
           ls -la
-          ls -la docs
+          ls -la doc_out
+
+      - name: Upload Logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: doc_debug_logs
+          path: |
+            ./${{ env.BOARD }}/*.log
+            ./${{ env.BOARD }}/*.txt
+            ./${{ env.BOARD }}/doc_out/*.log
+            ./${{ env.BOARD }}/doc_out/*.txt

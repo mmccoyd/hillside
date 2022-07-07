@@ -9,7 +9,7 @@ preflight:
   ignore_unconnected: false
 
 global:
-  dir: docs
+  dir: doc_out
   solder_mask_color: blue
   pcb_finish: ENIG
 
@@ -24,7 +24,7 @@ filters:
 outputs:
 
   ####
-  # Images
+  # Image
   - name: pcb_view
     comment: Image of pcb traces etc
     type: pcb_print
@@ -108,11 +108,17 @@ outputs:
       dnf_filter: mechanical
       
 
+  ####
+  # Zip
   - name: Doc
     comment: Zip of documentation artifacts
     type: compress
     dir: ./
     options:
       files:
-        - source: docs/*
+        - source: doc_out/*.html
+          dest: /
+        - source: doc_out/*.png
+          dest: /
+        - source: doc_out/*.svg
           dest: /

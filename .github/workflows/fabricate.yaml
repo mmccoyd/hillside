@@ -5,13 +5,12 @@ on:
     paths:
     - 'hillside46/*.kicad_sch'
     - 'hillside46/*.kicad_pcb'
-    - 'hillside46/*-fab.kibot.yaml'
+    - 'hillside46/bin/fab.kibot.yaml'
     - '.github/workflows/fabricate.yaml'
   workflow_dispatch:
 
 env:
   BOARD: hillside46
-
 
 jobs:
   generate:
@@ -26,40 +25,55 @@ jobs:
 
       - name: KiBot
         uses: INTI-CMNB/KiBot@v2_dk6
-        continue-on-error: true
-
         with:
-          config: ./${{ env.BOARD }}/${{ env.BOARD }}-fab.kibot.yaml
+          config: ./${{ env.BOARD }}/bin/fab.kibot.yaml
           schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
           board: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
           dir: ./${{ env.BOARD }}
-          verbose: 3
+          verbose: 1
 
-      - name: Upload Gerber Zip
+      - name: PosBottom
+        run: |
+          ./bin/pos_back.py \
+            < pcba/${{ env.BOARD }}_cpl_top.csv \
+            > ${{ env.BOARD }}_cpl_bottom.csv
+            
+      - name: Upload Gerber
         uses: actions/upload-artifact@v3
         with:
           name: gerbers
-          path: ./${{ env.BOARD }}/${{ env.BOARD }}-Fab.zip
+          path: ./${{ env.BOARD }}/${{ env.BOARD }}-Gerbers.zip
 
-      - name: Upload PCBA Zip
+      - name: Upload BOM
         uses: actions/upload-artifact@v3
         with:
-          name: pcba
-          path: ./${{ env.BOARD }}/${{ env.BOARD }}-PCBA.zip
+          name: bom
+          path: ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_bom.csv
 
-    
+      - name: Upload Position
+        uses: actions/upload-artifact@v3
+        with:
+          name: position
+          path: |
+             ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_cpl_top.csv
+             ./${{ env.BOARD }}_cpl_bottom.csv
+             ./doc/README_pcba.md
+
+      ####
+      # Logs
       - name: Debug list directory
         if: ${{ always() }}
         run: |
           pwd
           ls -la
           ls -la gerber
+          ls -la pcba
         
       - name: Upload Logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: logs
+          name: debug_logs_fab
           path: |
             ./${{ env.BOARD }}/*.log
             ./${{ env.BOARD }}/*.txt
