@@ -35,8 +35,8 @@ jobs:
       - name: PosBottom
         run: |
           ./bin/pos_back.py \
-            < pcba/${{ env.BOARD }}_cpl_top.csv \
-            > ${{ env.BOARD }}_cpl_bottom.csv
+            < pcba/boards_12_top_cpl.csv \
+            > boards_34_bottom_cpl.csv
             
       - name: Upload Gerber
         uses: actions/upload-artifact@v3
@@ -50,14 +50,20 @@ jobs:
           name: bom
           path: ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_bom.csv
 
-      - name: Upload Position
+      - name: Collect position files
+        run: |
+          cp pcba/boards_12_top_cpl.csv .
+          cp doc/README_pcba.md .
+          ls -la
+
+      - name: Upload Position files
         uses: actions/upload-artifact@v3
         with:
           name: position
           path: |
-             ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_cpl_top.csv
-             ./${{ env.BOARD }}_cpl_bottom.csv
-             ./doc/README_pcba.md
+             ./${{ env.BOARD }}/boards_12_top_cpl.csv
+             ./${{ env.BOARD }}/boards_34_bottom_cpl.csv
+             ./${{ env.BOARD }}/README_pcba.md
 
       ####
       # Logs
@@ -68,6 +74,8 @@ jobs:
           ls -la
           ls -la gerber
           ls -la pcba
+          cat pcba/boards_12_top_cpl.csv
+          cat boards_34_bottom_cpl.csv
         
       - name: Upload Logs
         if: ${{ always() }}

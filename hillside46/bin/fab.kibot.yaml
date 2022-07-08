@@ -125,7 +125,7 @@ outputs:
     dir: pcba
     options:
       variant: rotated
-      output: '%f_cpl_top.%x'
+      output: 'boards_12_top_cpl.%x'
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
