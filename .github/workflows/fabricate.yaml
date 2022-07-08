@@ -39,18 +39,14 @@ jobs:
             < pcba/boards_12_top_cpl.csv \
             > boards_34_bottom_cpl.csv
             
-      - name: Upload Gerber
+      - name: Upload Gerber and BOM
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.BOARD }}-gerbers
-          path: ./${{ env.BOARD }}/${{ env.BOARD }}-Gerbers.zip
-
-      - name: Upload BOM
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ env.BOARD }}-bom
-          path: ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_bom.csv
-
+          name: ${{ env.BOARD }}-gerber_bom
+          path: |
+            ./${{ env.BOARD }}/${{ env.BOARD }}-Gerbers.zip
+            ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_bom.csv
+            
       - name: Collect position files
         run: |
           cp pcba/boards_12_top_cpl.csv .
