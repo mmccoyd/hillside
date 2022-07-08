@@ -6,6 +6,7 @@ on:
     - 'hillside46/*.kicad_sch'
     - 'hillside46/*.kicad_pcb'
     - 'hillside46/bin/fab.kibot.yaml'
+    - 'hillside46/bin/pos_back.py'
     - '.github/workflows/fabricate.yaml'
   workflow_dispatch:
 
@@ -41,13 +42,13 @@ jobs:
       - name: Upload Gerber
         uses: actions/upload-artifact@v3
         with:
-          name: gerbers
+          name: ${{ env.BOARD }}-gerbers
           path: ./${{ env.BOARD }}/${{ env.BOARD }}-Gerbers.zip
 
       - name: Upload BOM
         uses: actions/upload-artifact@v3
         with:
-          name: bom
+          name: ${{ env.BOARD }}-bom
           path: ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_bom.csv
 
       - name: Collect position files
@@ -59,7 +60,7 @@ jobs:
       - name: Upload Position files
         uses: actions/upload-artifact@v3
         with:
-          name: position
+          name: ${{ env.BOARD }}-position
           path: |
              ./${{ env.BOARD }}/boards_12_top_cpl.csv
              ./${{ env.BOARD }}/boards_34_bottom_cpl.csv
@@ -81,7 +82,7 @@ jobs:
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: debug_logs_fab
+          name: ${{ env.BOARD }}-debug_logs_fab
           path: |
             ./${{ env.BOARD }}/*.log
             ./${{ env.BOARD }}/*.txt

@@ -10,10 +10,10 @@ def main():
     writer = csv.DictWriter(sys.stdout, FIELDS, quoting=csv.QUOTE_MINIMAL)
     writer.writeheader()
     for row in reader:
-        assert row['Layer'] == 'top'
+        #assert row['Layer'] == 'top'
 
         row['Layer'] = 'bottom'
-        row['Rotation'] = (row['Rotation'] + 180) % 360
+        row['Rotation'] = f"{(float(row['Rotation']) + 180) % 360:10.6f}"
 
         writer.writerow(row)
 
