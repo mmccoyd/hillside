@@ -82,7 +82,7 @@ outputs:
       zeros_format: DECIMAL_FORMAT
       output: "%f%i.%x"
       
-  - name: Gerbers
+  - name: gerbers
     comment: Zip of fabrication artifacts
     type: compress
     options:
@@ -96,6 +96,31 @@ outputs:
 
   ####
   # PCBA
+  - name: position
+    comment: Pick and place position file
+    type: position
+    dir: position
+    options:
+      variant: rotated
+      output: 'boards_12_top_cpl.%x'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: true
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
+
   - name: bom
     comment: BoM
     type: bom
@@ -118,36 +143,3 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
-
-  - name: position
-    comment: Pick and place position file
-    type: position
-    dir: pcba
-    options:
-      variant: rotated
-      output: 'boards_12_top_cpl.%x'
-      format: CSV
-      units: millimeters
-      separate_files_for_front_and_back: false
-      only_smd: true
-      columns:
-        - id: Ref
-          name: Designator
-        - Val
-        - Package
-        - id: PosX
-          name: "Mid X"
-        - id: PosY
-          name: "Mid Y"
-        - id: Rot
-          name: Rotation
-        - id: Side
-          name: Layer
-
-  - name: PCBA
-    comment: Zip of PCBA artifacts
-    type: compress
-    options:
-      files:
-        - source: pcba/*.csv
-          dest: /

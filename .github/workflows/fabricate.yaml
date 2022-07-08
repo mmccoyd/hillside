@@ -24,6 +24,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Create position and PCBA folders with write access
+        run: |
+          mkdir position
+          mkdir pcba
+          ls -la 
+
       - name: KiBot
         uses: INTI-CMNB/KiBot@v2_dk6
         with:
@@ -33,46 +39,33 @@ jobs:
           dir: ./${{ env.BOARD }}
           verbose: 1
 
-      - name: PosBottom
+      - name: Create position file for back of boards
         run: |
           ./bin/pos_back.py \
-            < pcba/boards_12_top_cpl.csv \
-            > boards_34_bottom_cpl.csv
-            
-      - name: Upload Gerber and BOM
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ env.BOARD }}-gerber_bom
-          path: |
-            ./${{ env.BOARD }}/${{ env.BOARD }}-Gerbers.zip
-            ./${{ env.BOARD }}/pcba/${{ env.BOARD }}_bom.csv
-            
-      - name: Collect position files
+            < position/boards_12_top_cpl.csv \
+            > position/boards_34_bottom_cpl.csv
+
+      - name: Zip position files with readme
         run: |
-          cp pcba/boards_12_top_cpl.csv .
-          cp doc/README_pcba.md .
-          ls -la
+          zip --junk-paths pcba/position_files.zip \
+             position/*.csv  doc/README_pcba.md
+          ls -la . pcba
 
-      - name: Upload Position files
+      - name: Upload Gerber zip, BOM, position zip
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.BOARD }}-position
+          name: ${{ env.BOARD }}-fabricate
           path: |
-             ./${{ env.BOARD }}/boards_12_top_cpl.csv
-             ./${{ env.BOARD }}/boards_34_bottom_cpl.csv
-             ./${{ env.BOARD }}/README_pcba.md
-
+            ./${{ env.BOARD }}/${{ env.BOARD }}-gerbers.zip
+            ./${{ env.BOARD }}/pcba/*
+            
       ####
       # Logs
       - name: Debug list directory
         if: ${{ always() }}
         run: |
           pwd
-          ls -la
-          ls -la gerber
-          ls -la pcba
-          cat pcba/boards_12_top_cpl.csv
-          cat boards_34_bottom_cpl.csv
+          ls -la . gerber pcba position
         
       - name: Upload Logs
         if: ${{ always() }}
