@@ -5326,7 +5326,7 @@
 
   (footprint "hillside_basic:ToolingHole_1.152mm" (layer "F.Cu")
     (tedit 5B924765) (tstamp a43b5f02-c600-4c28-9bf1-08634b89b1c5)
-    (at 204.258727 144.279154)
+    (at 203.879829 144.003153)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Config" "do not fit")
