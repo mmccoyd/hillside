@@ -54,7 +54,7 @@ jobs:
       - name: Upload Gerber zip, BOM, position zip
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.BOARD }}-fabricate
+          name: ${{ env.BOARD }}-gerber-and-pcba
           path: |
             ./${{ env.BOARD }}/${{ env.BOARD }}-gerbers.zip
             ./${{ env.BOARD }}/pcba/*

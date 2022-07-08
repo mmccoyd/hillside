@@ -101,7 +101,7 @@ outputs:
     type: position
     dir: position
     options:
-      variant: rotated
+      #variant: rotated
       output: 'boards_12_top_cpl.%x'
       format: CSV
       units: millimeters
