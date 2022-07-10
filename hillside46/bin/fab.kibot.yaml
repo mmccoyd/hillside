@@ -101,8 +101,8 @@ outputs:
     type: position
     dir: position
     options:
-      #variant: rotated
-      output: 'boards_12_top_cpl.%x'
+      variant: rotated
+      output: 'top_boards.%x'
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false

@@ -42,8 +42,8 @@ jobs:
       - name: Create position file for back of boards
         run: |
           ./bin/pos_back.py \
-            < position/boards_12_top_cpl.csv \
-            > position/boards_34_bottom_cpl.csv
+            < position/top_boards.csv \
+            > position/bottom_boards.csv
 
       - name: Zip position files with readme
         run: |
