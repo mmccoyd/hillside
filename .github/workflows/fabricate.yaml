@@ -24,9 +24,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Create position and PCBA folders with write access
+      - name: Create PCBA and position folders with write access
         run: |
-          mkdir position
           mkdir pcba
           ls -la 
 
@@ -42,36 +41,36 @@ jobs:
       - name: Create position file for back of boards
         run: |
           ./bin/pos_back.py \
-            < position/top_boards.csv \
-            > position/bottom_boards.csv
+            < pcba/top_boards.csv \
+            > pcba/bottom_boards.csv
 
-      - name: Zip position files with readme
-        run: |
-          zip --junk-paths pcba/position_files.zip \
-             position/*.csv  doc/README_pcba.md
-          ls -la . pcba
+      #- name: Zip position files with readme, if using PCBWay as panel
+      #  run: |
+      #    zip --junk-paths pcba/position_files.zip \
+      #       position/*.csv  doc/README_pcba_pcbway.md
+      #    ls -la . pcba
 
-      - name: Upload Gerber zip, BOM, position zip
+      - name: Upload Gerber zip, BOM, position 
         uses: actions/upload-artifact@v3
         with:
           name: ${{ env.BOARD }}-gerber-and-pcba
           path: |
             ./${{ env.BOARD }}/${{ env.BOARD }}-gerbers.zip
             ./${{ env.BOARD }}/pcba/*
-            
+
       ####
       # Logs
       - name: Debug list directory
         if: ${{ always() }}
         run: |
           pwd
-          ls -la . gerber pcba position
+          ls -lA . gerber pcba
         
       - name: Upload Logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.BOARD }}-debug_logs_fab
+          name: ${{ env.BOARD }}_logs_fab
           path: |
             ./${{ env.BOARD }}/*.log
             ./${{ env.BOARD }}/*.txt

@@ -99,7 +99,7 @@ outputs:
   - name: position
     comment: Pick and place position file
     type: position
-    dir: position
+    dir: pcba
     options:
       variant: rotated
       output: 'top_boards.%x'
