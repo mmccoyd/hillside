@@ -4628,8 +4628,8 @@
     (gr_arc (start 1.999998 0) (mid 1.006169 0.414199) (end 0.008765 0.008686) (width 0.254))
     (gr_arc (start 3.999996 0) (mid 3.006168 0.414197) (end 2.008765 0.008684) (width 0.254))
     (gr_arc (start 5.999994 0) (mid 5.006166 0.414196) (end 4.008765 0.008682) (width 0.254))
-    (gr_arc (start 7.999992 0) (mid 7.009868 0.414173) (end 6.01406 0.013857) (width 0.254))
-    (gr_arc (start 9.99999 0) (mid 9.009866 0.414172) (end 8.01406 0.013855) (width 0.254))
+    (gr_arc (start 7.999992 0) (mid 7.011102 0.414164) (end 6.015831 0.015576) (width 0.254))
+    (gr_arc (start 9.99999 0) (mid 9.0111 0.414163) (end 8.015831 0.015574) (width 0.254))
     (gr_arc (start 11.999988 0) (mid 11.007396 0.414186) (end 10.010526 0.010405) (width 0.254))
     (gr_arc (start 13.999986 0) (mid 13.00616 0.41419) (end 12.008764 0.008674) (width 0.254))
       ) (tstamp 8f8079a0-472e-458f-9ef5-18a9af5567bf))
@@ -4637,7 +4637,7 @@
       (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
-    (gr_arc (start 0.993832 -0.414198) (mid 0.539568 -0.10953) (end 0.00367 -0.000021) (width 0.254))
+    (gr_arc (start 0.993832 -0.414198) (mid 0.540705 -0.110006) (end 0.006136 -0.00004) (width 0.254))
     (gr_arc (start 2.99383 -0.414198) (mid 1.999999 0.000002) (end 1.002593 -0.405512) (width 0.254))
     (gr_arc (start 4.993828 -0.414198) (mid 3.999998 0) (end 3.002593 -0.405514) (width 0.254))
     (gr_arc (start 6.993826 -0.414198) (mid 5.999996 -0.000001) (end 5.002593 -0.405516) (width 0.254))
@@ -4686,7 +4686,7 @@
       (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
-    (gr_arc (start 0.993832 -0.414198) (mid 0.539568 -0.10953) (end 0.00367 -0.000021) (width 0.254))
+    (gr_arc (start 0.993832 -0.414198) (mid 0.540705 -0.110006) (end 0.006136 -0.00004) (width 0.254))
     (gr_arc (start 2.99383 -0.414198) (mid 1.999999 0.000002) (end 1.002593 -0.405512) (width 0.254))
     (gr_arc (start 4.993828 -0.414198) (mid 3.999998 0) (end 3.002593 -0.405514) (width 0.254))
     (gr_arc (start 6.993826 -0.414198) (mid 5.999996 -0.000001) (end 5.002593 -0.405516) (width 0.254))
@@ -4799,8 +4799,8 @@
     (gr_arc (start 1.999998 0) (mid 1.006169 0.414199) (end 0.008765 0.008686) (width 0.254))
     (gr_arc (start 3.999996 0) (mid 3.006168 0.414197) (end 2.008765 0.008684) (width 0.254))
     (gr_arc (start 5.999994 0) (mid 5.006166 0.414196) (end 4.008765 0.008682) (width 0.254))
-    (gr_arc (start 7.999992 0) (mid 7.009868 0.414173) (end 6.01406 0.013857) (width 0.254))
-    (gr_arc (start 9.99999 0) (mid 9.009866 0.414172) (end 8.01406 0.013855) (width 0.254))
+    (gr_arc (start 7.999992 0) (mid 7.011102 0.414164) (end 6.015831 0.015576) (width 0.254))
+    (gr_arc (start 9.99999 0) (mid 9.0111 0.414163) (end 8.015831 0.015574) (width 0.254))
     (gr_arc (start 11.999988 0) (mid 11.007396 0.414186) (end 10.010526 0.010405) (width 0.254))
     (gr_arc (start 13.999986 0) (mid 13.00616 0.41419) (end 12.008764 0.008674) (width 0.254))
       ) (tstamp fcf58bad-bdda-4f20-89f2-31403e4ba391))
@@ -6012,6 +6012,7 @@
   (gr_arc (start 92.973886 86.003363) (mid 92.473884 86.503153) (end 91.973882 86.003363) (layer "Edge.Cuts") (width 0.05) (tstamp e93ee68d-eaca-4d5f-8039-2c05a18d1184))
   (gr_curve (pts (xy 81.18639 111.807986) (xy 80.468147 108.361918) (xy 74.304829 110.203153) (xy 74.152798 106.403153)) (layer "Edge.Cuts") (width 0.05) (tstamp eecafdc6-61f3-42da-9f5a-a75cb7bc4352))
   (gr_arc (start 97.400305 94.33784) (mid 96.994741 94.917166) (end 96.415498 94.511484) (layer "Edge.Cuts") (width 0.05) (tstamp f3e71b0d-9c92-4632-809d-4c6cb9961a1c))
+  (gr_circle (center 175.752835 53.453153) (end 179.004664 52.879764) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp f6f3bf72-a543-42ef-9eb1-2c12e8e9ba34))
   (gr_curve (pts (xy 205.513083 141.627692) (xy 203.787841 143.289705) (xy 200.257846 140.829703) (xy 198.832846 139.389707)) (layer "Edge.Cuts") (width 0.05) (tstamp f867b129-78d2-4cbc-bca3-399e62bb287b))
   (gr_text "Hillside \n  46 " (at 137.596903 96.070597) (layer "F.Cu") (tstamp 00000000-0000-0000-0000-000061405b9f)
     (effects (font (size 1.8 1.6) (thickness 0.24)) (justify left))
@@ -6035,6 +6036,9 @@
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "CUT OUT" (at 83.773883 84.891238) (layer "F.Fab") (tstamp 123a8599-c08b-4b1a-8cc1-4ea1fdc558cb)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text "CUT\nOUT" (at 175.747802 53.424596) (layer "F.Fab") (tstamp 14871e9e-2bbf-4c90-86c8-15d84a0a8f2a)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "CUT OUT" (at 96.377847 91.032515 100) (layer "F.Fab") (tstamp 47a1056e-94df-4cc7-a844-66b7d132819d)
@@ -82591,6 +82595,12 @@
   (group "" (id a4f3ff66-2777-4673-b2db-ecd371ee8eef)
     (members
       f867b129-78d2-4cbc-bca3-399e62bb287b
+    )
+  )
+  (group "" (id cb4e47a8-20c2-4890-847f-2b7033328a26)
+    (members
+      14871e9e-2bbf-4c90-86c8-15d84a0a8f2a
+      f6f3bf72-a543-42ef-9eb1-2c12e8e9ba34
     )
   )
   (group "" (id d3b4f5d0-e88c-4f6e-b5d5-a1bbd2f5e2b9)
