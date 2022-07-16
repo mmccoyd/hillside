@@ -1,25 +1,26 @@
 # Hillside Ergonomic Keyboards
 
-![Hillside keyboard Family](https://github.com/mmccoyd/hillside/wiki/image/family/hill_family_600.png)
-![Hillside 46 keymap](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/hill46_base_600.png)
+The Hillside keyboards differ mostly in whether they have splay and a bottom row:
 
-The Hillside family of split ergonomic keyboards includes:
+| Splayed|<img width=1900/>|
+|:-----------|:----------------|
+| [Hillside 46](https://github.com/mmccoyd/hillside/tree/_46/hillside46): Like a splayed Sweep on steroids.     | ![Hillside 46 keymap](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/hill46_base_600.png) |
+| [Hillside 52](hillside52):  Best all-around, utility bottom row keys or a physical arrow T that steals one symbol key. | ![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
+| **Non-Splayed**|   |
+| [Hillside 48](hillside48): Most compact, like a Ferris Sweep on steroids.                 [Hillside 56](hillside56):  Most novice-friendly, with a physical arrow T fully separate from the primary keys. A tad bulky.    |![Hillside 48_52](https://github.com/mmccoyd/hillside/wiki/image/family/hill_48_52_600.png) |
 
-| Board&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Description  |
-|:----------------|:--------|
-| [Hillside 56](hillside56) | Most novice-friendly, with a physical arrow T fully separate from the primary keys. A tad bulky.|
-| [Hillside 52](hillside52)| Best all-around, with splayed ring and pinky, utility bottom row keys or a physical arrow T that steals one symbol key. |
-| [Hillside 48](hillside48) | Most compact, like a Ferris Sweep on steroids. |
-| [Hillside 46](https://github.com/mmccoyd/hillside/tree/_46/hillside46) | Splayed and compact, like a splayed Sweep on steroids. The 52 with no bottom row. Still on a [branch](https://github.com/mmccoyd/hillside/tree/_46/hillside46). |
 
-Their key differences are:
 
-| Board      | Layout  | Arrow <br> T | Finger <br> Splay | Encoder <br> Spots / Side | Hotswap <br> Option| Trimmed <br> Layout | Trimmed <br> Keys |
-|:------------:|:--------|:--------:|:-----:|:-----:|:-------:|:-------|:---:|
-| [56](hillside56) | 3x6+5+5 | yes  |  no   | 4    | yes     | 3x5+4+5 | 48 |
-| [52](hillside52) | 3x6+3+5 | yes  |  yes  | 3    | yes     | 3x5+2+5 | 44 |
-| [48](hillside48) | 3x6+1+5 | no   |  no   | 1    | no      | 3x5+1+5 | 42 |
-| [46](https://github.com/mmccoyd/hillside/tree/_46/hillside46) | 3x6+5 | no       |  yes       | 2    | yes      | 3x5+5 | 40 |
+
+Their more specific differences are:
+
+| Type | Board      | Layout  | Arrow <br> T | Encoder <br> Spots / Side | Hotswap <br> Option| Trimmed <br> Layout | Trimmed <br> Keys |
+|:-----------|:----------------:|:--------|:----:|:----:|:-------:|:--------|:--:|
+| Splayed     | [46](https://github.com/mmccoyd/hillside/tree/_46/hillside46) | 3x6+0+5 | no       | 2    | yes      | 3x5+0+5 | 40 |
+|             | [52](hillside52) | 3x6+3+5 | yes  | 3    | yes     | 3x5+2+5 | 44 |
+| Non-Splayed | [48](hillside48) | 3x6+1+5 | no   | 1    | no      | 3x5+1+5 | 42 |
+|             | [56](hillside56) | 3x6+5+5 | yes  | 4    | yes     | 3x5+4+5 | 48 |
+
 
 Their common features are:
 
