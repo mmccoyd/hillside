@@ -1,49 +1,48 @@
 # Hillside 46 Ergonomic Keyboard
 
-![Hillside46 keyboard](doc/image/hill46_keys.png)
+![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo_1024.png)
 
 
 Hillside 46 is a split ergonomic keyboard with 3x6+5 choc-spaced keys.
 It has the aggressive stagger of the Ferris plus
-  finger splay, 
-  a longer thumb arc and break-off outer pinky columns.
+  finger splay,
+  a longer thumb arc and break-off outer pinkie columns.
 
 The column splay more naturally follows our hand's mechanics.
 See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 46 are: 
 
+* Optional factory parts soldering except for the switches, MCU, TRRS, LEDs and battery switch.
+* Fab with PCBA is $9 per keyboard for five keyboards, plus shipping.  
+  Or $12 each for two keyboards, if the diodes etc are on the left's top side and the right's bottom side.
 * Two spots for one encoder per side at either: upper or tucked thumb
-* Reversible 100 x 143mm PCB, which qualifies for AllPCB's free PCB offer
+* Reversible 100 x 143mm PCB
 * Optional hotswap with Mill-Max switch sockets
-* The top and bottom keys of the outer picky column can be removed individually or the whole column can be removed.
-
-**This board is still a work in progress, though safe to build and use.**
-
-The Hillside 46 is electrically the same as the Hillside 52, 
-so the same firmware currently works for both. Just the keys in the physically missing row will never get pressed.
-
-There are some cleanups I'll likely do prompted by the 52 board,
-but the gerbers that KiCad will generate should be fine for manufacturing,
-the changes from the 52 have been very simple.
-
 
 **THIS IS AN INCOMPLETE README. Much of the below is still left over from the 52.**
 
 
 Hillside includes:
- [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) [PR](https://github.com/qmk/qmk_firmware/pull/17374) 
- with .json, .c, [via](https://github.com/mmccoyd/hillside/wiki/hill_46/via_config.json) and [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_46/keyboards/handwired/hillside/46/keymaps) keymaps,
+ [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) 
+ [PR](https://github.com/qmk/qmk_firmware/pull/17374) 
+ with .json, .c, 
+ [via](https://github.com/mmccoyd/hillside/wiki/hill_46/via_config.json) and 
+ [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_46/keyboards/handwired/hillside/46/keymaps) keymaps,
  [ZMK Firmware](https://github.com/mmccoyd/zmk-config),
- a [keyboard layout editor](http://www.keyboard-layout-editor.com/) loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/keyboard-layout-editor.json) 
- and a [draw.io](https://app.diagrams.net) loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/drawio_keymap.png).
+ a [keyboard layout editor](http://www.keyboard-layout-editor.com/) 
+ loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/keyboard-layout-editor.json) 
+ and a [draw.io](https://app.diagrams.net) 
+ loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/drawio_keymap.png).
 
 
 ## Keymap
 
-The default keymap alternate hand modifiers for all keys and a navigation and editing layer. See the [keymap descrition](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap) for details.
+The default keymap has a navigation and editing layer and alternate hand modifiers for all keys. See the [keymap descrition](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap) for details.
 
 [![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/hill46_summary.png)](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap)
 
 ## Hardware and Build Guide
+
+There are GitHub Actions that build the gerbers, PCBA documents and image documents. Check the Actions tab and manually run the Fabricate workflow from a fork on your Git account. Once released, the release gerber version will be in the [Releases page](https://github.com/mmccoyd/hillside/releases).
 
 See the [wiki](https://github.com/mmccoyd/hillside/wiki)
   for PCB ordering, parts links and a build guide with pictures.
