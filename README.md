@@ -4,15 +4,14 @@ The Hillside keyboards differ mostly in whether they have splay and a bottom row
 
 | Splayed|<img width=1900/>|
 |:-----------|:----------------|
-| [Hillside 46](https://github.com/mmccoyd/hillside/tree/_46/hillside46): Like a splayed Sweep on steroids.     | ![Hillside 46 keymap](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/hill46_base_600.png) |
-| [Hillside 52](hillside52):  Best all-around, utility bottom row keys or a physical arrow T that steals one symbol key. | ![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
+| [Hillside 46](https://github.com/mmccoyd/hillside/tree/_46/hillside46): Like a splayed Feris Sweep on steroids.     | ![Hillside 46 keymap](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo_600.png) |
+| [Hillside 52](hillside52):  Best all-around, with a utility bottom row or a physical arrow T that steals one symbol key. | ![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
 | **Non-Splayed**|   |
-| [Hillside 48](hillside48): Most compact, like a Ferris Sweep on steroids.                 [Hillside 56](hillside56):  Most novice-friendly, with a physical arrow T fully separate from the primary keys. A tad bulky.    |![Hillside 48_52](https://github.com/mmccoyd/hillside/wiki/image/family/hill_48_52_600.png) |
+| [Hillside 48](hillside48): Most compact, like a Ferris Sweep on steroids.    |![Hillside 48](https://github.com/mmccoyd/hillside/wiki/image/48/hill48_600.png) |
+| [Hillside 56](hillside56):  Most novice-friendly, with a physical arrow T fully separate from the primary keys.   |![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
 
 
-
-
-Their more specific differences are:
+Their specific differences are:
 
 | Type | Board      | Layout  | Arrow <br> T | Encoder <br> Spots / Side | Hotswap <br> Option| Trimmed <br> Layout | Trimmed <br> Keys |
 |:-----------|:----------------:|:--------|:----:|:----:|:-------:|:--------|:--:|
@@ -21,18 +20,19 @@ Their more specific differences are:
 | Non-Splayed | [48](hillside48) | 3x6+1+5 | no   | 1    | no      | 3x5+1+5 | 42 |
 |             | [56](hillside56) | 3x6+5+5 | yes  | 4    | yes     | 3x5+4+5 | 48 |
 
+The 46 has optional factory parts soldering except for the switches, MCU, TRRS, LEDs and battery switch.
 
 Their common features are:
 
 - Choc-spaced keys, aggressive stagger, five thumb keys
-- Break-off outer pinky column
+- Break-off outer pinkie column
 - Tenting puck support
 - QMK and wireless ZMK firmware
 - Nice!nano battery power switch
 - Encoder support
 - Haptic feedback header
-- Underglow from five SK6812-MINI-Es
-- Reversible PCB, which qualifies for AllPCB's free PCB
+- Underglow from four or five SK6812-MINI-Es
+- Reversible PCB
 - Detailed BOM and default keyboard rationale.
 - SMT diodes, resistors, capacitors, and reset switch
 
@@ -51,7 +51,7 @@ I expect most people will primarily use either the tucked three thumbs or the ex
 
 ## Why
 
-In retrospect, creating four boards is more than I intended. I wanted a few more keys than the Sweep (48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys, and felt people new to small boards would prefer a physical arrow cluster (56). But that put the extra keys too far for me. Yet the arrow cluster of many 40% boards is tucked partly into the main rows. So I did that with some splay I wanted (52). But others like a more minimal board, and removing the partial bottom row was easy (46). So it was really three experiments for me, plus an easy variant.
+Creating four boards is more than I intended. I wanted a few more keys than the Sweep (48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys, and felt people new to small boards would prefer a physical arrow cluster (56). But that put the extra keys too far for me. Yet the arrow cluster of many 40% boards is tucked partly into the main rows. So I did that with some splay I wanted (52). But others like a more minimal board, and removing the partial bottom row was easy (46). So it was really three experiments for me, plus an easy variant.
 
 ## Hardware and Build Guide
 
@@ -63,7 +63,7 @@ See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20a
 
 ## Acknowledgments
 
-The excellent Low Profile Keyboards and splitkb.com discord communities provided a fertile learning ground for my keyboard explorations.
+The excellent Low Profile Keyboards and splitkb.com discord communities provided a fertile learning ground.
 Several symbol and footprint files came from that community, as noted in the doc folder.
 The keyboards I have used and read about also influenced these boards, including the
   [Atreus](https://shop.keyboard.io/products/keyboardio-atreus),
