@@ -1,6 +1,11 @@
 # Hillside Ergonomic Keyboards
 
-The Hillside keyboards differ mostly in whether they have splay and a bottom row:
+The Hillsides are 
+[40%](https://deskthority.net/wiki/40%25) 
+ split-[ergonomic](https://deskthority.net/wiki/Ergonomic_keyboard) 
+ keyboards with a 
+ [column-stagger](https://deskthority.net/wiki/Staggering#Columnar_layout) layout.
+ Between them, they differ mostly in whether they have splay and a bottom row:
 
 | Splayed|<img width=1900/>|
 |:-----------|:----------------|
@@ -8,7 +13,7 @@ The Hillside keyboards differ mostly in whether they have splay and a bottom row
 | [Hillside 52](hillside52):  Best all-around, with a utility bottom row or a physical arrow T that steals one symbol key. | ![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
 | **Non-Splayed**|   |
 | [Hillside 48](hillside48): Most compact, like a Ferris Sweep on steroids.    |![Hillside 48](https://github.com/mmccoyd/hillside/wiki/image/48/hill48_600.png) |
-| [Hillside 56](hillside56):  Most novice-friendly, with a physical arrow T fully separate from the primary keys.   |![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
+| [Hillside 56](hillside56):  Most novice-friendly, with a physical arrow T fully separate from the primary keys. A tad bulky.  |![Hillside 56](https://github.com/mmccoyd/hillside/wiki/image/family/hill56_600.png) |
 
 
 Their specific differences are:
@@ -51,7 +56,7 @@ I expect most people will primarily use either the tucked three thumbs or the ex
 
 ## Why
 
-Creating four boards is more than I intended. I wanted a few more keys than the Sweep (48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys, and felt people new to small boards would prefer a physical arrow cluster (56). But that put the extra keys too far for me. Yet the arrow cluster of many 40% boards is tucked partly into the main rows. So I did that with some splay I wanted (52). But others like a more minimal board, and removing the partial bottom row was easy (46). So it was really three experiments for me, plus an easy variant.
+Creating four boards is more than I intended. I wanted closer keys than MX boards, yet a few more keys than the Sweep (hence the 48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys and felt people new to small boards would prefer a physical arrow cluster (hence the 56). But that put the extra keys too far for me, and I realized many 40% boards tuck the arrow cluster partly into the main rows. So I did that with some splay I wanted (hence the 52). But others like a more minimal board, and removing the partial bottom row was easy (hence the 46). So it was really three experiments for me, plus an easy variant.
 
 ## Hardware and Build Guide
 
