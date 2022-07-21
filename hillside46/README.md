@@ -8,7 +8,7 @@ It has the aggressive stagger of the Ferris plus
   finger splay,
   a longer thumb arc and break-off outer pinkie columns.
 
-The column splay more naturally follows our hand's mechanics.
+Splaying the columns lets our fingers more naturally follows our hand mechanics.
 See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 46 are: 
 
 * Optional factory parts soldering except for the switches, MCU, TRRS, LEDs and battery switch.
@@ -16,7 +16,16 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
   Or $12 each for two keyboards, if the diodes etc are on the left's top side and the right's bottom side.
 * Two spots for one encoder per side at either: upper or tucked thumb
 * Reversible 100 x 143mm PCB
-* Optional hotswap with Mill-Max switch sockets
+* Optional hotswap with Mill-Max switch sockets (not part of PCBA)
+
+
+STATUS: There is a silk screen issue I'm fixing,
+ but the gerbers that KiBot generates should be fine for manufacturing.
+I'm writing up the PCBA order steps as they are not immediately obvious.
+
+While the firmware PR works through the process, 
+  the Hillside 52 firmware can be used, as they are electrically the same. 
+Just the keys in the physically missing row will never get pressed.
 
 **THIS IS AN INCOMPLETE README. Much of the below is still left over from the 52.**
 
