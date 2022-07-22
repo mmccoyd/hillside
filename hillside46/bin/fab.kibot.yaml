@@ -38,7 +38,7 @@ outputs:
       # General plot
       plot_sheet_reference: false
       plot_footprint_refs: true
-      plot_footprint_values: false
+      plot_footprint_values: true
       force_plot_invisible_refs_vals: false
       exclude_edge_layer: true
       tent_vias: true
