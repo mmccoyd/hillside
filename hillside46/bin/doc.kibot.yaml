@@ -52,7 +52,7 @@ outputs:
           - layer: Edge.Cuts
             color: "#000000"
           
-  - name: switch_outlines_mirror
+  - name: switch outlines mirror
     comment: Image of switch outlines mirrored
     type: pcb_print
     options:
@@ -75,9 +75,16 @@ outputs:
     comment: 3D drawing of PCB
     type: render_3d
     options:
+      download: true
       zoom: 8
+      height: 1440
+      width: 2100
       copper: '#D4AF37'
       solder_paste: '#D4AF37'
+
+  #- name: PCB draw   # Raises unsupported path element error
+  #  comment: 2D render
+  #  type: pcbdraw
 
   ####
   # BoM
@@ -108,17 +115,3 @@ outputs:
       dnf_filter: mechanical
       
 
-  ####
-  # Zip
-  - name: Doc
-    comment: Zip of documentation artifacts
-    type: compress
-    dir: ./
-    options:
-      files:
-        - source: doc_out/*.html
-          dest: /
-        - source: doc_out/*.png
-          dest: /
-        - source: doc_out/*.svg
-          dest: /

@@ -21,6 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Create doc_out folder with write access
+        run: |
+          mkdir doc_out
+          ls -la 
+
       - name: KiBot
         uses: INTI-CMNB/KiBot@v2_dk6
         with:
@@ -29,6 +34,13 @@ jobs:
           board: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
           dir: ./${{ env.BOARD }}
           verbose: 3
+
+      - name: Resize render, zip
+        run: |
+          convert doc_out/hillside46-3D_top.png -resize 1200 doc_out/hillside46-3D_1200.png
+          ls -la . doc_out
+          cd doc_out
+          zip ../${{ env.BOARD }}-Doc.zip *.html *.png *.svg
           
       - name: Upload Docs Zip
         uses: actions/upload-artifact@v3
@@ -42,14 +54,13 @@ jobs:
         if: ${{ always() }}
         run: |
           pwd
-          ls -la
-          ls -la doc_out
+          ls -la . doc_out
 
       - name: Upload Logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: doc_debug_logs
+          name: docs_debug_logs
           path: |
             ./${{ env.BOARD }}/*.log
             ./${{ env.BOARD }}/*.txt

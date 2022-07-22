@@ -63,9 +63,12 @@ outputs:
       - B.SilkS
       - F.Mask
       - B.Mask
+      - F.Fab
+      - B.Fab
+      - F.Courtyard
+      - B.Courtyard
       - Edge.Cuts
       - User.Eco2
-      - F.Fab
 
   - name: drill
     comment: Drill files with JLCPCB option choices
