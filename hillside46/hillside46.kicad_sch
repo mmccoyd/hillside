@@ -6260,7 +6260,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 202.565 46.355 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 020d4ff4-90d6-4b5f-8911-17a6538d4fd9)
     (property "Reference" "H31" (id 0) (at 219.075 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6337,7 +6337,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 202.565 31.115 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 19c7ccb8-00d6-42d3-9a36-84e4a795c6ff)
     (property "Reference" "H28" (id 0) (at 219.075 31.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6398,7 +6398,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 202.565 26.035 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 345e7adc-18b5-4526-9074-ca54f438b521)
     (property "Reference" "H27" (id 0) (at 219.075 26.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6490,7 +6490,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 202.565 36.195 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 4a8abfdc-3337-4ea6-8723-66c13883792f)
     (property "Reference" "H29" (id 0) (at 219.075 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6715,7 +6715,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 202.565 41.275 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid a7c87049-d6c8-4e91-95dc-8fdbdee4ce27)
     (property "Reference" "H30" (id 0) (at 219.075 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6968,7 +6968,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 202.565 20.955 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid f5b569f2-c8ca-4496-b3b0-9ac9ecb38973)
     (property "Reference" "H26" (id 0) (at 219.075 20.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
