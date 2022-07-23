@@ -25,7 +25,7 @@ Their specific differences are:
 | Non-Splayed | [48](hillside48) | 3x6+1+5 | no   | 1    | no      | 3x5+1+5 | 42 |
 |             | [56](hillside56) | 3x6+5+5 | yes  | 4    | yes     | 3x5+4+5 | 48 |
 
-The 46 has optional factory parts soldering except for the switches, MCU, TRRS, LEDs and battery switch.
+The 46 has optional factory parts soldering (PCBA) except for the switches, MCU, TRRS, LEDs, battery switch, and optional hotswap sockets.
 
 Their common features are:
 
