@@ -20,8 +20,12 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 
 
 STATUS: 
-The gerbers that KiBot generates are fine for manufacturing.
-But I'm finishing up the KiBot and PCBA order steps as they are not immediately obvious.
+The gerbers that KiBot generates are fine for manufacturing,
+  but I'm finishing up some default keymap changes and documentation.
+See [Ordering Hillside 46](https://github.com/mmccoyd/hillside/wiki/Ordering%20Hillside%2046) 
+  for how to order
+ and the [wiki](https://github.com/mmccoyd/hillside/wiki)
+  generally as starting points.
 
 While the firmware PR works through the process, 
   the Hillside 52 firmware can be used, as they are electrically the same. 
@@ -51,10 +55,10 @@ The default keymap has a navigation and editing layer and alternate hand modifie
 
 ## Hardware and Build Guide
 
-There are GitHub Actions that build the gerbers, PCBA documents and image documents. Check the Actions tab and manually run the Fabricate workflow from a fork on your Git account. Once released, the release gerber version will be in the [Releases page](https://github.com/mmccoyd/hillside/releases).
-
-See the [wiki](https://github.com/mmccoyd/hillside/wiki)
-  for PCB ordering, parts links and a build guide with pictures.
+See [Ordering Hillside 46](https://github.com/mmccoyd/hillside/wiki/Ordering%20Hillside%2046) 
+  for how to order
+ and the [wiki](https://github.com/mmccoyd/hillside/wiki)
+  generally for parts links and a build guide with pictures.
 
 # Why
 
