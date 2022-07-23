@@ -1,7 +1,7 @@
 # Hillside Ergonomic Keyboards
 
 The Hillsides are 
-[40%](https://deskthority.net/wiki/40%25) 
+ [40%](https://deskthority.net/wiki/40%25) 
  split-[ergonomic](https://deskthority.net/wiki/Ergonomic_keyboard) 
  keyboards with a 
  [column-stagger](https://deskthority.net/wiki/Staggering#Columnar_layout) layout.
@@ -9,7 +9,7 @@ The Hillsides are
 
 | Splayed|<img width=1900/>|
 |:-----------|:----------------|
-| [Hillside 46](https://github.com/mmccoyd/hillside/tree/_46/hillside46): Like a splayed Feris Sweep on steroids.     | ![Hillside 46 keymap](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo_600.png) |
+| [Hillside 46](hillside46): Like a splayed Feris Sweep on steroids.     | ![Hillside 46](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo_600.png) |
 | [Hillside 52](hillside52):  Best all-around, with a utility bottom row or a physical arrow T that steals one symbol key. | ![Hillside 52](https://github.com/mmccoyd/hillside/wiki/image/52/hill52_photo_600.png) |
 | **Non-Splayed**|   |
 | [Hillside 48](hillside48): Most compact, like a Ferris Sweep on steroids.    |![Hillside 48](https://github.com/mmccoyd/hillside/wiki/image/48/hill48_600.png) |
@@ -20,7 +20,7 @@ Their specific differences are:
 
 | Type | Board      | Layout  | Arrow <br> T | Encoder <br> Spots / Side | Hotswap <br> Option| Trimmed <br> Layout | Trimmed <br> Keys |
 |:-----------|:----------------:|:--------|:----:|:----:|:-------:|:--------|:--:|
-| Splayed     | [46](https://github.com/mmccoyd/hillside/tree/_46/hillside46) | 3x6+0+5 | no       | 2    | yes      | 3x5+0+5 | 40 |
+| Splayed     | [46](hillside46) | 3x6+0+5 | no   | 2    | yes     | 3x5+0+5 | 40 |
 |             | [52](hillside52) | 3x6+3+5 | yes  | 3    | yes     | 3x5+2+5 | 44 |
 | Non-Splayed | [48](hillside48) | 3x6+1+5 | no   | 1    | no      | 3x5+1+5 | 42 |
 |             | [56](hillside56) | 3x6+5+5 | yes  | 4    | yes     | 3x5+4+5 | 48 |
