@@ -19,15 +19,15 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 * Optional hotswap with Mill-Max switch sockets (not part of PCBA)
 
 
-STATUS: There is a silk screen issue I'm fixing,
- but the gerbers that KiBot generates should be fine for manufacturing.
-I'm writing up the PCBA order steps as they are not immediately obvious.
+STATUS: 
+The gerbers that KiBot generates are fine for manufacturing.
+But I'm finishing up the KiBot and PCBA order steps as they are not immediately obvious.
 
 While the firmware PR works through the process, 
   the Hillside 52 firmware can be used, as they are electrically the same. 
 Just the keys in the physically missing row will never get pressed.
 
-**THIS IS AN INCOMPLETE README. Much of the below is still left over from the 52.**
+**THIS IS AN INCOMPLETE README. Some of the below is still left over from the 52.**
 
 
 Hillside includes:
@@ -38,7 +38,7 @@ Hillside includes:
  [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_46/keyboards/handwired/hillside/46/keymaps) keymaps,
  [ZMK Firmware](https://github.com/mmccoyd/zmk-config),
  a [keyboard layout editor](http://www.keyboard-layout-editor.com/) 
- loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/keyboard-layout-editor.json) 
+ loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/keyboard-layout-editor.json)
  and a [draw.io](https://app.diagrams.net) 
  loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/drawio_keymap.png).
 
@@ -86,9 +86,9 @@ The images are black lines on whatever the background is, so they do not like br
 <div style="background-color:#DCDCDC;">
 
 ![Schematic](doc/image/hill46_schematic.svg "Schematic")
-</div>
+</div> 
 
-![pcb](doc/image/hill46_pcb.png "PCB")
+![pcb](https://github.com/mmccoyd/hillside/wiki/hill_46/hill46_pcb.png "PCB")
 
 ![render](doc/image/hill46_pcb_render.png "Front Render")
 
