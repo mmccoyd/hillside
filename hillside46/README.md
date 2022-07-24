@@ -35,8 +35,7 @@ Just the keys in the physically missing row will never get pressed.
 
 
 Hillside includes:
- [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) 
- [PR](https://github.com/qmk/qmk_firmware/pull/17374) 
+ [QMK firmware (fork with PR soon)](https://github.com/mmccoyd/qmk_firmware/tree/_hill46/keyboards/handwired/hillside/46) 
  with .json, .c, 
  [via](https://github.com/mmccoyd/hillside/wiki/hill_46/via_config.json) and 
  [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_46/keyboards/handwired/hillside/46/keymaps) keymaps,
