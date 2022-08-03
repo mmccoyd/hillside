@@ -50,7 +50,7 @@ Hillside includes:
 
 The default keymap has a navigation and editing layer and alternate hand modifiers for all keys. See the [keymap descrition](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap) for details.
 
-[![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/hill46_summary.png)](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap)
+[![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/lay_summary.png)](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap)
 
 ## Hardware and Build Guide
 
@@ -91,7 +91,7 @@ The images are black lines on whatever the background is, so they do not like br
 ![Schematic](doc/image/hill46_schematic.svg "Schematic")
 </div> 
 
-![pcb](https://github.com/mmccoyd/hillside/wiki/hill_46/hill46_pcb.png "PCB")
+![pcb](doc/image/hill46_pcb.png "PCB")
 
 ![render](doc/image/hill46_pcb_render.png "Front Render")
 
