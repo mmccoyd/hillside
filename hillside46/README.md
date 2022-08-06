@@ -1,6 +1,6 @@
 # Hillside 46 Ergonomic Keyboard
 
-![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo_1024.png)
+![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_full_and_narrow.png)
 
 
 Hillside 46 is a split ergonomic keyboard with 3x6+5 choc-spaced keys.
@@ -77,12 +77,8 @@ As an extra check, the images each contain marked length lines, which you can ch
 
 The images are black lines on whatever the background is, so they do not like browser dark mode backgrounds, but will print black on white.
 
-<div style="background-color:#DCDCDC;">
-
-![switches](doc/image/hill46_switches_left.svg "Switch Layout Left")
-
-![switches](doc/image/hill46_switches_right.svg "Switch Layout Right")
-</div>
+| ![switches](doc/image/hill46_switches_left.svg "Switch Layout Left") | ![switches](doc/image/hill46_switches_right.svg "Switch Layout Right") |
+|---|---|
 
 ## Images
 
@@ -90,6 +86,9 @@ The images are black lines on whatever the background is, so they do not like br
 
 ![Schematic](doc/image/hill46_schematic.svg "Schematic")
 </div> 
+
+![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/hill46_photo_1024.png)
+
 
 ![pcb](doc/image/hill46_pcb.png "PCB")
 
