@@ -11,7 +11,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 20413c57-9cc4-4c69-af32-5e81a38bbd50)
   )
-  (fp_text value "HoleBreakoff" (at 0 1.4) (layer "User.3")
+  (fp_text value "HoleBreakoff" (at 0 1.4) (layer "B.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6c6dca56-1ad6-4302-8b9b-d17097b6408d)
   )
