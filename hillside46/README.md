@@ -19,21 +19,6 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 * Optional hotswap with Mill-Max switch sockets (not part of PCBA)
 
 
-STATUS: 
-The gerbers that KiBot generates are fine for manufacturing,
-  but I'm finishing up some default keymap changes and documentation.
-See [Ordering Hillside 46](https://github.com/mmccoyd/hillside/wiki/Ordering%20Hillside%2046) 
-  for how to order
- and the [wiki](https://github.com/mmccoyd/hillside/wiki)
-  generally as starting points.
-
-While the firmware PR works through the process, 
-  the Hillside 52 firmware can be used, as they are electrically the same. 
-Just the keys in the physically missing row will never get pressed.
-
-**THIS IS AN INCOMPLETE README. Some of the below is still left over from the 52.**
-
-
 Hillside includes:
  [QMK firmware (fork with PR soon)](https://github.com/mmccoyd/qmk_firmware/tree/_hill46/keyboards/handwired/hillside/46) 
  with .json, .c, 
@@ -45,6 +30,9 @@ Hillside includes:
  and a [draw.io](https://app.diagrams.net) 
  loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/drawio_keymap.png).
 
+While the QMK PR works through the process, 
+  the Hillside 52 firmware can also be used, as they are electrically the same. 
+Just the keys in the physically missing row will never get pressed.
 
 ## Keymap
 
@@ -61,7 +49,7 @@ See [Ordering Hillside 46](https://github.com/mmccoyd/hillside/wiki/Ordering%20H
 
 # Why
 
-Your finger tips do not move parallel to each other when you curl and extend them. It makes sense that your keyboard should not either.
+The splay is there because your finger tips do not move parallel to each other when you curl and extend them. It makes sense for your keyboard columns to match that.
 
 
 ## Layout Tester
