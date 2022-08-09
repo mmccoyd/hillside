@@ -20,7 +20,7 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 
 
 Hillside includes:
- [QMK firmware (fork with PR soon)](https://github.com/mmccoyd/qmk_firmware/tree/_hill46/keyboards/handwired/hillside/46) 
+ [QMK firmware PR](https://github.com/qmk/qmk_firmware/pull/17968) 
  with .json, .c, 
  [via](https://github.com/mmccoyd/hillside/wiki/hill_46/via_config.json) and 
  [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_46/keyboards/handwired/hillside/46/keymaps) keymaps,
