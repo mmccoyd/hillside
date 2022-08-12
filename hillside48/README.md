@@ -70,7 +70,7 @@ As an extra check, the images each contain marked length lines, which you can ch
 
 The images are black lines on whatever the background is, so they do not like browser dark mode backgrounds, but will print black on white.
 
-| ![switches](hillside-switches_left.svg "Switch Layout Left") | ![switches](hillside-switches_right.svg "Switch Layout Right") |
+| ![switches](doc/image/hillside-switches_left.svg "Switch Layout Left") | ![switches](doc/image/hillside-switches_right.svg "Switch Layout Right") |
 |---|---|
 
 
