@@ -11,7 +11,8 @@ The arrow cluster provides a more familiar keymap for users new to small keyboar
 The finger splay more naturally follows our hand's mechanics.
 See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 52 are:
 
-* Three spots for one encoder per side at either: upper or tucked thumb or lowest ring
+* Bottom utility row or arrow cluster
+* Encoder: Three spots for one per side at either: upper or tucked thumb or lowest ring
 * Reversible 100 x 143mm PCB
 * Optional hotswap with Mill-Max switch sockets
 
@@ -56,12 +57,9 @@ As an extra check, the images each contain marked length lines, which you can ch
 
 The images are black lines on whatever the background is, so they do not like browser dark mode backgrounds but will print black on white.
 
-<div style="background-color:#DCDCDC;">
+| ![switches](doc/image/hill52_switches_left.svg "Switch Layout Left") | ![switches](doc/image/hill52_switches_right.svg "Switch Layout Right") |
+|---|---|
 
-![switches](doc/image/hill52_switches_left.svg "Switch Layout Left")
-
-![switches](doc/image/hill52_switches_right.svg "Switch Layout Right")
-</div>
 
 ## Images
 

@@ -4,15 +4,15 @@
 
 Hillside 48 is a split ergonomic keyboard with 3x6+1+5 choc-spaced keys. 
 It has the aggressive stagger of the Ferris plus
-  a longer thumb arc and break-off outer pinky columns.
+  a longer thumb arc and break-off outer pinkie columns.
 
 So rather like a choc Kyria, minus two keys. 
 With 42 to 48 keys, it isn't minimalist,
   but it is compact on finger travel while still allowing roomy keymaps.
-See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 52 are: 
+See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 48 are: 
 
-* One encoder per side at the lowest ring finger key
-* Reversible 99 x 137mm PCB, which qualifies for AllPCB's free PCB offer
+* Encoder: One per side at the lowest ring finger key
+* Reversible 99 x 137mm PCB
 
 Hillside includes both 
  [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside)
@@ -70,12 +70,9 @@ As an extra check, the images each contain marked length lines, which you can ch
 
 The images are black lines on whatever the background is, so they do not like browser dark mode backgrounds, but will print black on white.
 
-<div style="background-color:#DCDCDC;">
+| ![switches](hillside-switches_left.svg "Switch Layout Left") | ![switches](hillside-switches_right.svg "Switch Layout Right") |
+|---|---|
 
-![switches](doc/image/hillside-switches_left.svg "Switch Layout Left")
-
-![switches](doc/image/hillside-switches_right.svg "Switch Layout Right")
-</div>
 
 ## Images
 
