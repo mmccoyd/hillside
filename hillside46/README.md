@@ -20,7 +20,7 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 
 
 Hillside includes:
- [QMK firmware PR](https://github.com/qmk/qmk_firmware/pull/17968) 
+ [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) 
  with .json, .c, 
  [via](https://github.com/mmccoyd/hillside/wiki/hill_46/via_config.json) and 
  [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_46/keyboards/handwired/hillside/46/keymaps) keymaps,
@@ -29,10 +29,6 @@ Hillside includes:
  loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/keyboard-layout-editor.json)
  and a [draw.io](https://app.diagrams.net) 
  loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_46/drawio_keymap.png).
-
-While the QMK PR works through the process, 
-  the Hillside 52 firmware can also be used, as they are electrically the same. 
-Just the keys in the physically missing row will never get pressed.
 
 ## Keymap
 

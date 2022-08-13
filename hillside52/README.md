@@ -17,7 +17,7 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 * Optional hotswap with Mill-Max switch sockets
 
 Hillside includes:
- [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) [PR](https://github.com/qmk/qmk_firmware/pull/17374) 
+ [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside)
  with .json, .c, [via](https://github.com/mmccoyd/hillside/wiki/hill_52/via_config.json) and [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_52/keyboards/handwired/hillside/52/keymaps) keymaps,
  [ZMK Firmware](https://github.com/mmccoyd/zmk-config),
  a [keyboard layout editor](http://www.keyboard-layout-editor.com/) loadable [diagram](https://github.com/mmccoyd/hillside/wiki/hill_52/keyboard-layout-editor.json) 
