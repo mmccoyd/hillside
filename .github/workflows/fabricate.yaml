@@ -1,28 +1,29 @@
 name: Fabricate
-
 on:
-  push:
-    paths:
-    - 'hillside46/*.kicad_sch'
-    - 'hillside46/*.kicad_pcb'
-    - 'hillside46/bin/fab.kibot.yaml'
-    - 'hillside46/bin/pos_back.py'
-    - '.github/workflows/fabricate.yaml'
+  workflow_call:
+    inputs:
+      board:
+        required: true
+        type: string
   workflow_dispatch:
-
-env:
-  BOARD: hillside46
+    inputs:
+      board:
+        description: Keyboard to create docs for
+        required: true
+        type: choice
+        options:
+        - hillside46
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./${{ env.BOARD }}
+        working-directory: ./${{ inputs.board }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Create PCBA and position folders with write access
         run: |
@@ -32,15 +33,15 @@ jobs:
       - name: KiBot
         uses: INTI-CMNB/KiBot@v2_k6
         with:
-          config: ./${{ env.BOARD }}/bin/fab.kibot.yaml
-          schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
-          board: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
-          dir: ./${{ env.BOARD }}
+          config: ./bin/fab.kibot.yaml
+          schema: ./${{ inputs.board }}/${{ inputs.board }}.kicad_sch
+          board: ./${{ inputs.board }}/${{ inputs.board }}.kicad_pcb
+          dir: ./${{ inputs.board }}
           verbose: 1
 
-      - name: Create position file for back of boards
+      - name: PCBA position file for back of boards
         run: |
-          ./bin/pos_back.py \
+          ../bin/fab_pos_back.py \
             < pcba/top_boards.csv \
             > pcba/bottom_boards.csv
 
@@ -53,10 +54,10 @@ jobs:
       - name: Upload Gerber zip, BOM, position 
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.BOARD }}-gerber-and-pcba
+          name: ${{ inputs.board }}-gerber-and-pcba
           path: |
-            ./${{ env.BOARD }}/${{ env.BOARD }}-gerbers.zip
-            ./${{ env.BOARD }}/pcba/*
+            ./${{ inputs.board }}/${{ inputs.board }}-gerbers.zip
+            ./${{ inputs.board }}/pcba/*
 
       ####
       # Logs
@@ -70,8 +71,8 @@ jobs:
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.BOARD }}_logs_fab
+          name: ${{ inputs.board }}_logs_fab
           path: |
-            ./${{ env.BOARD }}/*.log
-            ./${{ env.BOARD }}/*.txt
+            ./${{ inputs.board }}/*.log
+            ./${{ inputs.board }}/*.txt
 

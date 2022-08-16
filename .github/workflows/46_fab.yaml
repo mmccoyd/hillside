@@ -1,0 +1,14 @@
+name: Fab 46 on push KiCad
+on:
+  push:
+    paths:
+    - 'hillside46/*.kicad_sch'
+    - 'hillside46/*.kicad_pcb'
+  workflow_dispatch:
+
+jobs:
+  call-fab:
+    name: Call Fabricate
+    uses: ./.github/workflows/fabricate.yaml
+    with:
+      board: hillside46

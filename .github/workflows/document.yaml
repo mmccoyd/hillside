@@ -1,25 +1,24 @@
 name: Document
-
 on:
-  push:
-    paths:
-    - 'hillside46/bin/doc.kibot.yaml'
-    - '.github/workflows/document.yaml'
   workflow_dispatch:
-
-env:
-  BOARD: hillside46
+    inputs:
+      board:
+        description: Keyboard to create docs for
+        required: true
+        type: choice
+        options:
+        - hillside46
 
 jobs:
   export:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./${{ env.BOARD }}
+        working-directory: ./${{ inputs.board }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Create doc_out folder with write access
         run: |
@@ -29,24 +28,24 @@ jobs:
       - name: KiBot
         uses: INTI-CMNB/KiBot@v2_dk6
         with:
-          config: ./${{ env.BOARD }}/bin/doc.kibot.yaml
-          schema: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_sch
-          board: ./${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
-          dir: ./${{ env.BOARD }}
-          verbose: 3
+          config: ./bin/doc.kibot.yaml
+          schema: ./${{ inputs.board }}/${{ inputs.board }}.kicad_sch
+          board: ./${{ inputs.board }}/${{ inputs.board }}.kicad_pcb
+          dir: ./${{ inputs.board }}
+          verbose: 1
 
       - name: Resize render, zip
         run: |
-          convert doc_out/hillside46-3D_top.png -resize 1200 doc_out/hillside46-3D_1200.png
+          convert doc_out/${{ inputs.board }}-3D_top.png -resize 1200 doc_out/${{ inputs.board }}-3D_1200.png
           ls -la . doc_out
           cd doc_out
-          zip ../${{ env.BOARD }}-Doc.zip *.html *.png *.svg
+          zip ../${{ inputs.board }}-Doc.zip *.html *.png *.svg
           
       - name: Upload Docs Zip
         uses: actions/upload-artifact@v3
         with:
-          name: docs
-          path: ./${{ env.BOARD }}/${{ env.BOARD }}-Doc.zip
+          name: ${{ inputs.board }}-docs
+          path: ./${{ inputs.board }}/${{ inputs.board }}-Doc.zip
 
       ####
       # Logs
@@ -60,9 +59,9 @@ jobs:
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: docs_debug_logs
+          name: ${{ inputs.board }}-docs_debug_logs
           path: |
-            ./${{ env.BOARD }}/*.log
-            ./${{ env.BOARD }}/*.txt
-            ./${{ env.BOARD }}/doc_out/*.log
-            ./${{ env.BOARD }}/doc_out/*.txt
+            ./${{ inputs.board }}/*.log
+            ./${{ inputs.board }}/*.txt
+            ./${{ inputs.board }}/doc_out/*.log
+            ./${{ inputs.board }}/doc_out/*.txt
