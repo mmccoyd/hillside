@@ -665,7 +665,10 @@
     (property "LCSC" "C318884" (id 5) (at 5.08 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Switch, momentary contact" (id 6) (at 0 0 0)
+    (property "Price" ".02 @5+" (id 6) (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Switch, momentary contact" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_PUSH_0_1"
