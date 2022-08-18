@@ -56,7 +56,7 @@
     (primitives
       (gr_line (start -1.1875 0) (end 0 0) (width 0.254))
     ) (tstamp f83ca0d5-48d6-4329-8f10-001ca11b30b0))
-  (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
