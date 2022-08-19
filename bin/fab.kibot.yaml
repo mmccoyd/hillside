@@ -109,7 +109,8 @@ outputs:
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
-      only_smd: true
+      only_smd: false
+      dnf_filter: 'only_jlc_parts'
       columns:
         - id: Ref
           name: Designator

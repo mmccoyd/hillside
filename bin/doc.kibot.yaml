@@ -82,13 +82,14 @@ outputs:
     options:
       format: HTML
       output: '%f_%i_jlc.%x'
-      columns: ['Row', 'Part', 'Value', 'Description',
-               'JLC Type', 'Config',
-               'LCSC',
-               'Build Quantity', 'Quantity Per PCB', 'Status',
-               'Footprint',
-               'Price', 'Prep Note',
-               'References', 'Datasheet']
+      columns: [Row, Part, Value, Purpose,
+               Config,
+               'JLC Type',
+               Description,
+               Footprint,
+               'Quantity Per PCB', 'Build Quantity', 'Status',
+               LCSC, Price, Note,
+               References, Datasheet]
       ref_separator: ','
       number: 2
       count_smd_tht: true
