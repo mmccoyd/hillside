@@ -64,6 +64,10 @@ fp-info-cache
 # backups
 *-backups/
 
+*/temp
+
+*/gerbers
+
 \#auto_saved_files\#
 
 
