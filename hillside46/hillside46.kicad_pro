@@ -120,7 +120,9 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.381
       ],
       "via_dimensions": [
         {
