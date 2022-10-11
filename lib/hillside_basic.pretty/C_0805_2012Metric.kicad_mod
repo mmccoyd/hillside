@@ -54,7 +54,7 @@
       (gr_line (start -0.0125 0) (end -1.2 0) (width 0.381))
     ) (tstamp 631bb3ed-67e8-4b11-ae11-c34c3a8dc234))
   (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp 7c050091-886a-43d8-97ba-e719abd3ae8d))
-  (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

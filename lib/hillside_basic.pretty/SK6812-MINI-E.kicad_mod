@@ -48,9 +48,9 @@
   (pad "3" smd roundrect (at 2.575 0.75) (size 1.65 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp f33292b6-e256-451d-9bfa-7d07ba9e670f))
   (pad "4" smd rect (at 2.575 0.75) (size 1.65 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a9a939f5-10d0-414e-b2e4-40fdea93f675))
   (pad "4" smd rect (at 2.575 -0.75) (size 1.65 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp f0eaad98-d205-41c4-a0e6-ff5881df4ae0))
-  (model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/../lib/3d/LED_SK6812MINI-E.step"
+    (offset (xyz 0 5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )
