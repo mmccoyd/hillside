@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# FFC2B28-12-G
+#
+DEF FFC2B28-12-G J 0 40 Y Y 1 L N
+F0 "J" -200 730 50 H V L BNN
+F1 "FFC2B28-12-G" -200 -900 50 H V L BNN
+F2 "GCT_FFC2B28-12-G" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "1.75mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "GCT" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "A" 0 0 50 H I L BNN "PARTREV"
+DRAW
+S -200 -800 200 700 0 0 10 f
+X 1 1 -400 600 200 R 40 40 0 0 P 
+X 2 2 -400 500 200 R 40 40 0 0 P 
+X 3 3 -400 400 200 R 40 40 0 0 P 
+X 4 4 -400 300 200 R 40 40 0 0 P 
+X SHIELD S1 -400 -700 200 R 40 40 0 0 P 
+X SHIELD S2 -400 -700 200 R 40 40 0 0 P 
+X 5 5 -400 200 200 R 40 40 0 0 P 
+X 6 6 -400 100 200 R 40 40 0 0 P 
+X 7 7 -400 0 200 R 40 40 0 0 P 
+X 8 8 -400 -100 200 R 40 40 0 0 P 
+X 9 9 -400 -200 200 R 40 40 0 0 P 
+X 10 10 -400 -300 200 R 40 40 0 0 P 
+X 11 11 -400 -400 200 R 40 40 0 0 P 
+X 12 12 -400 -500 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
