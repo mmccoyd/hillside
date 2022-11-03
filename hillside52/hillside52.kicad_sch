@@ -6,8 +6,8 @@
 
   (title_block
     (title "Hillside52 Keyboard")
-    (date "2022-11-01")
-    (rev "0.1.1")
+    (date "2022-11-03")
+    (rev "0.1.1-rc1")
     (company "mmccoyd")
     (comment 2 "The ring and pinky columns have splays of five and ten degrees.")
     (comment 3 "A bottom row inverted T arrow cluster is optional, and one encoder can be in three spots.")
