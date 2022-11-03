@@ -111,6 +111,7 @@ outputs:
       separate_files_for_front_and_back: false
       only_smd: false
       dnf_filter: 'only_jlc_parts'
+      use_aux_axis_as_origin: false
       columns:
         - id: Ref
           name: Designator
