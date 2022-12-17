@@ -32,7 +32,7 @@ Hillside includes:
 
 ## Keymap
 
-The default keymap has a navigation and editing layer and alternate hand modifiers for all keys. See the [keymap descrition](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap) for details.
+The default keymap has a navigation and editing layer and alternate hand modifiers for all keys. See the [keymap description](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap) for details.
 
 [![Hillside46 keyboard](https://github.com/mmccoyd/hillside/wiki/image/46/keymap/lay_summary.png)](https://github.com/mmccoyd/hillside/wiki/Hillside%2046%20Keymap)
 
