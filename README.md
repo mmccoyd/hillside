@@ -46,17 +46,9 @@ See the board readmes for details, rationales and default keymaps.
 *Keycaps*: Hillside boards are _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps), [MoErgo MCC](https://mkultra.click/moergo-mcc-pom-1u-keycap/) or [Asymplex Choc](https://www.asymplex.xyz/category/choc). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
 
 Hillside includes both 
- [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside)
+ [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/hillside)
  and [ZMK Firmware](https://github.com/mmccoyd/zmk-config).
 
-
-## Key Use
-
-I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose where the thumb arc suits them best. I find the thumb finger is best for reaching the upper thumb key; clearing the lower thumb requires some care, but it is still very useful. The middle finger also handily reaches the most tucked thumb key, as the open space is a good reference. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute.
-
-## Why
-
-Creating four boards is more than I intended. I wanted closer keys than MX boards, yet a few more keys than the Sweep (hence the 48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys and felt people new to small boards would prefer a physical arrow cluster (hence the 56). But that put the extra keys too far for me, and I realized many 40% boards tuck the arrow cluster partly into the main rows. So I did that with some splay I wanted (hence the 52). But others like a more minimal board, and removing the partial bottom row was easy (hence the 46). So it was really three experiments for me, plus an easy variant.
 
 ## Hardware and Build Guide
 
@@ -65,6 +57,14 @@ See the [wiki](https://github.com/mmccoyd/hillside/wiki)
 
 See [Forking and Modifying](https://github.com/mmccoyd/hillside/wiki/Forking%20and%20Modifying)
   on whether it would be difficult to modify these designs.
+
+## Key Use
+
+I expect most people will primarily use either the tucked three thumbs or the extended three (not counting the upper thumb). They can choose where the thumb arc suits them best. I find the thumb finger is best for reaching the upper thumb key; clearing the lower thumb requires some care, but it is still very useful. The middle finger also handily reaches the most tucked thumb key, as the open space is a good reference. The keys outside of the primary three thumb keys are convenient for infrequent lock layers, escape, or for use when not actively typing for things such as mute.
+
+## Why
+
+Creating four boards is more than I intended. I wanted closer keys than MX boards, yet a few more keys than the Sweep (hence the 48). Yet I still missed the fuller bottom row of the Atreus for infrequent keys and felt people new to small boards would prefer a physical arrow cluster (hence the 56). But that put the extra keys too far for me, and I realized many 40% boards tuck the arrow cluster partly into the main rows. So I did that with some splay I wanted (hence the 52). But others like a more minimal board, and removing the partial bottom row was easy (hence the 46). So it was really three experiments for me, plus an easy variant.
 
 ## Acknowledgments
 

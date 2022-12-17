@@ -8,7 +8,7 @@ It has the aggressive stagger of the Ferris plus
   finger splay,
   a longer thumb arc and break-off outer pinkie columns.
 
-Splaying the columns lets our fingers more naturally follows our hand mechanics.
+Splaying the columns lets our fingers more naturally follow our hand mechanics.
 See the Hillside [family readme](../README.md) for features common to all hillside boards. Specific to the Hillside 46 are: 
 
 * Optional factory parts soldering except for the switches, MCU, TRRS, LEDs and battery switch.
@@ -20,7 +20,7 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 
 
 Hillside includes:
- [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside) 
+ [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/hillside) 
  with .json, .c, 
  [via](https://github.com/mmccoyd/hillside/wiki/hill_46/via_config.json) and 
  [vial](https://github.com/mmccoyd/vial-qmk/tree/hillside_46/keyboards/handwired/hillside/46/keymaps) keymaps,

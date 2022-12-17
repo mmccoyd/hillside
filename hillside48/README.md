@@ -15,11 +15,11 @@ See the Hillside [family readme](../README.md) for features common to all hillsi
 * Reversible 99 x 137mm PCB
 
 Hillside includes both 
- [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside)
+ [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/hillside)
  and [ZMK Firmware](https://github.com/mmccoyd/zmk-config).
 
 ## Keymap
-The default keymap has numbers and symbols along the top layer rows for familiarity, alternate hand modifiers for all keys and a navigation and editing layer. See the [keymap descrition](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/hillside/48/keymaps/default) for details.
+The default keymap has numbers and symbols along the top layer rows for familiarity, alternate hand modifiers for all keys and a navigation and editing layer. See the [keymap descrition](https://github.com/qmk/qmk_firmware/tree/master/keyboards/hillside/48/keymaps/default) for details.
 
 ```
 |  `    | Q | W | E | R | T |-------------------| Y | U | I | O | P | BKSPC |
