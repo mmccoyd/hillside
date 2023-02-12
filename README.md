@@ -52,6 +52,14 @@ Hillside includes both
 
 ## Hardware and Build Guide
 
+Several prebuilt models are available from 
+[BeeKeeb](https://shop.beekeeb.com/product/pre-soldered-hillside-keyboard/),
+with additional builds and cases created by 
+[chewiedies for the 48](https://www.reddit.com/r/ErgoMechKeyboards/comments/um5umt/hillside_commission_with_custom_case_i_just/)
+and
+[rmwphd for the 52, 48 and 46](https://www.printables.com/social/240171-rmwphd/models).
+
+
 See the [wiki](https://github.com/mmccoyd/hillside/wiki)
   for PCB ordering, parts links and a build guide with pictures.
 
