@@ -32,7 +32,7 @@ Their common features are:
 - Choc-spaced keys, aggressive stagger, five thumb keys
 - Break-off outer pinkie column
 - Tenting puck support
-- QMK and wireless ZMK firmware
+- QMK, KMK, and wireless ZMK firmware
 - Nice!nano battery power switch
 - Encoder support
 - Haptic feedback header
