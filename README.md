@@ -27,6 +27,8 @@ Their specific differences are:
 
 The 52 and 46 have optional factory parts soldering (PCBA) except for the key switches, MCU, TRRS, LEDs, optional hotswap sockets, and the 46's battery switch.
 
+All except the 48 support optional Mill-Max hotswap sockets, but not the Kailh sockets.
+
 Their common features are:
 
 - Choc-spaced keys, aggressive stagger, five thumb keys
