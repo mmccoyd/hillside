@@ -35,8 +35,6 @@ Their specific differences are:
 The 52, 46, and Dactyl 50 have optional factory parts soldering (PCBA) except for the
     key switches, MCU, TRRS, LEDs, optional Mill-Max hotswap sockets, and the 46's battery switch.
 
-All except the 48 support optional Mill-Max hotswap sockets, but not the Kailh sockets.
-
 Their common features are:
 
 - Choc-spaced keys, aggressive stagger, five thumb keys
@@ -55,6 +53,7 @@ Common among the non-Dactyl boards are:
 - Reversible PCB
 
 See the board readmes for details, rationales and default keymaps.
+All except the 48 support optional Mill-Max hotswap sockets, but not the Kailh sockets.
 
 *Keycaps*: Hillside boards are _only_ suitable for choc v1 switches and keycaps based on an 18 x 17mm switch spacing, such as the [MBK](https://mkultra.click/mbk-choc-keycaps), [Lowprokb LDSA](https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps), [MoErgo MCC](https://mkultra.click/moergo-mcc-pom-1u-keycap/) or [Asymplex Choc](https://www.asymplex.xyz/category/choc). Not MX ones, nor 18 x 18mm ones such as Work Louder, nor Kailh Choc Transparent.
 
